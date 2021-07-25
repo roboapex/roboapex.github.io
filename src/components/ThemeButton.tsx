@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "@docusaurus/router";
-import useBaseUrl from "@docusaurus/useBaseUrl";
+import Link from "@docusaurus/Link";
 
 export default function ThemeButton({
   path,
@@ -12,7 +11,7 @@ export default function ThemeButton({
   return (
     <Link
       className="button button--secondary button--lg"
-      to={useBaseUrl(path)}
+      to={path}
       style={{ backgroundColor: "#fff" }}
     >
       {children}
