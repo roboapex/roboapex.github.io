@@ -5,13 +5,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Robotics @APEX Documentation',
   tagline: 'Robotics is our passion! Efficient. Effective. Exemplary. 🔥',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://roboapex.github.io/roboapex-docs/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'roboapex', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'roboapex',
+  projectName: 'roboapex-docs',
   themeConfig: {
     navbar: {
       title: 'Robotics @APEX',
@@ -83,6 +83,10 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
+    // algolia: {
+    //   apiKey: process.env['ALGOLIA_API_KEY'],
+    //   indexName: 'YOUR_INDEX_NAME', // TODO:
+    // },
   },
   presets: [
     [
