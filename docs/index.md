@@ -1,5 +1,8 @@
 ---
-sidebar_position: 1
+title: Introduction
+description: Hey
+slug: /docs
+position: 1
 ---
 
 # Tutorial Intro

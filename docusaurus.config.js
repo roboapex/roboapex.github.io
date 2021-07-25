@@ -1,5 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const baseDocPaths = require('./baseDocPaths')
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -14,7 +15,13 @@ module.exports = {
   projectName: 'roboapex-docs',
   trailingSlash: true,
   themeConfig: {
+    announcementBar: {
+      id: "announcement",
+      content:
+        'This website is work-in-progress',
+    },
     navbar: {
+      hideOnScroll: true,
       title: 'Robotics @APEX',
       logo: {
         alt: 'Robotics @APEX Logo',
@@ -22,16 +29,19 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
+          items: baseDocPaths.map((e) => ({ to: `/${e.path}`, label: e.name }))
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/roboapex/roboapex-docs',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          type: "search",
+          position: "right",
         },
       ],
     },
@@ -72,7 +82,7 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'SST Website',
+              label: 'SST',
               href: 'https://www.sst.edu.sg/cca/robotics-apex',
             },
             
@@ -95,6 +105,8 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: "docs",
+          routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/roboapex/roboapex-docs/edit/main/docs/',
