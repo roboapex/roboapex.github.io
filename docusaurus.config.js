@@ -1,6 +1,5 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const baseDocPaths = require('./baseDocPaths')
+require('dotenv').config()
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -15,6 +14,8 @@ module.exports = {
   projectName: 'roboapex-docs',
   trailingSlash: true,
   themeConfig: {
+    sidebarCollapsible: true,
+    hideableSidebar: true,
     announcementBar: {
       id: "announcement",
       content:
@@ -35,13 +36,13 @@ module.exports = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
+          type: "search",
+          position: "right",
+        },
+        {
           href: 'https://github.com/roboapex/roboapex-docs',
           label: 'GitHub',
           position: 'right',
-        },
-        {
-          type: "search",
-          position: "right",
         },
       ],
     },
@@ -56,7 +57,7 @@ module.exports = {
           ]
         },
         {
-          title: 'Community',
+          title: 'Robotics @APEX',
           items: [
             // {
             //   label: 'Stack Overflow',
@@ -74,6 +75,10 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/roboapex',
             },
+            {
+              label: 'Email',
+              href: 'mailto:sstroboapex@gmail.com',
+            },
           ],
         },
         {
@@ -90,13 +95,13 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Robotics @APEX from the School of Science and Technology, Singapore.`,
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-    // algolia: {
-    //   apiKey: process.env['ALGOLIA_API_KEY'],
-    //   indexName: 'YOUR_INDEX_NAME', // TODO:
-    // },
+    algolia: {
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: 'YOUR_INDEX_NAME',
+    },
   },
   presets: [
     [
@@ -107,7 +112,9 @@ module.exports = {
           routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/roboapex/roboapex-docs/edit/main/docs/',
+            'https://github.com/roboapex/roboapex-docs/edit/main/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
