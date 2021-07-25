@@ -3,20 +3,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Robotics @APEX Documentation',
+  tagline: 'Robotics is our passion! Efficient. Effective. Exemplary. 🔥',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  favicon: 'img/favicon.png',
+  organizationName: 'roboapex', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Robotics @APEX',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Robotics @APEX Logo',
         src: 'img/logo.svg',
       },
       items: [
