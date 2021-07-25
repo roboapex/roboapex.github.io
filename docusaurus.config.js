@@ -5,8 +5,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Robotics @APEX Documentation',
   tagline: 'Robotics is our passion! Efficient. Effective. Exemplary. 🔥',
-  url: 'https://roboapex.github.io/roboapex-docs/',
-  baseUrl: '/',
+  url: 'https://roboapex.github.io',
+  baseUrl: '/roboapex-docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
