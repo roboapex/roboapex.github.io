@@ -12,6 +12,7 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'roboapex',
   projectName: 'roboapex-docs',
+  trailingSlash: true,
   themeConfig: {
     navbar: {
       title: 'Robotics @APEX',
