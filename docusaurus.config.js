@@ -51,11 +51,9 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
+            { label: 'All', to: `/docs` },
+            ...baseDocPaths.map((e) => ({ label: e.name, to: `/${e.path}` }))
+          ]
         },
         {
           title: 'Community',
@@ -85,7 +83,7 @@ module.exports = {
               label: 'SST',
               href: 'https://www.sst.edu.sg/cca/robotics-apex',
             },
-            
+
           ],
         },
       ],
