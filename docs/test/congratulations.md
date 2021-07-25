@@ -10,4 +10,4 @@ Another test ahh
 
 Yet another test
 
-help
+send help
