@@ -42,8 +42,8 @@ jobs:
           GIT_USER: git
           DEPLOYMENT_BRANCH: gh-pages
         run: |
-          git config --global user.email "sstroboapex@gmail.com"
-          git config --global user.name "sstroboapex"
+          git config --global user.email "ryan.the.2006@gmail.com"
+          git config --global user.name "theboi"
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
