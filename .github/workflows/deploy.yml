@@ -41,7 +41,7 @@ jobs:
       - name: Release to GitHub Pages
         env:
           USE_SSH: true
-          GIT_USER: git
+          GIT_USER: theboi
           DEPLOYMENT_BRANCH: gh-pages
         run: |
           git config --global user.email "ryan.the.2006@gmail.com"
