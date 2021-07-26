@@ -38,6 +38,7 @@ jobs:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
       - name: Release to GitHub Pages
         env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
           USE_SSH: true
           GIT_USER: git
           DEPLOYMENT_BRANCH: gh-pages
