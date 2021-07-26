@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import HomepageFeatures from "../components/HomepageFeatures";
-import ThemeButton from "../components/ThemeButton";
+import ThemeButton from "../components/themeButton";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();

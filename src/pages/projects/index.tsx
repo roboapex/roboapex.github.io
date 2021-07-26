@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "@theme/Layout";
 import useSWR from "swr";
 import { Endpoints } from "@octokit/types";
-import WorkInProgress from "../../components/WorkInProgress";
 import style from "./style.module.css";
 import ProjectTile from "../../components/projectTile";
 
