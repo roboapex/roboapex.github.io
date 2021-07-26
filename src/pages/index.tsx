@@ -29,6 +29,7 @@ function HomepageHeader() {
         >
           <ThemeButton path="/docs">Docs</ThemeButton>
           <ThemeButton path="/blog">Blog</ThemeButton>
+          <ThemeButton path="/projects">Projects</ThemeButton>
         </div>
       </div>
     </header>
