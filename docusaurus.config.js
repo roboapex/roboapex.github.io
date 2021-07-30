@@ -37,6 +37,7 @@ module.exports = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/projects', label: 'Projects', position: 'left' },
+        { to: '/achievements', label: 'Achievements', position: 'left' },
         {
           type: "search",
           position: "right",
@@ -60,14 +61,6 @@ module.exports = {
         {
           title: 'Robotics @APEX',
           items: [
-            // {
-            //   label: 'Stack Overflow',
-            //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            // },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/zDB7KDrgbw',
-            },
             {
               label: 'Instagram',
               href: 'https://instagram.com/roboticsapex',
@@ -80,6 +73,10 @@ module.exports = {
               label: 'Email',
               href: 'mailto:sstroboapex@gmail.com',
             },
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/zDB7KDrgbw',
+            },
           ],
         },
         {
@@ -89,7 +86,6 @@ module.exports = {
               label: 'SST',
               href: 'https://www.sst.edu.sg/cca/robotics-apex',
             },
-
           ],
         },
       ],
