@@ -14,7 +14,6 @@ module.exports = {
   projectName: 'roboapex-docs',
   trailingSlash: true,
   themeConfig: {
-    sidebarCollapsible: true,
     hideableSidebar: true,
     announcementBar: {
       id: "announcement",
@@ -107,6 +106,7 @@ module.exports = {
             'https://github.com/roboapex/roboapex-docs/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          sidebarCollapsible: true
         },
         blog: {
           showReadingTime: true,
