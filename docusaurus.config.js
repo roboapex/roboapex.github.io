@@ -42,11 +42,6 @@ module.exports = {
           type: "search",
           position: "right",
         },
-        {
-          href: 'https://github.com/roboapex/roboapex-docs',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
