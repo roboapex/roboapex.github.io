@@ -19,7 +19,9 @@ This documentation was created mainly as a reference for students in the Robotic
 
 ### Project Documentation
 
-As brought up by a previous executive committee, a documentation system in the club would allow peers and future generations of students to learn from example. Common robotics-related issues previously solved in a group may arise again for others and be troublesome to tackle again. Hence, documentation allows students to learn from each other as well. Previously, it was proposed for students to write documentation solely in documents such as Google Docs. However, it failed as no one wanted to write a separate piece of paper for the sake of writing that piece of paper—it was cumbersome. Hence, the purpose of this documentation system is to rid that redundancy by simply using GitHub to host teams' code in repositories which is sustainably accessible and would likely not get lost.
+A documentation system in the club would allow peers and future generations of students to learn from example. Common robotics-related issues previously solved in a group may arise again for others and be troublesome to tackle again. Hence, documentation allows students to learn from each other as well. 
+
+This website was made to rid the redundancy of a separate document by simply using GitHub to host teams' code in repositories which is sustainably accessible and would likely not get lost.
 
 Competitions that the members of the club participate in entail programming robots using code. This code can then be uploaded to GitHub for others to comment and feedback. Using GitHub, the code itself would be a testament to the work done and persisted for years should future executive committees decide to move forward with the idea. Apart from code or text, students may also upload images, documents and data to GitHub.
 
