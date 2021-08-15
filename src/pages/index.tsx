@@ -1,41 +1,12 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import HomepageFeatures from "../components/HomepageFeatures";
-import ThemeButton from "../components/themeButton";
+import HomeHeader from "../components/home/header";
+import HomeValues from "../components/home/values";
+import HomeSection from "../components/home/section";
+import HomeSystems from "../components/home/systems";
 
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header
-      style={{
-        backgroundColor: "#ee466b22",
-        padding: "3rem 0",
-        textAlign: "center",
-        position: "relative",
-        overflow: "hidden",
-      }}
-    >
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div
-          style={{
-            display: "flex",
-            gap: 20,
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <ThemeButton path="/docs">Docs</ThemeButton>
-          <ThemeButton path="/blog">Blog</ThemeButton>
-          <ThemeButton path="/projects">Projects</ThemeButton>
-        </div>
-      </div>
-    </header>
-  );
-}
-
+const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique elit finibus eros pharetra, volutpat blandit diam suscipit. Phasellus nec euismod magna. Curabitur venenatis, leo interdum eleifend lacinia, magna massa tristique dui, non feugiat tellus diam et justo. Mauris sed risus laoreet, malesuada tortor mattis, luctus urna. Mauris sit amet sapien nec lacus convallis ullamcorper. Fusce luctus turpis vel nisi volutpat ornare. "
 export default function HomePage() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -43,9 +14,22 @@ export default function HomePage() {
       title={siteConfig.title}
       description={`${siteConfig.title} Documentation`}
     >
-      <HomepageHeader />
+      <HomeHeader />
       <main>
-        <HomepageFeatures />
+        <HomeSection>
+          <HomeValues />
+          <HomeSystems title="Lego" desc={lorem} imgRight={false} />
+          <HomeSystems title="Lego" desc={lorem} imgRight={true} />
+        </HomeSection>
+        <HomeSection title="Our Runs">
+
+        </HomeSection>
+        <HomeSection title="Our History">
+          
+        </HomeSection>
+        <HomeSection title="Our Accomplishments">
+          
+        </HomeSection>
       </main>
     </Layout>
   );

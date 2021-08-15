@@ -1,10 +1,10 @@
 import React from 'react';
 import clsx from 'clsx';
 
-const FeatureList = [
+const ValueList = [
   {
     title: 'Efficient.',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         zer jynn we need content :D
@@ -13,7 +13,7 @@ const FeatureList = [
   },
   {
     title: 'Effective.',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         zer jynn we need content :D
@@ -22,7 +22,7 @@ const FeatureList = [
   },
   {
     title: 'Exemplary.',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         zer jynn we need content :D
@@ -31,7 +31,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function HomeValue({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -45,16 +45,16 @@ function Feature({Svg, title, description}) {
   );
 }
 
-export default function HomepageFeatures() {
+export default function HomeValues() {
   return (
-    <section style={{ display: "flex", alignItems: "center", padding: "2rem 0", width: "100%" }}>
+    <div style={{ display: "flex" }}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {ValueList.map((props, idx) => (
+            <HomeValue key={idx} {...props} />
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }

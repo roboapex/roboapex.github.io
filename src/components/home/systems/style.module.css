@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+}
+
+.img {
+  max-width: 80vw;
+}
+
+@media (min-width: 996px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .text {
+    width: 40ch;
+    /* margin-left: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img {
+    margin: 0 50px;
+    width: 40%;
+    height: 40%;
+  }
+}
