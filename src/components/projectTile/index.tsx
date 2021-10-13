@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Project, ProjectEventLookup } from "../../types/projects";
+import clsx from "clsx";
 
 const eventCodes: ProjectEventLookup = {
   nrc: {
@@ -14,24 +15,28 @@ const eventCodes: ProjectEventLookup = {
       reg: { name: "Regular" },
       open: { name: "Open" },
       fe: { name: "Future Engineer" },
-    }
+    },
   },
   rcsg: {
     name: "Robocup Singapore",
     website: "https://robocupsg.org/en/singaporeopen",
     categories: {
       rescue: { name: "RCJ Rescue Line" },
-    }
+    },
   },
-}
+};
 
 /**
  * nameData in the format {0: full_name, 1: eventCode, 2: year, 3: categoryCode, 4: groupName [, 5: projectName]}
  */
-export default function ProjectTile({ nameData, repo }: { nameData: string[], repo: Endpoints["GET /orgs/{org}/repos"]["response"]["data"][number] }) {
+export default function ProjectTile({
+  nameData,
+  repo,
+}: {
+  nameData: string[];
+  repo: Endpoints["GET /orgs/{org}/repos"]["response"]["data"][number];
+}) {
   const [data, setData] = useState<Project>();
-
-  console.log(nameData)
 
   useEffect(() => {
     setData({
@@ -51,11 +56,23 @@ export default function ProjectTile({ nameData, repo }: { nameData: string[], re
   }, [repo]);
 
   return (
-    <div className={style.tile}>
-      <h2>{data?.projectName}</h2>
-      <p>{data?.groupName}</p>
-      <p>{repo?.description ?? "No Description"}</p>
-      <Link href={repo?.html_url}>View on GitHub</Link>
+    <div className={clsx("card", style.tile)}>
+      <Link href={repo?.html_url} style={{textDecoration: "none", color: "initial"}}>
+      <div className="card__image">
+        <img
+          src={`https://picsum.photos/seed/${nameData[0]}/800/400`}
+          alt="Placeholder Image"
+          title="Placeholder Image"
+        />
+      </div>
+      <div className="card__header">
+        <h3 className={style.projectName}>{data?.projectName}</h3>
+      </div>
+      <div className="card__body">
+        <p>{data?.groupName}</p>
+        <p>{repo?.description ?? null}</p>
+      </div>
+      </Link>
     </div>
   );
 }

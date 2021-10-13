@@ -17,19 +17,22 @@ export default function HomePage() {
       <HomeHeader />
       <main>
         <HomeSection>
-          <HomeValues />
-          <HomeSystems title="Lego" desc={lorem} imgRight={false} />
-          <HomeSystems title="Lego" desc={lorem} imgRight={true} />
+          {/* <HomeValues /> */}
+          {/* <HomeSystems title="Lego" desc={lorem} imgRight={false} />
+          <HomeSystems title="Lego" desc={lorem} imgRight={true} /> */}
+          <div>
+            
+          </div>
         </HomeSection>
-        <HomeSection title="Our Runs">
-
+        {/* <HomeSection title="Our Runs">
+          
         </HomeSection>
         <HomeSection title="Our History">
           
         </HomeSection>
         <HomeSection title="Our Accomplishments">
           
-        </HomeSection>
+        </HomeSection> */}
       </main>
     </Layout>
   );

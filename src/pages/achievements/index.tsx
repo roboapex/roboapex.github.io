@@ -5,7 +5,7 @@ import Layout from "@theme/Layout";
 export default function AchievementsPage() {
   return (
     <Layout title="Achievements">
-      <WorkInProgress />
+      
     </Layout>
   );
 }

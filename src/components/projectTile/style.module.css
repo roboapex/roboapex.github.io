@@ -1,4 +1,9 @@
-.tile {
-  padding: 10;
-  border: 1px black solid;
+.tile:hover {
+  box-shadow: var(--ifm-global-shadow-md);
+  transition: all 100ms ease-in-out;
+}
+
+.tile:hover .projectName {
+  text-decoration: underline;
+  color: var(--ifm-link-color);
 }
