@@ -1,0 +1,47 @@
+.roboapex {
+  font-family: 'Ethnocentric';
+  color: var(--ifm-color-primary);
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  margin: 30px 0 10px 0;
+}
+
+.subhead {
+  margin: 5px 0;
+  width: 130px;
+}
+
+.desc {
+  max-width: 50ch;
+}
+
+.desc > span {
+  font-weight: bold;
+  font-size: large;
+  font-style: italic;
+}
+
+@media (min-width: 996px) {
+  .head {
+    margin: 40px 0 30px 0;
+  }
+
+  .subhead {
+    margin: 0;
+  }
+
+  .row {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .desc {
+    width: 50ch;
+  }
+}

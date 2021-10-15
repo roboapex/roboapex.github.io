@@ -4,7 +4,7 @@ require('dotenv').config()
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Robotics @APEX',
-  tagline: 'Founded in 2010, Robotics @APEX is the Robotics Club of the School of Science and Technology, Singapore. Robotics is our passion! Efficient. Effective. Exemplary. 🔥',
+  tagline: 'Founded in 2010, Robotics @APEX is the Robotics Club of the School of Science and Technology, Singapore. Robotics is our passion! 🔥',
   url: 'https://roboapex.github.io',
   baseUrl: '/roboapex-docs/',
   onBrokenLinks: 'throw',
@@ -37,10 +37,10 @@ module.exports = {
           to: '/docs',
           items: baseDocPaths.map((e) => ({ to: `/${e.path}`, label: e.name }))
         },
-        {
-          type: "search",
-          position: "right",
-        },
+        // {
+        //   type: "search",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
@@ -83,16 +83,16 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Robotics @APEX from the School of Science and Technology, Singapore.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Robotics @APEX from the School of Science and Technology, Singapore.<br> Made by Ryan The with Docusaurus and React :>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-    algolia: {
-      apiKey: process.env.ALGOLIA_API_KEY,
-      indexName: 'YOUR_INDEX_NAME',
-    },
+    // algolia: {
+    //   apiKey: process.env.ALGOLIA_API_KEY,
+    //   indexName: 'YOUR_INDEX_NAME',
+    // },
   },
   presets: [
     [

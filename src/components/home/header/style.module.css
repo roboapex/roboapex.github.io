@@ -9,6 +9,11 @@
   color: white;
 }
 
+.title {
+  font-family: 'Ethnocentric';
+  font-weight: 700;
+}
+
 .tagline {
   max-width: 50ch;
 }
