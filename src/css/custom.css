@@ -13,17 +13,23 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 :root {
   --ifm-color-primary: #E70033;
-  --ifm-color-primary-dark: #E70033;
+  --ifm-color-primary-dark: #db0030;
   --ifm-color-primary-darker: #CB0023;
   --ifm-color-primary-darkest: #A60017;
-  --ifm-color-primary-light: #f76580;
-  --ifm-color-primary-lighter: #fa758e;
-  --ifm-color-primary-lightest: #FFB3BE;
+  --ifm-color-primary-light: #f54f6d;
+  --ifm-color-primary-lighter: #f86882;
+  --ifm-color-primary-lightest: #ff9fad;
   --ifm-code-font-size: 95%;
 }
 
 html[data-theme='dark']:root {
-  --ifm-color-primary: #f76580;
+  --ifm-color-primary: #ff859c;
+  --ifm-color-primary-dark: #f16e86;
+  --ifm-color-primary-darker: #f05f79;
+  --ifm-color-primary-darkest: #f54461;
+  --ifm-color-primary-light: #ff97aa;
+  --ifm-color-primary-lighter: #ffb0bc;
+  --ifm-color-primary-lightest: #fac1ca;
 }
 
 /* html[data-theme='dark'] {

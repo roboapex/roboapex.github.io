@@ -3,8 +3,8 @@ require('dotenv').config()
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Robotics @APEX Documentation',
-  tagline: 'Robotics is our passion! Efficient. Effective. Exemplary. 🔥',
+  title: 'Robotics @APEX',
+  tagline: 'Founded in 2010, Robotics @APEX is the Robotics Club of the School of Science and Technology, Singapore. Robotics is our passion! Efficient. Effective. Exemplary. 🔥',
   url: 'https://roboapex.github.io',
   baseUrl: '/roboapex-docs/',
   onBrokenLinks: 'throw',
@@ -28,15 +28,15 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        { to: '/projects', label: 'Projects', position: 'left' },
+        { to: '/achievements', label: 'Achievements', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           position: 'left',
           label: 'Docs',
           to: '/docs',
           items: baseDocPaths.map((e) => ({ to: `/${e.path}`, label: e.name }))
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/projects', label: 'Projects', position: 'left' },
-        { to: '/achievements', label: 'Achievements', position: 'left' },
         {
           type: "search",
           position: "right",

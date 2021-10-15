@@ -1,18 +1,18 @@
 import React from "react";
 import Link from "@docusaurus/Link";
-import clsx from "clsx";
-import style from "./style.module.css";
 
 export default function ThemeButton({
   path,
   children,
+  color
 }: {
   path: string;
   children: string;
+  color?: "primary" | "secondary" | "success" | "info" | "warning" | "danger" | "link";
 }) {
   return (
     <Link
-      className={clsx("button button--secondary button--lg", style.button)}
+      className={`button button--${color ?? "primary"} button--lg`}
       to={path}
     >
       {children}
