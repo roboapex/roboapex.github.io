@@ -1,89 +1,91 @@
-{
-  "year": 2021,
-  "competitions": [
-    {
-      "name": "RoboCup Singapore Open 2021",
-      "desc": "",
-      "awards": [
-        {
-          "title": "2nd Place, Technical Challenge and Merit, Presentation, RoboCupJunior Rescue Line (U19)",
-          "team": "HexaMatrix",
-          "project": "",
-          "recipients": [
-            "Koh Yi Lei, Elliot",
-            "Ryan Theodore The",
-            "Koh Jie Ming, Xavier",
-            "Javier Lim"
-          ]
-        },
-        {
-          "title": "3rd Place, RCAP CoSpace Autonomous Driving (U19)",
-          "team": "SSTS",
-          "project": "",
-          "recipients": ["Aathithya Jegatheesan"]
-        },
-        {
-          "title": "Distinction, Presentation, RoboCupJunior Rescue Line (U19)",
-          "team": "iso ohms",
-          "project": "",
-          "recipients": [
-            "Shanjiith Pranov Gayathri Vijayaraghavan",
-            "Wong Le Yang",
-            "Lee Wei Hao Andy",
-            "Ang Kai Jie, Jovan"
-          ]
-        },
-        {
-          "title": "Distinction, Presentation, RoboCupJunior Rescue Line (U19)",
-          "team": "I(am)soedgy",
-          "project": "",
-          "recipients": [
-            "Lim Meng Shin",
-            "Seng Kay Kang, Jerick",
-            "Brayden Ziyang Saga"
-          ]
-        },
-        {
-          "title": "Merit, Presentation, RoboCupJunior Rescue Line (U19)",
-          "team": "Polyneurons",
-          "project": "",
-          "recipients": [
-            "Bu Ping Jin",
-            "Kunwar Khushi Karansingh",
-            "Ysabelle Wong Sze Han",
-            "Phang Qian Ci"
-          ]
-        }
-      ],
-      "media": []
-    },
-    {
-      "name": "First Lego League 2021",
-      "desc": "",
-      "awards": [
-        {
-          "title": "3rd Place, Champions Award (Secondary)",
-          "team": "Polygamers",
-          "project": "",
-          "recipients": [
-            "Vijaya Bhargavi",
-            "Soin Wei Dong",
-            "Ang Shaal, Josh"
-          ]
-        },
-        {
-          "title": "4th Place, Robot Performance Award (Secondary)",
-          "team": "Polyclone",
-          "project": "",
-          "recipients": [
-            "Irman Zafyree Bin Irmanizam",
-            "Chin Jian Wen",
-            "Favian Loh Dai Yong",
-            "Leow Kar Lok"
-          ]
-        }
-      ],
-      "media": []
-    }
-  ]
-}
+[
+  {
+    "year": 2021,
+    "competitions": [
+      {
+        "name": "RoboCup Singapore Open 2021",
+        "desc": "",
+        "awards": [
+          {
+            "title": "2nd Place, Technical Challenge and Merit, Presentation, RoboCupJunior Rescue Line (U19)",
+            "team": "HexaMatrix",
+            "project": "",
+            "recipients": [
+              "Koh Yi Lei, Elliot",
+              "Ryan Theodore The",
+              "Koh Jie Ming, Xavier",
+              "Javier Lim"
+            ]
+          },
+          {
+            "title": "3rd Place, RCAP CoSpace Autonomous Driving (U19)",
+            "team": "SSTS",
+            "project": "",
+            "recipients": ["Aathithya Jegatheesan"]
+          },
+          {
+            "title": "Distinction, Presentation, RoboCupJunior Rescue Line (U19)",
+            "team": "iso ohms",
+            "project": "",
+            "recipients": [
+              "Shanjiith Pranov Gayathri Vijayaraghavan",
+              "Wong Le Yang",
+              "Lee Wei Hao Andy",
+              "Ang Kai Jie, Jovan"
+            ]
+          },
+          {
+            "title": "Distinction, Presentation, RoboCupJunior Rescue Line (U19)",
+            "team": "I(am)soedgy",
+            "project": "",
+            "recipients": [
+              "Lim Meng Shin",
+              "Seng Kay Kang, Jerick",
+              "Brayden Ziyang Saga"
+            ]
+          },
+          {
+            "title": "Merit, Presentation, RoboCupJunior Rescue Line (U19)",
+            "team": "Polyneurons",
+            "project": "",
+            "recipients": [
+              "Bu Ping Jin",
+              "Kunwar Khushi Karansingh",
+              "Ysabelle Wong Sze Han",
+              "Phang Qian Ci"
+            ]
+          }
+        ],
+        "media": []
+      },
+      {
+        "name": "First Lego League 2021",
+        "desc": "",
+        "awards": [
+          {
+            "title": "3rd Place, Champions Award (Secondary)",
+            "team": "Polygamers",
+            "project": "",
+            "recipients": [
+              "Vijaya Bhargavi",
+              "Soin Wei Dong",
+              "Ang Shaal, Josh"
+            ]
+          },
+          {
+            "title": "4th Place, Robot Performance Award (Secondary)",
+            "team": "Polyclone",
+            "project": "",
+            "recipients": [
+              "Irman Zafyree Bin Irmanizam",
+              "Chin Jian Wen",
+              "Favian Loh Dai Yong",
+              "Leow Kar Lok"
+            ]
+          }
+        ],
+        "media": []
+      }
+    ]
+  }
+]
