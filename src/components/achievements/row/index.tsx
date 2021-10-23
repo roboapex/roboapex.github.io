@@ -13,7 +13,7 @@ export default function AchievementsRow({
 }) {
 
   const competition = CompetitionCodes[achievementCompetition.code]
-  console.log(achievementCompetition.awards)
+
   return (
     <div className={style.row}>
       <div className={style.details}>

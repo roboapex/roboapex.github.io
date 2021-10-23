@@ -30,8 +30,8 @@ export default function AchievementsPage() {
         ))}
       </ul>
       <div className={style.awards}>
-        {achievements?.[yearIndex]?.competitions.map((e) => (
-          <AchievementsRow achievementCompetition={e} key={e.code} year={achievements[yearIndex].year} />
+        {achievements?.[yearIndex]?.competitions.map((e,i) => (
+          <AchievementsRow achievementCompetition={e} key={`${e.code}${achievements[yearIndex].year}${i}`} year={achievements[yearIndex].year} />
         ))}
       </div>
     </ThemeLayout>
