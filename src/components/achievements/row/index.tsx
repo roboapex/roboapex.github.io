@@ -14,7 +14,7 @@ export default function AchievementsRow({
 
   const resolveURL = (url: string) => {
     console.log(url)
-    if (!url.startsWith("http")) return `https://api.github.com/repos/roboapex/roboapex.github.io/contents/data/achievements/${year.toString()}/${achievementCompetition.code}/${url}`
+    if (!url.startsWith("http")) return `https://raw.githubusercontent.com/roboapex/roboapex.github.io/main/data/achievements/${year.toString()}/${achievementCompetition.code}/${url}`
     return url
   }
 
