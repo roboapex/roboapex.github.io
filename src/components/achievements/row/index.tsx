@@ -28,6 +28,7 @@ export default function AchievementsRow({
             src={resolveURL(achievementCompetition.logoURL)}
             alt={`${competition.name}'s Logo'`}
             title={competition.name}
+            className={style.logo}
           />
         )}
         <h1>{competition.name} {year}</h1>
