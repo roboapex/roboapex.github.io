@@ -3,7 +3,6 @@ export interface Competition {
   desc: string;
   website: string;
   categories: { [k: string]: CompetitionCategory };
-  logoURL?: string;
 }
 
 export interface CompetitionCategory {
@@ -20,7 +19,7 @@ export const CompetitionCodes: { [k: CompetitionCode]: Competition } = {
       reg: { name: "Regular" },
       open: { name: "Open" },
       fe: { name: "Future Engineer" },
-    },
+    }
   },
   rcsg: {
     name: "Robocup Singapore",

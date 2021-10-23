@@ -4,6 +4,7 @@
     "competitions": [
       {
         "code": "rcsg",
+        "logoURL": "rcsg2021.png",
         "awards": [
           {
             "title": "2nd Place, Technical Challenge and Merit, Presentation, RoboCupJunior Rescue Line (U19)",

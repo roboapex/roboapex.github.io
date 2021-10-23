@@ -7,6 +7,7 @@ export interface Achievements {
 
 export interface AchievementsCompetition {
   code: CompetitionCode;
+  logoURL?: string;
   awards: AchievementsAward[];
   media?: AchievementsMedia[];
 }

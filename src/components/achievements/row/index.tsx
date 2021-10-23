@@ -12,19 +12,25 @@ export default function AchievementsRow({
   year: number
 }) {
 
+  const resolveURL = (url: string) => {
+    console.log(url)
+    if (!url.startsWith("http")) return `https://api.github.com/repos/roboapex/roboapex.github.io/contents/data/achievements/${year.toString()}/${achievementCompetition.code}/${url}`
+    return url
+  }
+
   const competition = CompetitionCodes[achievementCompetition.code]
 
   return (
     <div className={style.row}>
       <div className={style.details}>
-        {competition?.logoURL === undefined ? undefined : (
+        {achievementCompetition?.logoURL === undefined ? undefined : (
           <img
-            src={competition.logoURL}
+            src={resolveURL(achievementCompetition.logoURL)}
             alt={`${competition.name}'s Logo'`}
             title={competition.name}
           />
         )}
-        <h1>{competition.name}</h1>
+        <h1>{competition.name} {year}</h1>
         <p>{competition.desc}</p>
         {achievementCompetition.awards.map((e,i) => (
           <div key={i} className={style.awardListing}>
@@ -38,19 +44,14 @@ export default function AchievementsRow({
         {achievementCompetition.awards.map((e,i1) => (
           <div key={i1}>
             {e.media?.map((img, i2) => (
-              <img key={i2} src={resolveURL(img.url, achievementCompetition, year)} alt={img.caption} title={img.caption} />
+              <img key={i2} src={resolveURL(img.url)} alt={img.caption} title={img.caption} />
             ))}
           </div>
         ))}
         {achievementCompetition.media?.map((img, i) => (
-          <img key={i} src={resolveURL(img.url, achievementCompetition, year)} alt={img.caption} title={img.caption} />
+          <img key={i} src={resolveURL(img.url)} alt={img.caption} title={img.caption} />
         ))}
       </div>
     </div>
   );
-}
-
-const resolveURL = (url: string, competition: AchievementsCompetition, year: number) => {
-  // if (!url.startsWith("http")) return `https://api.github.com/repos/roboapex/roboapex.github.io/contents/data/achievements/${year.toString()}/${competition.code}`
-  return url
 }
