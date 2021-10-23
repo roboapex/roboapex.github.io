@@ -24,7 +24,6 @@ export default function AboutPage() {
   );
 }
 
-
 const sections: AboutSection[] = [
   { head: "Introduction", subsections: [
     { subhead: "Who we are", desc: (

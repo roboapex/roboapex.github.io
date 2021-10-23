@@ -4,27 +4,9 @@ import { Endpoints } from "@octokit/types";
 import Link from "@docusaurus/Link";
 import { useEffect } from "react";
 import { useState } from "react";
-import { Project, ProjectEventLookup } from "../../types/projects";
+import { Project } from "../../../types/projects";
 import clsx from "clsx";
-
-const eventCodes: ProjectEventLookup = {
-  nrc: {
-    name: "National Robotics Competition",
-    website: "https://ducklearning.com/pages/nrc-sg",
-    categories: {
-      reg: { name: "Regular" },
-      open: { name: "Open" },
-      fe: { name: "Future Engineer" },
-    },
-  },
-  rcsg: {
-    name: "Robocup Singapore",
-    website: "https://robocupsg.org/en/singaporeopen",
-    categories: {
-      rescue: { name: "RCJ Rescue Line" },
-    },
-  },
-};
+import { CompetitionCodes } from "../../../types/competitions";
 
 /**
  * nameData in the format {0: full_name, 1: eventCode, 2: year, 3: categoryCode, 4: groupName [, 5: projectName]}
@@ -36,21 +18,21 @@ export default function ProjectTile({
   nameData: string[];
   repo: Endpoints["GET /orgs/{org}/repos"]["response"]["data"][number];
 }) {
-  const [data, setData] = useState<Project>();
+  const [project, setProject] = useState<Project>();
 
   useEffect(() => {
-    setData({
+    setProject({
       groupName: nameData[4],
       projectName: nameData?.[5]?.replace("_", " ") ?? nameData[0],
       event: {
         code: nameData[1],
-        name: eventCodes[nameData[1]].name,
-        website: eventCodes[nameData[1]].name,
+        name: CompetitionCodes[nameData[1]].name,
+        website: CompetitionCodes[nameData[1]].name,
       },
       year: parseInt(nameData[2]),
       category: {
         code: nameData[3],
-        name: eventCodes[nameData[1]].categories[nameData[3]].name,
+        name: CompetitionCodes[nameData[1]].categories[nameData[3]].name,
       },
     });
   }, [repo]);
@@ -66,10 +48,10 @@ export default function ProjectTile({
         />
       </div>
       <div className="card__header">
-        <h3 className={style.projectName}>{data?.projectName}</h3>
+        <h3 className={style.projectName}>{project?.projectName}</h3>
       </div>
       <div className="card__body">
-        <p>{data?.groupName}</p>
+        <p>{project?.groupName}</p>
         <p>{repo?.description ?? null}</p>
       </div>
       </Link>
