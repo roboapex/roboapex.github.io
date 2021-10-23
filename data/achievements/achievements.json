@@ -91,5 +91,62 @@
         "media": []
       }
     ]
+  },
+  {
+    "year": 2015,
+    "competitions": [
+      {
+        "code": "fll",
+        "awards": [
+          {
+            "title": "1st Place, Presentation (Project Awards)",
+            "team": "",
+            "project": "",
+            "recipients": [],
+            "media": []
+          },
+          {
+            "title": "1st Place, Innovative Solution (Project Awards)",
+            "team": "",
+            "project": "",
+            "recipients": []
+          },
+          {
+            "title": "2nd Runner-Up, Research Design (Project Awards)",
+            "team": "",
+            "project": "",
+            "recipients": []
+          }
+        ],
+        "media": []
+      },
+      {
+        "code": "fll",
+        "awards": [
+          {
+            "title": "3rd Place, Champions Award (Secondary)",
+            "team": "Polygamers",
+            "project": "",
+            "recipients": [
+              "Vijaya Bhargavi",
+              "Soin Wei Dong",
+              "Ang Shaal, Josh"
+            ]
+          },
+          {
+            "title": "4th Place, Robot Performance Award (Secondary)",
+            "team": "Polyclone",
+            "project": "",
+            "recipients": [
+              "Irman Zafyree Bin Irmanizam",
+              "Chin Jian Wen",
+              "Favian Loh Dai Yong",
+              "Leow Kar Lok"
+            ]
+          }
+        ],
+        "media": []
+      }
+    ]
   }
 ]
