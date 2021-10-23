@@ -3,8 +3,7 @@
     "year": 2021,
     "competitions": [
       {
-        "name": "RoboCup Singapore Open 2021",
-        "desc": "",
+        "code": "rcsg",
         "awards": [
           {
             "title": "2nd Place, Technical Challenge and Merit, Presentation, RoboCupJunior Rescue Line (U19)",
@@ -15,7 +14,8 @@
               "Ryan Theodore The",
               "Koh Jie Ming, Xavier",
               "Javier Lim"
-            ]
+            ],
+            "media": ["https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=1024"]
           },
           {
             "title": "3rd Place, RCAP CoSpace Autonomous Driving (U19)",
@@ -59,8 +59,7 @@
         "media": []
       },
       {
-        "name": "First Lego League 2021",
-        "desc": "",
+        "code": "fll",
         "awards": [
           {
             "title": "3rd Place, Champions Award (Secondary)",
