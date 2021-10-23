@@ -27,13 +27,13 @@ Competitions that the members of the club participate in entail programming robo
 
 Repositories containing the projects by members of the club may be found at https://github.com/roboapex/. 
 
-Teams' repository names will be in the format of **competition code (by year)** followed by the **category**, followed by the **team name**, delimited with a hyphen, as seen in `competition-category-team`. For instance, `nrc2021-fe-hexacore` or `nrc2021-open-polysth`. This naming consistent naming convention also facilitates the parsing of team details in the project documentation site at https://roboapex.github.io/roboapex-docs/projects/, as the name describes the competition, year, category and team name in a single string.
+Teams' repository names will be in the format of **competition code (by year)** followed by the **category**, followed by the **team name**, delimited with a hyphen, as seen in `competition-category-team`. For instance, `nrc2021-fe-hexacore` or `nrc2021-open-polysth`. This naming consistent naming convention also facilitates the parsing of team details in the project documentation site at https://roboapex.github.io/projects/, as the name describes the competition, year, category and team name in a single string.
 
 Refer to the [Contributing](contributing) page to learn more about the conventions in the documentation.
 
 ### Article Documentation
 
-Members of the club, specifically the training or competition committee, would write articles, such as tutorials detailing "How to PID with Arduino", to be uploaded onto the documentation site https://roboapex.github.io/roboapex-docs/. The website sources articles from the GitHub repository at https://github.com/roboapex/roboapex-docs in the `/docs` directory and is built with Docusaurus and React. Even without knowledge of React, the majority of the site can still be maintained simply using Markdown. Markdown is the language used to write the articles and is relatively simple to learn. Upon updating the content in that repository, the website would be automatically updated with new content.
+Members of the club, specifically the training or competition committee, would write articles, such as tutorials detailing "How to PID with Arduino", to be uploaded onto the documentation site https://roboapex.github.io/. The website sources articles from the GitHub repository at https://github.com/roboapex/roboapex.github.io in the `/docs` directory and is built with Docusaurus and React. Even without knowledge of React, the majority of the site can still be maintained simply using Markdown. Markdown is the language used to write the articles and is relatively simple to learn. Upon updating the content in that repository, the website would be automatically updated with new content.
 
 Refer to the [Contributing](contributing) page to learn more about the conventions in the documentation.
 

@@ -6,12 +6,12 @@ module.exports = {
   title: 'Robotics @APEX',
   tagline: 'Founded in 2010, Robotics @APEX is the Robotics Club of the School of Science and Technology, Singapore. Robotics is our passion! 🔥',
   url: 'https://roboapex.github.io',
-  baseUrl: '/roboapex-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'roboapex',
-  projectName: 'roboapex-docs',
+  projectName: 'roboapex.github.io',
   trailingSlash: true,
   themeConfig: {
     hideableSidebar: true,
@@ -103,7 +103,7 @@ module.exports = {
           routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/roboapex/roboapex-docs/edit/main/',
+            'https://github.com/roboapex/roboapex.github.io/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           sidebarCollapsible: true
@@ -111,7 +111,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/roboapex/roboapex-docs/edit/main/blog/',
+            'https://github.com/roboapex/roboapex.github.io/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

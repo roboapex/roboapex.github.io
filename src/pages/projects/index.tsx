@@ -13,7 +13,7 @@ export default function ProjectsPage() {
       <div className={style.grid}>
         {data?.map((repo) => {
           const nameData = repo?.full_name.slice(9).match(/^(\w+)(\d{4})-(\w+)-(\w+)(?:-(\w+))?$/m)
-          if (repo?.full_name.startsWith("roboapex/roboapex") || nameData === null) return null
+          if (repo?.full_name.startsWith("roboapex/roboapex") || repo?.full_name === "roboapex.github.io" || nameData === null) return null
           return <ProjectTile repo={repo} key={repo?.full_name} nameData={Object.values(nameData)}/>
         })}
       </div>

@@ -19,7 +19,7 @@ keywords:
 
 ### Obtaining Access
 
-For members of Robotics @APEX, request access to the [Robotics @APEX GitHub organisation, `roboapex`](https://github.com/roboapex) or inform an ExCo. Submissions of [pull requests](https://github.com/roboapex/roboapex-docs/pulls), [issues](https://github.com/roboapex/roboapex-docs/issues) or [discussion threads](https://github.com/roboapex/roboapex-docs/discussions) in the [roboapex-docs](https://github.com/roboapex/roboapex-docs/) GitHub repository are also welcomed.
+For members of Robotics @APEX, request access to the [Robotics @APEX GitHub organisation, `roboapex`](https://github.com/roboapex) or inform an ExCo. Submissions of [pull requests](https://github.com/roboapex/roboapex.github.io/pulls), [issues](https://github.com/roboapex/roboapex.github.io/issues) or [discussion threads](https://github.com/roboapex/roboapex.github.io/discussions) in the [roboapex.github.io](https://github.com/roboapex/roboapex.github.io/) GitHub repository are also welcomed.
 
 :::info
 
@@ -33,9 +33,9 @@ Please be respectful in all contributions.
 
 1. Install [GitHub Desktop.app](https://desktop.github.com/) or [`git`](https://git-scm.com/downloads).
 2. Install [node](https://nodejs.org/en/download/).
-3. Open GitHub Desktop.app and clone `roboapex/roboapex-docs`. Alternatively, clone it from [GitHub](https://github.com/roboapex/roboapex-docs/) or enter the following command in Terminal.app (requires `git`).
+3. Open GitHub Desktop.app and clone `roboapex/roboapex.github.io`. Alternatively, clone it from [GitHub](https://github.com/roboapex/roboapex.github.io/) or enter the following command in Terminal.app (requires `git`).
   ```sh
-  git clone https://github.com/roboapex/roboapex-docs.git
+  git clone https://github.com/roboapex/roboapex.github.io.git
   ```
 4. Run the web application with the following command. A page at `localhost` should open.
   ```sh

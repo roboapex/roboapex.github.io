@@ -42,7 +42,7 @@ const useAchievements = () => {
   const { data } = useSWR<
     Endpoints["GET /repos/{owner}/{repo}/contents/{path}"]["response"]["data"]
   >(
-    "https://api.github.com/repos/roboapex/roboapex-docs/contents/data/achievements/achievements.json"
+    "https://api.github.com/repos/roboapex/roboapex.github.io/contents/data/achievements/achievements.json"
   );
   if (!!data) return JSON.parse(atob(data?.["content"])) as Achievements[];
   return undefined
