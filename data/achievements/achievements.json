@@ -7,7 +7,8 @@
         "logoURL": "rcsg2021.png",
         "awards": [
           {
-            "title": "2nd Place, Technical Challenge and Merit, Presentation, RoboCupJunior Rescue Line (U19)",
+            "title": "2nd Place",
+            "category": "Technical Challenge and Merit, Presentation, RoboCupJunior Rescue Line (U19)",
             "team": "HexaMatrix",
             "project": "",
             "recipients": [
@@ -24,13 +25,15 @@
             ]
           },
           {
-            "title": "3rd Place, RCAP CoSpace Autonomous Driving (U19)",
+            "title": "3rd Place",
+            "category": "RCAP CoSpace Autonomous Driving (U19)",
             "team": "SSTS",
             "project": "",
             "recipients": ["Aathithya Jegatheesan"]
           },
           {
-            "title": "Distinction, Presentation, RoboCupJunior Rescue Line (U19)",
+            "title": "Distinction",
+            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
             "team": "iso ohms",
             "project": "",
             "recipients": [
@@ -41,7 +44,8 @@
             ]
           },
           {
-            "title": "Distinction, Presentation, RoboCupJunior Rescue Line (U19)",
+            "title": "Distinction",
+            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
             "team": "I(am)soedgy",
             "project": "",
             "recipients": [
@@ -51,7 +55,8 @@
             ]
           },
           {
-            "title": "Merit, Presentation, RoboCupJunior Rescue Line (U19)",
+            "title": "Merit",
+            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
             "team": "Polyneurons",
             "project": "",
             "recipients": [
@@ -68,7 +73,8 @@
         "code": "fll",
         "awards": [
           {
-            "title": "3rd Place, Champions Award (Secondary)",
+            "title": "3rd Place",
+            "category": "Champions Award (Secondary)",
             "team": "Polygamers",
             "project": "",
             "recipients": [
@@ -78,7 +84,8 @@
             ]
           },
           {
-            "title": "4th Place, Robot Performance Award (Secondary)",
+            "title": "4th Place",
+            "category": "Robot Performance Award (Secondary)",
             "team": "Polyclone",
             "project": "",
             "recipients": [
@@ -100,20 +107,23 @@
         "code": "fll",
         "awards": [
           {
-            "title": "1st Place, Presentation (Project Awards)",
+            "title": "1st Place",
+            "category": "Presentation (Project Awards)",
             "team": "",
             "project": "",
             "recipients": [],
             "media": []
           },
           {
-            "title": "1st Place, Innovative Solution (Project Awards)",
+            "title": "1st Place",
+            "category": "Innovative Solution (Project Awards)",
             "team": "",
             "project": "",
             "recipients": []
           },
           {
-            "title": "2nd Runner-Up, Research Design (Project Awards)",
+            "title": "2nd Runner-Up",
+            "category": "Research Design (Project Awards)",
             "team": "",
             "project": "",
             "recipients": []
