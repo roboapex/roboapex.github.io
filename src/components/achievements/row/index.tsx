@@ -51,9 +51,9 @@ export default function AchievementsRow({
             <div className="card__image">
               <img
                 className={style.image}
-                src={comp.media?.[0].url ?? "https://picsum.photos/id/237/500?blur"}
-                alt={comp.media?.[0].caption ?? "cute dog because we got no image :>"}
-                title={comp.media?.[0].caption ?? "cute dog because we got no image :>"}
+                src={comp.media?.[0].url ?? "https://cataas.com/cat/gif"}
+                alt={comp.media?.[0].caption ?? "cute cat because we got no image :>"}
+                title={comp.media?.[0].caption ?? "cute cat because we got no image :>"}
               />
             </div>
             <div className="card__body">
