@@ -4,8 +4,8 @@
   overflow: hidden;
   height: 400;
 
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../../../static/img/roborm/awards1.jpg');
   background-position: center;
+  background-size: cover;
   color: white;
 }
 
@@ -16,6 +16,21 @@
 
 .tagline {
   max-width: 50ch;
+}
+
+.indicator {
+  width: 180px;
+  height: 7px;
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.indicator span {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff44;
 }
 
 @media (min-width: 996px) {

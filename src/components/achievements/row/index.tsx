@@ -39,21 +39,14 @@ export default function AchievementsRow({
         <p>{competition.desc}</p>
       </div>
       <div className={style.cards}>
-        {/* {achievementCompetition.awards.map((e,i1) => (
-          <div key={i1}>
-            {e.media?.map((img, i2) => (
-              <img key={i2} src={resolveURL(img.url)} alt={img.caption} title={img.caption} />
-            ))}
-          </div>
-        ))} */}
         {achievementCompetition.awards.map((comp, i) => (
           <div key={i} className={clsx("card", style.card)}>
             <div className="card__image">
               <img
                 className={style.image}
-                src={comp.media?.[0].url ?? "https://cataas.com/cat/gif"}
-                alt={comp.media?.[0].caption ?? "cute cat because we got no image :>"}
-                title={comp.media?.[0].caption ?? "cute cat because we got no image :>"}
+                src={comp.media?.[0]?.url ?? "https://cataas.com/cat/gif"}
+                alt={comp.media?.[0]?.caption ?? "cute cat because we got no image :>"}
+                title={comp.media?.[0]?.caption ?? "cute cat because we got no image :>"}
               />
             </div>
             <div className="card__body">

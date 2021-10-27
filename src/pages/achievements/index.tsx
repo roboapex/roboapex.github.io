@@ -3,6 +3,7 @@ import clsx from "clsx";
 import React, { useState } from "react";
 import useSWR from "swr";
 import AchievementsRow from "../../components/achievements/row";
+import AchievementsFilter from "../../components/achievements/filter";
 import ThemeLayout from "../../components/theme/layout";
 import { Achievements } from "../../types/achievements";
 
@@ -10,6 +11,7 @@ import style from "./style.module.css";
 
 export default function AchievementsPage() {
   const [yearIndex, setYearIndex] = useState(0);
+  const [filter, setFilter] = useState("");
 
   const achievements = useAchievements();
   
@@ -29,6 +31,7 @@ export default function AchievementsPage() {
           </li>
         ))}
       </ul>
+      <AchievementsFilter/>
       <div className={style.awards}>
         {achievements?.[yearIndex]?.competitions.map((e,i) => (
           <AchievementsRow achievementCompetition={e} key={`${e.code}${achievements[yearIndex].year}${i}`} year={achievements[yearIndex].year} />
