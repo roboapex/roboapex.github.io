@@ -14,6 +14,7 @@ export interface AchievementsCompetition {
 
 export interface AchievementsAward {
   title: string;
+  category: string;
   team: string;
   project: string; // TODO
   recipients: string[];

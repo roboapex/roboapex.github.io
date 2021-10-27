@@ -7,45 +7,51 @@
   flex-direction: column;
 }
 
-.images {
+.cards {
   display: flex;
   overflow: scroll;
-  gap: 50px;
-  height: 200px;
-}
-
-.images {
-  height: 300px;
+  gap: 40px;
+  padding: 5px;
   max-width: initial; /* Infima CSS reset sets this to max-width: 100%; */
 }
 
-.awardListing {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: baseline;
-  justify-content: left;
-  gap: 10px;
+/* Hide scrollbar for Chrome, Safari and Opera */
+.cards::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.cards {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.card {
+  flex-shrink: 0;
+  width: 350px;
+}
+
+.image {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
 }
 
 @media (min-width: 996px) {
   .row {
-    padding-right: -200px;
+    margin-right: -200px;
     flex-direction: row;
-    gap: 50px;
+    gap: 40px;
   }
 
   .details {
-    min-width: 300px;
-    max-width: 300px; /* different from width: 300px */
+    min-width: 200px;
+    max-width: 200px; /* different from width: 300px */
     text-align: right;
   }
 
-  .images {
+  .cards {
     height: 100%;
-  }
-
-  .awardListing {
-    flex-direction: row;
-    justify-content: right;
+    padding-right: 200px;
   }
 }
