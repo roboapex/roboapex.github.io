@@ -12,7 +12,6 @@ export default function AchievementsRow({
   year: number;
 }) {
   const resolveURL = (url: string) => {
-    console.log(url);
     if (!url.startsWith("http"))
       return `https://raw.githubusercontent.com/roboapex/roboapex.github.io/main/data/achievements/${year.toString()}/${
         achievementCompetition.code
@@ -25,9 +24,10 @@ export default function AchievementsRow({
   return (
     <div className={style.row}>
       <div className={style.details}>
-        {achievementCompetition?.logoURL === undefined ? undefined : (
+        {competition?.logoURL === undefined ? undefined : (
           <img
-            src={resolveURL(achievementCompetition.logoURL)}
+            src={`https://raw.githubusercontent.com/roboapex/roboapex.github.io/main/data/competitions/${achievementCompetition.code}.png`}
+            onError={(e) => {e.target["src"] = "https://cataas.com/cat/cute"}}
             alt={`${competition.name}'s Logo'`}
             title={competition.name}
             className={style.logo}
@@ -44,7 +44,7 @@ export default function AchievementsRow({
             <div className="card__image">
               <img
                 className={style.image}
-                src={comp.media?.[0]?.url ?? "https://cataas.com/cat/gif"}
+                src={comp.media?.[0]?.url ?? "https://cataas.com/cat/cute"}
                 alt={comp.media?.[0]?.caption ?? "cute cat because we got no image :>"}
                 title={comp.media?.[0]?.caption ?? "cute cat because we got no image :>"}
               />

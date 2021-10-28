@@ -6,12 +6,14 @@ import AchievementsRow from "../../components/achievements/row";
 import AchievementsFilter from "../../components/achievements/filter";
 import ThemeLayout from "../../components/theme/layout";
 import { Achievements } from "../../types/achievements";
+import { useLocation } from '@docusaurus/router';
 
 import style from "./style.module.css";
 
 export default function AchievementsPage() {
+  const location = useLocation();
+
   const [yearIndex, setYearIndex] = useState(0);
-  const [filter, setFilter] = useState("");
 
   const achievements = useAchievements();
   
@@ -31,7 +33,7 @@ export default function AchievementsPage() {
           </li>
         ))}
       </ul>
-      <AchievementsFilter/>
+      {/* <AchievementsFilter filter={location.hash}/> */}
       <div className={style.awards}>
         {achievements?.[yearIndex]?.competitions.map((e,i) => (
           <AchievementsRow achievementCompetition={e} key={`${e.code}${achievements[yearIndex].year}${i}`} year={achievements[yearIndex].year} />

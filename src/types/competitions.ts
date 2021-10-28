@@ -2,6 +2,7 @@ export interface Competition {
   name: string;
   desc: string;
   website: string;
+  logoURL?: string;
   categories: { [k: string]: CompetitionCategory };
 }
 
@@ -15,6 +16,7 @@ export const CompetitionCodes: { [k: CompetitionCode]: Competition } = {
     name: "National Robotics Competition",
     desc: "hi",
     website: "https://ducklearning.com/pages/nrc-sg",
+    logoURL: "",
     categories: {
       reg: { name: "Regular" },
       open: { name: "Open" },
@@ -25,6 +27,7 @@ export const CompetitionCodes: { [k: CompetitionCode]: Competition } = {
     name: "Robocup Singapore",
     desc: "hi",
     website: "https://robocupsg.org/en/singaporeopen",
+    logoURL: "rcsg2021.png",
     categories: {
       rescue: { name: "RCJ Rescue Line" },
     },
@@ -33,6 +36,7 @@ export const CompetitionCodes: { [k: CompetitionCode]: Competition } = {
     name: "First LEGO League",
     desc: "hi",
     website: "https://www.firstlegoleague.org/",
+    logoURL: "",
     categories: {
       chal: { name: "Challenge" },
     },
