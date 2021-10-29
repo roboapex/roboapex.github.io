@@ -1,4 +1,4 @@
-import { URLSearchParams } from 'url';
+import 'url-search-params-polyfill';
 
 import { useLocation } from "@docusaurus/router";
 import clsx from "clsx";
