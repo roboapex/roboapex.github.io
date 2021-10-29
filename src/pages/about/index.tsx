@@ -33,7 +33,7 @@ const sections: AboutSection[] = [
     )},
     { subhead: "What we do", desc: (
       <>
-        Here, we compete in a myriad of competitions including 
+        Here, we compete in a myriad of competitions including... through snr jnr learning, (see our insta page the bottom)
       </>
     )},
     { subhead: "Where we work", desc: (
