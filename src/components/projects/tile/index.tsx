@@ -32,7 +32,7 @@ export default function ProjectTile({
       year: parseInt(nameData[2]),
       category: {
         code: nameData[3],
-        name: CompetitionCodes[nameData[1]].categories[nameData[3]].name,
+        name: CompetitionCodes[nameData[1]].categories[nameData[3]],
       },
     });
   }, [repo]);
