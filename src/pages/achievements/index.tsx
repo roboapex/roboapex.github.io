@@ -42,8 +42,8 @@ export default function AchievementsPage() {
       />
       <div className={style.awards}>
         {filtered?.map((a, i) => (
-          <div key={i}>
-            <h1>{a.year}</h1>
+          <>
+            <h1 className={style.yearHeader}>{a.year}</h1>
             {a.competitions.map((e, i) => (
               <AchievementsRow
                 achievementCompetition={e}
@@ -51,7 +51,7 @@ export default function AchievementsPage() {
                 year={a.year}
               />
             ))}
-          </div>
+          </>
         ))}
       </div>
     </ThemeLayout>
