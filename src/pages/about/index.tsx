@@ -28,17 +28,17 @@ const sections: AboutSection[] = [
   { head: "Introduction", subsections: [
     { subhead: "Who we are", desc: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Robotics @APEX (formerly known as Robotics Club) was set up in 2010 and is a niche in the <a href="https://www.sst.edu.sg/">School of Science and Technology, Singapore (SST)</a>. In this CCA, members are given ample opportunities to unleash their potential by applying their skills and knowledge across a vast array of competitions. Through these competitions, the students are able to enhance their learning experiences in SST as they acquire various life skills and technological expertise along the way.
       </>
     )},
     { subhead: "What we do", desc: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Here, we compete in a myriad of competitions including 
       </>
     )},
     { subhead: "Where we work", desc: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        We work, live and play in the Robotics Room, which is located in the SST compound at Block C on Level 3. There we have many facilities including 
       </>
     )}
   ]},

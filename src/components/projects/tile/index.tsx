@@ -35,6 +35,7 @@ export default function ProjectTile({
         name: CompetitionCodes[nameData[1]].categories[nameData[3]],
       },
     });
+    console.log(repo)
   }, [repo]);
 
   return (
@@ -49,6 +50,9 @@ export default function ProjectTile({
       </div>
       <div className="card__header">
         <h3 className={style.projectName}>{project?.projectName}</h3>
+        <p>Last updated: {new Date(repo.pushed_at).toLocaleDateString("en-US")}</p>
+        <i className="fas fa-star" />{repo.stargazers_count}
+        <i className="fas fa-eye" />{repo.stargazers_count}
       </div>
       <div className="card__body">
         <p>{project?.groupName}</p>

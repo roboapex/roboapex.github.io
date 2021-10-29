@@ -28,6 +28,7 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        { to: '/about', label: 'About', position: 'left' },
         { to: '/projects', label: 'Projects', position: 'left' },
         { to: '/achievements', label: 'Achievements', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
