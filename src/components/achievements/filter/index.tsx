@@ -1,3 +1,5 @@
+import { URLSearchParams } from 'url';
+
 import { useLocation } from "@docusaurus/router";
 import clsx from "clsx";
 import React, { useEffect, useState } from "react";
