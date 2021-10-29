@@ -24,19 +24,19 @@ export default function AchievementsRow({
   return (
     <div className={style.row}>
       <div className={style.details}>
-        {competition?.logoURL === undefined ? undefined : (
-          <img
-            src={`https://raw.githubusercontent.com/roboapex/roboapex.github.io/main/data/competitions/${achievementCompetition.code}.png`}
-            onError={(e) => {e.target["src"] = "https://cataas.com/cat/cute"}}
-            alt={`${competition.name}'s Logo'`}
-            title={competition.name}
-            className={style.logo}
-          />
-        )}
-        <h1>
+        <img
+          src={`https://raw.githubusercontent.com/roboapex/roboapex.github.io/main/data/competitions/${achievementCompetition.code}.png`}
+          onError={(e) => {
+            e.target["src"] = "https://cataas.com/cat/cute";
+          }}
+          alt={`${competition.name}'s Logo'`}
+          title={competition.name}
+          className={style.logo}
+        />
+        <h2>
           {competition.name} {year}
-        </h1>
-        <p>{competition.desc}</p>
+        </h2>
+        <p>{achievementCompetition.desc}</p>
       </div>
       <div className={style.cards}>
         {achievementCompetition.awards.map((comp, i) => (
@@ -45,12 +45,20 @@ export default function AchievementsRow({
               <img
                 className={style.image}
                 src={comp.media?.[0]?.url ?? "https://cataas.com/cat/cute"}
-                alt={comp.media?.[0]?.caption ?? "cute cat because we got no image :>"}
-                title={comp.media?.[0]?.caption ?? "cute cat because we got no image :>"}
+                alt={
+                  comp.media?.[0]?.caption ??
+                  "cute cat because we got no image :>"
+                }
+                title={
+                  comp.media?.[0]?.caption ??
+                  "cute cat because we got no image :>"
+                }
               />
             </div>
             <div className="card__body">
-              <h3><i color="#f2ba2c" className="fas fa-trophy" /> {comp.title}</h3>
+              <h3>
+                <i color="#f2ba2c" className="fas fa-trophy" /> {comp.title}
+              </h3>
               <p style={{ marginTop: -10, fontSize: 15 }}>{comp.category}</p>
               <b style={{ fontSize: 15 }}>{comp.recipients.join(" | ")}</b>
             </div>

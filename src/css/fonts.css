@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: Ethnocentric;
-  src: url(../../static/fonts/Ethnocentric/Ethnocentric_100i.otf);
+  src: url(../../static/fonts/Ethnocentric/Ethnocentric_100n.otf);
   font-weight: 100;
   font-style: normal;
 }
@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: Ethnocentric;
-  src: url(../../static/fonts/Ethnocentric/Ethnocentric_200i.otf);
+  src: url(../../static/fonts/Ethnocentric/Ethnocentric_200n.otf);
   font-weight: 200;
   font-style: normal;
 }
@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: Ethnocentric;
-  src: url(../../static/fonts/Ethnocentric/Ethnocentric_300i.otf);
+  src: url(../../static/fonts/Ethnocentric/Ethnocentric_300n.otf);
   font-weight: 300;
   font-style: normal;
 }
@@ -49,7 +49,7 @@
 
 @font-face {
   font-family: Ethnocentric;
-  src: url(../../static/fonts/Ethnocentric/Ethnocentric_400i.otf);
+  src: url(../../static/fonts/Ethnocentric/Ethnocentric_400n.otf);
   font-weight: 400;
   font-style: normal;
 }
@@ -63,7 +63,7 @@
 
 @font-face {
   font-family: Ethnocentric;
-  src: url(../../static/fonts/Ethnocentric/Ethnocentric_700i.otf);
+  src: url(../../static/fonts/Ethnocentric/Ethnocentric_700n.otf);
   font-weight: 700;
   font-style: normal;
 }

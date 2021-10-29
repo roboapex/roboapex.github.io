@@ -4,6 +4,7 @@
     "competitions": [
       {
         "code": "rcsg",
+        "desc": "",
         "awards": [
           {
             "title": "2nd Place",
@@ -17,7 +18,7 @@
               "Javier Lim"
             ],
             "media": [
-              { 
+              {
                 "caption": "Rick Astley",
                 "url": "https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=1024"
               }
@@ -70,6 +71,7 @@
       },
       {
         "code": "fll",
+        "desc": "The theme of FLL is Replay and the main idea behind it is healthy living, where competitors have to participate in a robot mission and create an innovation product to help people be more active while having fun",
         "awards": [
           {
             "title": "3rd Place",
@@ -104,6 +106,7 @@
     "competitions": [
       {
         "code": "fll",
+        "desc": "",
         "awards": [
           {
             "title": "1st Place",

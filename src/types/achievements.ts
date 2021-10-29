@@ -7,6 +7,7 @@ export interface Achievements {
 
 export interface AchievementsCompetition {
   code: CompetitionCode;
+  desc: string;
   awards: AchievementsAward[];
   media?: AchievementsMedia[];
 }
@@ -23,4 +24,9 @@ export interface AchievementsAward {
 export interface AchievementsMedia {
   caption: string;
   url: string;
+}
+
+export interface AchievementsFilterProperties {
+  year: string
+  comp: string
 }

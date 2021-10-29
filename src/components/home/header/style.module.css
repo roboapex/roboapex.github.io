@@ -10,7 +10,8 @@
 }
 
 .title {
-  font-family: "Ethnocentric", monospace;
+  font-family: "Ethnocentric", var(--ifm-heading-font-family);
+  font-style: italic;
   font-weight: 700;
 }
 

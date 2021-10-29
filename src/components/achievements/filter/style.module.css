@@ -1,0 +1,9 @@
+.flex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon {
+  color: var(--ifm-link-color);
+}

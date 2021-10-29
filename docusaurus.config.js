@@ -24,7 +24,7 @@ module.exports = {
       hideOnScroll: true,
       title: 'Robotics @APEX',
       logo: {
-        alt: 'Robotics @APEX Logo',
+        alt: '🤖',
         src: 'img/logo.svg',
       },
       items: [
@@ -37,10 +37,6 @@ module.exports = {
           to: '/docs',
           items: baseDocPaths.map((e) => ({ to: `/${e.path}`, label: e.name }))
         },
-        // {
-        //   type: "search",
-        //   position: "right",
-        // },
       ],
     },
     footer: {
@@ -89,10 +85,6 @@ module.exports = {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
-    // algolia: {
-    //   apiKey: process.env.ALGOLIA_API_KEY,
-    //   indexName: 'YOUR_INDEX_NAME',
-    // },
   },
   presets: [
     [
