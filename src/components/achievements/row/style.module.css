@@ -45,8 +45,8 @@
   }
 
   .details {
-    min-width: 200px;
-    max-width: 200px; /* different from width: 300px */
+    min-width: 250px;
+    max-width: 250px; /* different from width: 250px */
     text-align: right;
   }
 
