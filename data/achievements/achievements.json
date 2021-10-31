@@ -4,7 +4,7 @@
     "competitions": [
       {
         "code": "rcsg",
-        "desc": "",
+        "desc": "In this competition, we had to complete a string of missions including line tracing, transporting elements and avoiding obstacles, all while overcoming barriers in having to work at home to complete the challenge due to COVID-19.",
         "awards": [
           {
             "title": "2nd Place",
@@ -71,7 +71,7 @@
       },
       {
         "code": "fll",
-        "desc": "The theme of FLL is Replay and the main idea behind it is healthy living, where competitors have to participate in a robot mission and create an innovation product to help people be more active while having fun",
+        "desc": "In FLL Replay, the theme is healthy living, where we had to program robots to complete missions and create an innovative product to aid people in being more active while also having fun",
         "awards": [
           {
             "title": "3rd Place",

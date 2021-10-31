@@ -16,7 +16,7 @@ export const CompetitionCodes: { [k: CompetitionCode]: Competition } = {
     }
   },
   rcsg: {
-    name: "Robocup Singapore",
+    name: "Robocup Singapore Open",
     website: "https://robocupsg.org/en/singaporeopen",
     categories: {
       rescue: "RCJ Rescue Line",

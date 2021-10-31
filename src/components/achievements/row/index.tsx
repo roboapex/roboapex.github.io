@@ -1,3 +1,4 @@
+import Link from "@docusaurus/Link";
 import clsx from "clsx";
 import React from "react";
 import { AchievementsCompetition } from "../../../types/achievements";
@@ -37,6 +38,7 @@ export default function AchievementsRow({
           {competition.name} {year}
         </h2>
         <p>{achievementCompetition.desc}</p>
+        <Link href={competition.website}>Visit Website</Link>
       </div>
       <div className={style.cards}>
         {achievementCompetition.awards.map((comp, i) => (
