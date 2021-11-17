@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Robotics @APEX Blog</title>
+        <link>https://roboapex.github.io/blog</link>
+        <description>Robotics @APEX Blog</description>
+        <lastBuildDate>Sun, 25 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hello World!]]></title>
+            <link>https://roboapex.github.io/blog/hello-world</link>
+            <guid>hello-world</guid>
+            <pubDate>Sun, 25 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello World!]]></description>
+        </item>
+    </channel>
+</rss>
