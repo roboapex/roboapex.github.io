@@ -1,3 +1,5 @@
+@use "src/styles/theme";
+
 @import url(fonts.css);
 
 /* 
@@ -13,29 +15,43 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(255, 0, 0, 0.3);
 } */
 
+// @if $dark-theme {
+//   $color-primary: #ff859c;
+//   $color-primary-dark: #f16e86;
+//   $color-primary-darker: #f05f79;
+//   $color-primary-darkest: #f54461;
+//   $color-primary-light: #ff97aa;
+//   $color-primary-lighter: #ffb0bc;
+//   $color-primary-lightest: #fac1ca;
+// }
+
 :root {
-  --ifm-color-primary: #E70033;
-  --ifm-color-primary-dark: #db0030;
-  --ifm-color-primary-darker: #CB0023;
-  --ifm-color-primary-darkest: #A60017;
-  --ifm-color-primary-light: #f54f6d;
-  --ifm-color-primary-lighter: #f86882;
-  --ifm-color-primary-lightest: #ff9fad;
+  --ifm-color-primary: #{theme.$color-primary};
+  --ifm-color-primary-dark: #{theme.$color-primary-dark};
+  --ifm-color-primary-darker: #{theme.$color-primary-darker};
+  --ifm-color-primary-darkest: #{theme.$color-primary-darkest};
+  --ifm-color-primary-light: #{theme.$color-primary-light};
+  --ifm-color-primary-lighter: #{theme.$color-primary-lighter};
+  --ifm-color-primary-lightest: #{theme.$color-primary-lightest};
   --ifm-code-font-size: 95%;
+
+  --ifm-font-family-base: "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+  'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
-html[data-theme='dark']:root {
-  --ifm-color-primary: #ff859c;
-  --ifm-color-primary-dark: #f16e86;
-  --ifm-color-primary-darker: #f05f79;
-  --ifm-color-primary-darkest: #f54461;
-  --ifm-color-primary-light: #ff97aa;
-  --ifm-color-primary-lighter: #ffb0bc;
-  --ifm-color-primary-lightest: #fac1ca;
-}
+// html[data-theme='dark']:root {
+//   --ifm-color-primary: #ff859c;
+//   --ifm-color-primary-dark: #f16e86;
+//   --ifm-color-primary-darker: #f05f79;
+//   --ifm-color-primary-darkest: #f54461;
+//   --ifm-color-primary-light: #ff97aa;
+//   --ifm-color-primary-lighter: #ffb0bc;
+//   --ifm-color-primary-lightest: #fac1ca;
+// }
 
 .navbar__title {
-  font-family: "Ethnocentric", var(--ifm-heading-font-family);
+  font-family: "Ethnocentric";
 }
 /* html[data-theme='dark'] {
   --ifm-color-feedback-background: #f0f8ff;

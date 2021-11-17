@@ -12,7 +12,6 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'roboapex',
   projectName: 'roboapex.github.io',
-  trailingSlash: true,
   themeConfig: {
     hideableSidebar: true,
     announcementBar: {
@@ -87,6 +86,7 @@ module.exports = {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
   },
+  plugins: [require.resolve('docusaurus-plugin-sass')],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -99,7 +99,6 @@ module.exports = {
             'https://github.com/roboapex/roboapex.github.io/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          sidebarCollapsible: true
         },
         blog: {
           showReadingTime: true,
@@ -107,7 +106,7 @@ module.exports = {
             'https://github.com/roboapex/roboapex.github.io/edit/main/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/styles/custom.scss')],
         },
       },
     ],

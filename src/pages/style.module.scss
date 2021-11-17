@@ -1,0 +1,11 @@
+@use "src/styles/theme";
+
+.sections section {
+  padding: 20px 5vw 40px 5vw;
+}
+
+@media (min-width: 996px) {
+  .sections section {
+    padding: 32px 100px 70px 100px;
+  }
+}

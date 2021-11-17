@@ -33,15 +33,41 @@ const sections: AboutSection[] = [
     )},
     { subhead: "What we do", desc: (
       <>
-        Here, we compete in a myriad of competitions including... through snr jnr learning, (see our insta page the bottom)
+      In Robotics @APEX, we use technologies such as LEGO Mindstorms EV3, MakeX, VEX, Arduino and Raspberry Pi, to compete in a myriad of competitions both local and international, and to engineer robots that benefit the community.
+      
+      through snr jnr learning, (see our insta page the bottom)
+      With these, students enhance their learning in SST as they acquire various practical skills and technical knowledge that is important in the digital future. 
       </>
     )},
     { subhead: "Where we work", desc: (
       <>
-        We work, live and play in the Robotics Room, which is located in the SST compound at Block C on Level 3. There we have many facilities including 
+        We work, live and play in the Robotics Room, which is located in the SST compound on the 3rd floor of Block C. There we have many facilities including
       </>
     )}
   ]},
+  {
+    head: "Culture",
+    subsections: [
+      {
+        subhead: "Senior-Junior Sharing",
+        desc: (
+          <>In Robotics@APEX, we freely approach seniors and mentors to discuss how we can improve our robots and creations. Through their encouragement and constructive criticism, we improve and grow together as a club, building trust and forming positive relationships amongst ourselves. Here are some of our Secondary 4 seniors and our trainer guiding our Secondary 1s.</>
+        )
+      },
+      {
+        subhead: "Passion for Robotics",
+        desc: (
+          <>Our passion for Robotics is what fuels us to strive for greater heights! As competitions draw near, many of us spend extra time returning to school during the holidays in preparation for upcoming competitions! Before the COVID-19 pandemic, some of us would also devote hours after school to Robotics, diligently developing our robot for competitions and projects.</>
+        )
+      },
+      {
+        subhead: "Creative Projects",
+        desc: (
+          <>Besides preparing for competitions, students also get to work on their own projects to express themselves creatively through unique inventions and innovations. The picture shows one of our creations, a robotic arm activated by LEGO touch sensors.</>
+        )
+      }
+    ]
+  },
   {
     head: "Mission, Vision and Values",
     subsections: [

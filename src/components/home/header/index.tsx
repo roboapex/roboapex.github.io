@@ -18,8 +18,8 @@ export default function HomeHeader() {
   }, [])
 
   return (
-    <header className={style.header} style={{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${useBaseUrl(`/img/home/${imageIndex}.jpg`)})` }}>
-      <div className="container">
+    <section className={style.header} style={{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.95) ), url(${useBaseUrl(`/img/home/header/${imageIndex}.jpg`)})` }}>
+      <div>
         <h1 className={clsx("hero__title", style.title)}>{siteConfig.title}</h1>
         <p className={clsx("hero__subtitle", style.tagline)}>{siteConfig.tagline}</p>
         <div
@@ -39,6 +39,6 @@ export default function HomeHeader() {
           ))}
         </div>
       </div>
-    </header>
+    </section>
   );
 }

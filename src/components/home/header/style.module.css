@@ -1,5 +1,4 @@
 .header {
-  padding: 3rem 0;
   position: relative;
   overflow: hidden;
   height: 400;
@@ -10,7 +9,7 @@
 }
 
 .title {
-  font-family: "Ethnocentric", var(--ifm-heading-font-family);
+  font-family: "Ethnocentric";
   font-style: italic;
   font-weight: 700;
 }
@@ -32,10 +31,4 @@
   height: 100%;
   width: 100%;
   background-color: #ffffff44;
-}
-
-@media (min-width: 996px) {
-  .header {
-    padding: 3rem 100px;
-  }
 }
