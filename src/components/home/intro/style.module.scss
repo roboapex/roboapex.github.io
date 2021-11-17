@@ -11,9 +11,20 @@
 }
 
 .content > span {
-  background-color: rgba(theme.$color-primary, 0.4);
   font-weight: bold;
   font-style: italic;
+}
+
+.mission .content > span {
+  background-color: rgba(theme.$color-red, 0.4);
+}
+
+.vision .content > span {
+  background-color: rgba(theme.$color-blue, 0.4);
+}
+
+.values .content > span {
+  background-color: rgba(theme.$color-yellow, 0.4);
 }
 
 .section {
@@ -21,12 +32,7 @@
   background-size: clamp(400px, 50%, 500px);
   color: #fff;
   display: grid;
-  // grid-template-columns: repeat(3, 1fr);
-  // grid-template-rows: repeat(3, );
-  grid-template: 
-            "m2 m1 m1" auto
-            "v2 v1 v1" auto
-            "c1 c2 c3" auto / 1fr 1fr 1fr;
+  grid-template: repeat(6, auto) / 1fr;
   align-items: center;
 }
 
@@ -34,5 +40,9 @@
 @media (min-width: 996px) {
   .content {
     font-size: 30px;
+  }
+
+  .section {
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
   }
 }

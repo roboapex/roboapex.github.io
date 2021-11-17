@@ -11,6 +11,10 @@ export default function HomePage() {
       <div className={style.sections}>
         <HomeHeader />
         <HomeIntro />
+        <div className={style.tape}>
+          <img src="/img/home/intro/tape.png" alt="" />
+        </div>
+        <div style={{ height: 300, backgroundColor: "green" }}></div>
       </div>
     </ThemeLayout>
     // <Layout

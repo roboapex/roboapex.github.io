@@ -1,7 +1,23 @@
 @use "src/styles/theme";
 
+.sections {
+  overflow: hidden; // for tape
+}
+
 .sections section {
   padding: 20px 5vw 40px 5vw;
+}
+
+.tape {
+  position: relative;
+  height: 0;
+}
+
+.tape img {
+  transform: scaleX(-1);
+  position: absolute;
+  top: -60px;
+  min-width: 1500px;
 }
 
 @media (min-width: 996px) {
