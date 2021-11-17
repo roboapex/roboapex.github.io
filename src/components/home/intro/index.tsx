@@ -4,8 +4,8 @@ import style from "./style.module.scss";
 
 export default function HomeIntro() {
   return (
-    <section className={style.section}>
-      <div className={style.mission} style={{ gridArea: "1/2/1/4" }}>
+    <section className={style.main}>
+      <div className={style.mission}>
         <h3 className={style.head}>OUR MISSION</h3>
         <p className={style.content}>
           To nuture <span>passionate innovators</span> who{" "}
@@ -17,11 +17,11 @@ export default function HomeIntro() {
       <img
         src="img/home/intro/mission.png"
         alt=""
-        style={{ gridArea: "1/1/1/1" }}
+        className={style.missionImage}
       />
       <div
         className={style.values}
-        style={{ textAlign: "center", gridArea: "2/2/2/2" }}
+        style={{ textAlign: "center" }}
       >
         <h3 className={style.head}>OUR VALUES</h3>
         <p className={style.content}>
@@ -35,7 +35,7 @@ export default function HomeIntro() {
       </div>
       <div
         className={style.vision}
-        style={{ textAlign: "right", gridArea: "3/1/4/3" }}
+        style={{ textAlign: "right" }}
       >
         <h3 className={style.head}>OUR VISION</h3>
         <p className={style.content}>
@@ -46,7 +46,7 @@ export default function HomeIntro() {
       <img
         src="img/home/intro/vision.png"
         alt=""
-        style={{ gridArea: "3/3/4/3" }}
+        className={style.visionImage}
       />
     </section>
   );

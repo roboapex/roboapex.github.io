@@ -1,11 +1,16 @@
+@use "src/styles/theme";
+
 .header {
   position: relative;
   overflow: hidden;
-  height: 400;
+  height: 500px;
 
   background-position: center;
   background-size: cover;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title {
@@ -31,4 +36,18 @@
   height: 100%;
   width: 100%;
   background-color: #ffffff44;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons a {
+  color: white !important;
+}
+
+.buttons a:hover {
+  background-color: theme.$color-red !important;
+  border-color: theme.$color-red !important;
 }

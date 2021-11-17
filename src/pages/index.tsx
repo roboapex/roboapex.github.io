@@ -1,6 +1,7 @@
 import React from "react";
 import HomeHeader from "../components/home/header";
 import HomeIntro from "../components/home/intro";
+import HomeStats from "../components/home/stats";
 
 import style from "./style.module.scss";
 import ThemeLayout from "../components/theme/layout";
@@ -12,9 +13,12 @@ export default function HomePage() {
         <HomeHeader />
         <HomeIntro />
         <div className={style.tape}>
+          <img src="/img/home/intro/tape.png" alt="" style={{ transform: "scaleX(-1)" }} />
+        </div>
+        <HomeStats />
+        <div className={style.tape}>
           <img src="/img/home/intro/tape.png" alt="" />
         </div>
-        <div style={{ height: 300, backgroundColor: "green" }}></div>
       </div>
     </ThemeLayout>
     // <Layout
