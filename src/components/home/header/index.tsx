@@ -29,8 +29,8 @@ export default function HomeHeader() {
         )})`,
       }}
     >
-        <h1 className={clsx("hero__title", style.title)}>{siteConfig.title}</h1>
-        <p className={clsx("hero__subtitle", style.tagline)}>
+        <h1 className={style.title}><span>Robotics</span> <span>@APEX</span></h1>
+        <p className={style.tagline}>
           Founded in 2010, Robotics @APEX is a niche CCA in the School of
           Science and Technology, Singapore
         </p>
