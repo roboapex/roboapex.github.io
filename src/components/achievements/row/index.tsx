@@ -22,11 +22,13 @@ export default function AchievementsRow({
 
   const competition = CompetitionCodes[achievementCompetition.code];
 
+  console.log(achievementCompetition);
+  
   return (
     <div className={style.row}>
       <div className={style.details}>
         <img
-          src={`https://raw.githubusercontent.com/roboapex/roboapex.github.io/main/data/competitions/${achievementCompetition.code}.png`}
+          src={`https://raw.githubusercontent.com/roboapex/roboapex.github.io/main/data/competitions/${achievementCompetition.code}_${achievementCompetition.region}.png`}
           onError={(e) => {
             e.target["src"] = "https://cataas.com/cat/cute";
           }}
