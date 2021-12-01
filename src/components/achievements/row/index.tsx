@@ -16,23 +16,34 @@ export default function AchievementsRow({
     if (!url.startsWith("http"))
       return `https://raw.githubusercontent.com/roboapex/roboapex.github.io/main/data/achievements/${year.toString()}/${
         achievementCompetition.code
-      }/${url}`;
+      }_${achievementCompetition.region}/${url}`;
     return url;
   };
 
   const competition = CompetitionCodes[achievementCompetition.code];
 
   console.log(achievementCompetition);
-  
+
+  const onImageUnavailable = (
+    e: React.SyntheticEvent<HTMLImageElement, Event>,
+    key?: string
+  ) => {
+    e.target[
+      "src"
+    ] = `https://cataas.com/cat/cute?_=${year}${achievementCompetition.code}${key ?? "logo"}`;
+    e.target["alt"] = "cute cat because we got no image :>";
+    e.target["title"] = "cute cat because we got no image :>";
+  };
+
   return (
     <div className={style.row}>
       <div className={style.details}>
         <img
           src={`https://raw.githubusercontent.com/roboapex/roboapex.github.io/main/data/competitions/${achievementCompetition.code}_${achievementCompetition.region}.png`}
-          onError={(e) => {
-            e.target["src"] = `https://cataas.com/cat/cute?_=${year}`;
-          }}
-          alt={`${competition.regions[achievementCompetition.region].name}'s Logo'`}
+          onError={onImageUnavailable}
+          alt={`${
+            competition.regions[achievementCompetition.region].name
+          }'s Logo'`}
           title={competition.regions[achievementCompetition.region].name}
           className={style.logo}
         />
@@ -40,7 +51,13 @@ export default function AchievementsRow({
           {competition.regions[achievementCompetition.region].name} {year}
         </h2>
         <p>{achievementCompetition.desc}</p>
-        <Link href={competition.regions[achievementCompetition.region].website ?? ""}>Visit Website</Link>
+        <Link
+          href={
+            competition.regions[achievementCompetition.region].website ?? ""
+          }
+        >
+          Visit Website
+        </Link>
       </div>
       <div className={style.cards}>
         {achievementCompetition.awards.map((comp, i) => (
@@ -48,15 +65,10 @@ export default function AchievementsRow({
             <div className="card__image">
               <img
                 className={style.image}
-                src={comp.media?.[0]?.url ?? `https://cataas.com/cat/cute?_=${year}${achievementCompetition.code}${i}`}
-                alt={
-                  comp.media?.[0]?.caption ??
-                  "cute cat because we got no image :>"
-                }
-                title={
-                  comp.media?.[0]?.caption ??
-                  "cute cat because we got no image :>"
-                }
+                src={resolveURL(comp.team.toLowerCase())}
+                onError={(e) => { onImageUnavailable(e, `${i}`) }}
+                alt={comp.team}
+                title={comp.team}
               />
             </div>
             <div className="card__body">

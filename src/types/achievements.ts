@@ -19,7 +19,6 @@ export interface AchievementsAward {
   team: string;
   project: string; // TODO
   recipients: string[];
-  media?: AchievementsMedia[];
 }
 
 export interface AchievementsMedia {

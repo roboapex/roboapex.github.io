@@ -38,7 +38,7 @@ with open("./achievements.csv", encoding='utf-8', mode='r') as fin:
           "category": row[4],
           "title": row[5],
           "team": row[6],
-          "recipients": row[7].split(",")
+          "recipients": row[7].split(", ")
         })
       except:
         raise RuntimeError("Error occurred on Row {}. This error may or may not have been due to input data.".format(i))
