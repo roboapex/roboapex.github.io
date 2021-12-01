@@ -43,5 +43,6 @@ with open("./achievements.csv", encoding='utf-8', mode='r') as fin:
       except:
         raise RuntimeError("Error occurred on Row {}. This error may or may not have been due to input data.".format(i))
 
+    json_data.reverse()
     print(json.dumps(json_data, indent=2, sort_keys=True))
     fout.write(json.dumps(json_data, indent=2, sort_keys=True))

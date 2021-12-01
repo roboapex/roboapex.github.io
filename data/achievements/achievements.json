@@ -4,6 +4,196 @@
       {
         "awards": [
           {
+            "category": "Champions Award (Secondary)",
+            "recipients": [
+              "Vijaya Bhargavi",
+              " Soin Wei Dong",
+              " Ang Shaal Josh"
+            ],
+            "team": "",
+            "title": "3rd Place"
+          },
+          {
+            "category": "Robot Performance Award (Secondary)",
+            "recipients": [
+              "Irman Zafyree Bin Irmanizam",
+              " Chin Jian Wen",
+              " Favian Loh Dai Yong",
+              " Leow Kar Lok"
+            ],
+            "team": "",
+            "title": "4th Place"
+          }
+        ],
+        "code": "fll",
+        "desc": "First Lego League Challenge Singapore RePlay",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "Technical Challenge, RoboCupJunior Rescue Line (U19)",
+            "recipients": [
+              "Koh Yi Lei Elliot",
+              " Ryan Theodore The",
+              " Koh Jie Ming Xavier",
+              " Javier Lim"
+            ],
+            "team": "HexaMatrix",
+            "title": "2nd Place"
+          },
+          {
+            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
+            "recipients": [
+              "Koh Yi Lei Elliot",
+              " Ryan Theodore The",
+              " Koh Jie Ming Xavier",
+              " Javier Lim"
+            ],
+            "team": "HexaMatrix",
+            "title": "Merit"
+          },
+          {
+            "category": "RCAP CoSpace Autonomous Driving (U19)",
+            "recipients": [
+              "Aathithya Jegatheesan"
+            ],
+            "team": "",
+            "title": "3rd Place"
+          },
+          {
+            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
+            "recipients": [
+              "Shanjiith Pranov Gayathri Vijayaraghavan",
+              " Wong Le Yang",
+              " Lee Wei Hao Andy",
+              " Ang Kai Jie Jovan"
+            ],
+            "team": "",
+            "title": "Distinction"
+          },
+          {
+            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
+            "recipients": [
+              "Lim Meng Shin",
+              " Seng Kay Kang Jerick",
+              " Brayden Ziyang Saga"
+            ],
+            "team": "",
+            "title": "Distinction"
+          },
+          {
+            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
+            "recipients": [
+              "Bu Ping Jin",
+              " Kunwar Khushi Karansingh",
+              " Ysabelle Wong Sze Han",
+              " Phang Qian Ci"
+            ],
+            "team": "",
+            "title": "Merit"
+          }
+        ],
+        "code": "robocup",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "RCAP CoSpace Autonomous Driving (U19)",
+            "recipients": [
+              "Aathithya Jegatheesan"
+            ],
+            "team": "",
+            "title": "1st Place"
+          }
+        ],
+        "code": "robocup",
+        "desc": "",
+        "region": "aptji"
+      },
+      {
+        "awards": [
+          {
+            "category": "IDE Robotics",
+            "recipients": [
+              "Keston Chan Jing Hoi",
+              " Kyle Ian Lim Ming Sheng"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          }
+        ],
+        "code": "ide",
+        "desc": "",
+        "region": "sg"
+      }
+    ],
+    "year": 2021
+  },
+  {
+    "competitions": [
+      {
+        "awards": [
+          {
+            "category": "Research Award",
+            "recipients": [
+              "Shakeer Farihin Bin Mohammed",
+              " Shayden Wong",
+              " Evangeline Teo Jia Xuan",
+              " Sahni Bhvya"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Innovative Solutions Award",
+            "recipients": [
+              "Favian Loh Dai Yong",
+              " Leow Kar Lok",
+              " Irman Zafyree Bin Irmanizam",
+              " Chin Jian Wen"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          }
+        ],
+        "code": "fll",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "RCAP CoSpace Rescue Challenge (U19)",
+            "recipients": [
+              "Koh Yi Lei Elliot"
+            ],
+            "team": "",
+            "title": "Finalist"
+          },
+          {
+            "category": "RCAP CoSpace Rescue Challenge (U19)",
+            "recipients": [
+              "Khor Ivan"
+            ],
+            "team": "",
+            "title": "Finalist"
+          }
+        ],
+        "code": "robocup",
+        "desc": "",
+        "region": "icool"
+      }
+    ],
+    "year": 2020
+  },
+  {
+    "competitions": [
+      {
+        "awards": [
+          {
             "category": "IDE Mech Wars",
             "recipients": [
               "Ean Kai Lew",
@@ -244,195 +434,5 @@
       }
     ],
     "year": 2019
-  },
-  {
-    "competitions": [
-      {
-        "awards": [
-          {
-            "category": "Research Award",
-            "recipients": [
-              "Shakeer Farihin Bin Mohammed",
-              " Shayden Wong",
-              " Evangeline Teo Jia Xuan",
-              " Sahni Bhvya"
-            ],
-            "team": "",
-            "title": "Champions"
-          },
-          {
-            "category": "Innovative Solutions Award",
-            "recipients": [
-              "Favian Loh Dai Yong",
-              " Leow Kar Lok",
-              " Irman Zafyree Bin Irmanizam",
-              " Chin Jian Wen"
-            ],
-            "team": "",
-            "title": "1st Runner-up"
-          }
-        ],
-        "code": "fll",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
-          {
-            "category": "RCAP CoSpace Rescue Challenge (U19)",
-            "recipients": [
-              "Koh Yi Lei Elliot"
-            ],
-            "team": "",
-            "title": "Finalist"
-          },
-          {
-            "category": "RCAP CoSpace Rescue Challenge (U19)",
-            "recipients": [
-              "Khor Ivan"
-            ],
-            "team": "",
-            "title": "Finalist"
-          }
-        ],
-        "code": "robocup",
-        "desc": "",
-        "region": "icool"
-      }
-    ],
-    "year": 2020
-  },
-  {
-    "competitions": [
-      {
-        "awards": [
-          {
-            "category": "Champions Award (Secondary)",
-            "recipients": [
-              "Vijaya Bhargavi",
-              " Soin Wei Dong",
-              " Ang Shaal Josh"
-            ],
-            "team": "",
-            "title": "3rd Place"
-          },
-          {
-            "category": "Robot Performance Award (Secondary)",
-            "recipients": [
-              "Irman Zafyree Bin Irmanizam",
-              " Chin Jian Wen",
-              " Favian Loh Dai Yong",
-              " Leow Kar Lok"
-            ],
-            "team": "",
-            "title": "4th Place"
-          }
-        ],
-        "code": "fll",
-        "desc": "First Lego League Challenge Singapore RePlay",
-        "region": "sg"
-      },
-      {
-        "awards": [
-          {
-            "category": "Technical Challenge, RoboCupJunior Rescue Line (U19)",
-            "recipients": [
-              "Koh Yi Lei Elliot",
-              " Ryan Theodore The",
-              " Koh Jie Ming Xavier",
-              " Javier Lim"
-            ],
-            "team": "HexaMatrix",
-            "title": "2nd Place"
-          },
-          {
-            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
-            "recipients": [
-              "Koh Yi Lei Elliot",
-              " Ryan Theodore The",
-              " Koh Jie Ming Xavier",
-              " Javier Lim"
-            ],
-            "team": "HexaMatrix",
-            "title": "Merit"
-          },
-          {
-            "category": "RCAP CoSpace Autonomous Driving (U19)",
-            "recipients": [
-              "Aathithya Jegatheesan"
-            ],
-            "team": "",
-            "title": "3rd Place"
-          },
-          {
-            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
-            "recipients": [
-              "Shanjiith Pranov Gayathri Vijayaraghavan",
-              " Wong Le Yang",
-              " Lee Wei Hao Andy",
-              " Ang Kai Jie Jovan"
-            ],
-            "team": "",
-            "title": "Distinction"
-          },
-          {
-            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
-            "recipients": [
-              "Lim Meng Shin",
-              " Seng Kay Kang Jerick",
-              " Brayden Ziyang Saga"
-            ],
-            "team": "",
-            "title": "Distinction"
-          },
-          {
-            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
-            "recipients": [
-              "Bu Ping Jin",
-              " Kunwar Khushi Karansingh",
-              " Ysabelle Wong Sze Han",
-              " Phang Qian Ci"
-            ],
-            "team": "",
-            "title": "Merit"
-          }
-        ],
-        "code": "robocup",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
-          {
-            "category": "RCAP CoSpace Autonomous Driving (U19)",
-            "recipients": [
-              "Aathithya Jegatheesan"
-            ],
-            "team": "",
-            "title": "1st Place"
-          }
-        ],
-        "code": "robocup",
-        "desc": "",
-        "region": "aptji"
-      },
-      {
-        "awards": [
-          {
-            "category": "IDE Robotics",
-            "recipients": [
-              "Keston Chan Jing Hoi",
-              " Kyle Ian Lim Ming Sheng"
-            ],
-            "team": "",
-            "title": "2nd Runner-up"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
-        "region": "sg"
-      }
-    ],
-    "year": 2021
   }
 ]
