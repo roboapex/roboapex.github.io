@@ -34,7 +34,7 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
         website: "https://robocupsg.org/en/singaporeopen",
       },
       aptji: {
-        name: "RoboCup Asia-Pacific Tianjin"
+        name: "RoboCup Asia-Pacific Tianjin Invitational Tournament"
       },
       icool: {
         name: "International CoSpace OnLine (iCooL) Challenge @Virtual RoboCup",
