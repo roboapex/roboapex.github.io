@@ -40,6 +40,8 @@ with open("./achievements.csv", encoding='utf-8', mode='r') as fin:
           "team": row[6],
           "recipients": row[7].split(", ")
         })
+
+        json_data[-1]["competitions"].reverse()
       except:
         raise RuntimeError("Error occurred on Row {}. This error may or may not have been due to input data.".format(i))
 
