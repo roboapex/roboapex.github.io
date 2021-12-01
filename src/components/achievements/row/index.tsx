@@ -30,7 +30,7 @@ export default function AchievementsRow({
         <img
           src={`https://raw.githubusercontent.com/roboapex/roboapex.github.io/main/data/competitions/${achievementCompetition.code}_${achievementCompetition.region}.png`}
           onError={(e) => {
-            e.target["src"] = "https://cataas.com/cat/cute";
+            e.target["src"] = `https://cataas.com/cat/cute?_=${year}`;
           }}
           alt={`${competition.regions[achievementCompetition.region].name}'s Logo'`}
           title={competition.regions[achievementCompetition.region].name}
@@ -48,7 +48,7 @@ export default function AchievementsRow({
             <div className="card__image">
               <img
                 className={style.image}
-                src={comp.media?.[0]?.url ?? "https://cataas.com/cat/cute"}
+                src={comp.media?.[0]?.url ?? `https://cataas.com/cat/cute?_=${year}${achievementCompetition.code}${i}`}
                 alt={
                   comp.media?.[0]?.caption ??
                   "cute cat because we got no image :>"
