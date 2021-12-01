@@ -3,7 +3,7 @@
 import csv, json
 
 with open("./achievements.csv", encoding='utf-8', mode='r') as fin:
-  with open("./achievements-t.json", mode="w") as fout:
+  with open("./achievements.json", mode="w") as fout:
     csv_data = list(csv.reader(fin))
     json_data = []
     
@@ -13,8 +13,12 @@ with open("./achievements.csv", encoding='utf-8', mode='r') as fin:
       # Handle Year columns
       if row[0].strip() != "":
         year = row[0]
+        try: 
+          int_year = int(row[0])
+        except:
+          raise TypeError("Invalid year on Row {}.".format(i))
         json_data.append({
-          "year": row[0],
+          "year": int_year,
           "competitions": []
         })
       
@@ -33,7 +37,7 @@ with open("./achievements.csv", encoding='utf-8', mode='r') as fin:
         "category": row[4],
         "title": row[5],
         "team": row[6],
-        "recipients": row[7]
+        "recipients": row[7].split(",")
       })
 
     print(json.dumps(json_data, indent=2, sort_keys=True))
