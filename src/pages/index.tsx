@@ -2,6 +2,7 @@ import React from "react";
 import HomeHeader from "../components/home/header";
 import HomeIntro from "../components/home/intro";
 import HomeStats from "../components/home/stats";
+import HomeSocial from "../components/home/stats";
 
 import style from "./style.module.scss";
 import ThemeLayout from "../components/theme/layout";
@@ -19,6 +20,7 @@ export default function HomePage() {
         <div className={style.tape}>
           <img src="/img/home/intro/tape.png" alt="" />
         </div>
+        <HomeSocial />
       </div>
     </ThemeLayout>
     // <Layout

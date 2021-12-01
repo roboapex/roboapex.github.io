@@ -1,4 +1,4 @@
-import { CompetitionCode } from "./competitions";
+import { CompetitionEventCode, CompetitionRegionCode } from "./competitions";
 
 export interface Achievements {
   year: number;
@@ -6,7 +6,8 @@ export interface Achievements {
 }
 
 export interface AchievementsCompetition {
-  code: CompetitionCode;
+  code: CompetitionEventCode;
+  region: CompetitionRegionCode;
   desc: string;
   awards: AchievementsAward[];
   media?: AchievementsMedia[];

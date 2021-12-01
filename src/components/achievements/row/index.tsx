@@ -30,15 +30,15 @@ export default function AchievementsRow({
           onError={(e) => {
             e.target["src"] = "https://cataas.com/cat/cute";
           }}
-          alt={`${competition.name}'s Logo'`}
-          title={competition.name}
+          alt={`${competition.regions[achievementCompetition.region].name}'s Logo'`}
+          title={competition.regions[achievementCompetition.region].name}
           className={style.logo}
         />
         <h2>
-          {competition.name} {year}
+          {competition.regions[achievementCompetition.region].name} {year}
         </h2>
         <p>{achievementCompetition.desc}</p>
-        <Link href={competition.website}>Visit Website</Link>
+        <Link href={competition.regions[achievementCompetition.region].website ?? ""}>Visit Website</Link>
       </div>
       <div className={style.cards}>
         {achievementCompetition.awards.map((comp, i) => (

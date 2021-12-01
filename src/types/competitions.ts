@@ -1,75 +1,107 @@
-export interface Competition {
-  name: string;
-  website: string;
+export interface CompetitionEvent {
   categories: { [k: string]: string };
+  regions: { [k: string]: CompetitionRegion }
 }
 
-export type CompetitionCode = string
-export const CompetitionCodes: { [k: CompetitionCode]: Competition } = {
+export interface CompetitionRegion {
+  name: string;
+  website?: string;
+}
+
+export type CompetitionRegionCode = string
+export type CompetitionEventCode = "nrc" | "robocup" | "fll" | "ide" | "apyrc" | "vex" | "bullseye"
+export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent } = {
   nrc: {
-    name: "National Robotics Competition",
-    website: "https://ducklearning.com/pages/nrc-sg",
     categories: {
       reg: "Regular",
       open: "Open",
       fe: "Future Engineer",
+    },
+    regions: {
+      sg: {
+        name: "National Robotics Competition (Singapore)",
+        website: "https://ducklearning.com/pages/nrc-sg"
+      }
     }
   },
-  rcsg: {
-    name: "Robocup Singapore Open",
-    website: "https://robocupsg.org/en/singaporeopen",
+  robocup: {
     categories: {
       rescue: "RCJ Rescue Line",
     },
+    regions: {
+      sg: {
+        name: "Robocup Singapore Open",
+        website: "https://robocupsg.org/en/singaporeopen",
+      },
+      aptji: {
+        name: "RoboCup Asia-Pacific Tianjin"
+      },
+      icool: {
+        name: "International CoSpace OnLine (iCooL) Challenge @Virtual RoboCup",
+        website: "https://robocupap.org/icool2020/"
+      }
+    }
   },
   fll: {
-    name: "First LEGO League",
-    website: "https://www.firstlegoleague.org/",
     categories: {
       challenge: "Challenge",
     },
+    regions: {
+      sg: {
+        name: "First LEGO League",
+        website: "https://www.firstlegoleague.org/",
+      }
+    }
   },
   ide: {
-    name: "IDE (Innovation, Design and Engineering) Series",
-    website: "https://ideseries.org/",
     categories: {
-      mission: "IDE Robotics Mission",
-      mechwars: "IDE Mech Wars"
+      robotics: "IDE Robotics",
+      mechwars: "IDE Mech Wars",
+      sprint: "IDE Sprint"
+    },
+    regions: {
+      sg: {
+        name: "IDE (Innovation, Design and Engineering) Series",
+        website: "https://ideseries.org/",
+      }
     }
   },
   apyrc: {
-    name: "Asia Pacific Youth Robotics Competition",
-    website: "https://apyrc.com/",
     categories: {
       
+    },
+    regions: {
+      sg: {
+        name: "Asia Pacific Youth Robotics Competition",
+        website: "https://apyrc.com/"
+      },
     }
   },
-  vexsg: {
-    name: "Singapore VEX Robotics Competition",
-    website: "",
+  vex: {
     categories: {
       
-    }
-  },
-  vexap: {
-    name: "Asia-Pacific VEX Robotics Championship",
-    website: "",
-    categories: {
-      
-    }
-  },
-  vexworld: {
-    name: "VEX Robotics World Championship",
-    website: "",
-    categories: {
-      
+    },
+    regions: {
+      sg: {
+        name: "Singapore VEX Robotics Competition"
+      },
+      ap: {
+        name: "Asia-Pacific VEX Robotics Championship"
+      },
+      world: {
+        name: "VEX Robotics World Championship"
+      }
     }
   },
   bullseye: {
-    name: "Bull’s Eye Competition",
-    website: "https://victoria.moe.edu.sg/bulls-eye-competition/",
     categories: {
       
+    },
+    regions: {
+      sg: {
+        name: "Bull’s Eye Competition",
+        website: "https://victoria.moe.edu.sg/bulls-eye-competition/"
+      }
     }
   }
 };

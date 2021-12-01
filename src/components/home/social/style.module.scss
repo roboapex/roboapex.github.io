@@ -1,9 +1,8 @@
 @use "src/styles/theme";
 
 .main {
-  background-image: url(../../../../static/img/home/stats/trophies.jpg);
-  background-position: center;
-  height: 800px;
+  background-color: theme.$color-white;
+  height: 400px;
   display: grid;
   place-items: center;
 }
