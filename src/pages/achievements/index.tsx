@@ -42,7 +42,7 @@ export default function AchievementsPage() {
       />
       <div className={style.awards}>
         {filtered?.map((a, i) => (
-          <>
+          <React.Fragment key={i}>
             <h1 className={style.yearHeader}>{a.year}</h1>
             {a.competitions.map((e, i) => (
               <AchievementsRow
@@ -51,7 +51,7 @@ export default function AchievementsPage() {
                 year={a.year}
               />
             ))}
-          </>
+          </React.Fragment>
         ))}
       </div>
     </ThemeLayout>
