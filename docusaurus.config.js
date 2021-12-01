@@ -30,7 +30,6 @@ module.exports = {
         { to: '/about', label: 'About', position: 'left' },
         { to: '/projects', label: 'Projects', position: 'left' },
         { to: '/achievements', label: 'Achievements', position: 'left' },
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
           position: 'left',
           label: 'Docs',
@@ -99,11 +98,6 @@ module.exports = {
             'https://github.com/roboapex/roboapex.github.io/edit/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/roboapex/roboapex.github.io/edit/main/blog/',
         },
         theme: {
           customCss: [require.resolve('./src/styles/custom.scss')],
