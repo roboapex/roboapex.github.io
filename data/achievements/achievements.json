@@ -4,6 +4,252 @@
       {
         "awards": [
           {
+            "category": "IDE Mech Wars",
+            "recipients": [
+              "Ean Kai Lew",
+              " Gan Sim Ru Dayna"
+            ],
+            "team": "",
+            "title": "Champions"
+          }
+        ],
+        "code": "ide",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "The Innovative Solution",
+            "recipients": [
+              "Tew Jing An",
+              " Keison Tan Jing En",
+              " Tan Lik Tjun Bryan"
+            ],
+            "team": "",
+            "title": "Champions"
+          }
+        ],
+        "code": "fll",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "Overall",
+            "recipients": [
+              "Lee Kuan Hwee Ivan",
+              " Lo Hoi Seng",
+              " Fong Ze Yeung"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Overall",
+            "recipients": [
+              "Tan Jeng Khiang Damien",
+              " Hannah Ng Xiao Han",
+              " Tang Ning Chloe Nicholle"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          },
+          {
+            "category": "Overall",
+            "recipients": [
+              "Leo Phyo Hein",
+              " Richard Kok Zen Xian",
+              " Ng Yao Zhu Isaiah"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          },
+          {
+            "category": "Design Award",
+            "recipients": [
+              "Lee Kuan Hwee Ivan",
+              " Lo Hoi Seng",
+              " Fong Ze Yeung"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Driver Skills Award",
+            "recipients": [
+              "Lee Kuan Hwee Ivan",
+              " Lo Hoi Seng",
+              " Fong Ze Yeung"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          }
+        ],
+        "code": "vex",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "Alpine Challenge",
+            "recipients": [
+              "Kee Bing Heng",
+              " Hannah Ng Xiao Han",
+              " Tang Ning Chloe Nicholle",
+              " Wee Hong Jie Julian"
+            ],
+            "team": "",
+            "title": "Gold"
+          },
+          {
+            "category": "Line Tracing Challenge",
+            "recipients": [
+              "Gan Sim Ru Dayna",
+              " Khor Ivan",
+              " Nguyen Ngoc Bao Tram",
+              " Owen Gamaliano Wiyana"
+            ],
+            "team": "",
+            "title": "Silver"
+          },
+          {
+            "category": "Line Tracing Challenge",
+            "recipients": [
+              "Shayden Wong",
+              " Evangeline Teo",
+              " Ho Min Han Delvin",
+              " Lee Kuan Hee Ivan"
+            ],
+            "team": "",
+            "title": "Silver"
+          }
+        ],
+        "code": "roborave",
+        "desc": "",
+        "region": "int"
+      },
+      {
+        "awards": [
+          {
+            "category": "Sumo Category",
+            "recipients": [
+              "Tew Jing An",
+              " Tan Lit Tjun Bryan"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          },
+          {
+            "category": "Mission Programming Category",
+            "recipients": [
+              "Wong Le Yang",
+              " Lee Wei Hao Andy"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Mission Programming Category",
+            "recipients": [
+              "Ang Kai Jie Jovan",
+              " Koh Jie Ming Xavier"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          }
+        ],
+        "code": "apyrc",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "Content Award",
+            "recipients": [
+              "Brydon Ti",
+              " Soh Zhi Bing",
+              " Lai Zer Jynn"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          }
+        ],
+        "code": "nrc",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "MakeX Starter",
+            "recipients": [
+              "Favian Loh Dai Yong",
+              " Lim Meng Shin"
+            ],
+            "team": "",
+            "title": "Best Robot Design Award"
+          },
+          {
+            "category": "Alliance, MakeX Challenge",
+            "recipients": [
+              "Wong Le Yang",
+              " Andy Lee Wei Hao",
+              " Julian Wee Hong Jie",
+              " Ivan Lee Kuan Hwee"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Alliance, MakeX Challenge",
+            "recipients": [
+              "Tram Nguyen Ngoc Bao",
+              " Dayna Gan",
+              " Ivan Khor",
+              " Owen Wiyana"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Overall, MakeX Challenge",
+            "recipients": [
+              "Tram Nguyen Ngoc Bao",
+              " Dayna Gan",
+              " Ivan Khor",
+              " Owen Wiyana"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "MakeX Challenge",
+            "recipients": [
+              "Tram Nguyen Ngoc Bao",
+              " Dayna Gan",
+              " Ivan Khor",
+              " Owen Wiyana"
+            ],
+            "team": "",
+            "title": "Autonomous Programming Award"
+          }
+        ],
+        "code": "makex",
+        "desc": "",
+        "region": "sg"
+      }
+    ],
+    "year": 2019
+  },
+  {
+    "competitions": [
+      {
+        "awards": [
+          {
             "category": "Research Award",
             "recipients": [
               "Shakeer Farihin Bin Mohammed",
