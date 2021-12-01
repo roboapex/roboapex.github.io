@@ -9,7 +9,7 @@ export interface CompetitionRegion {
 }
 
 export type CompetitionRegionCode = string
-export type CompetitionEventCode = "nrc" | "robocup" | "fll" | "ide" | "apyrc" | "vex" | "bullseye"
+export type CompetitionEventCode = "nrc" | "robocup" | "fll" | "ide" | "apyrc" | "vex" | "bullseye" | "roborave" | "makex"
 export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent } = {
   nrc: {
     categories: {
@@ -101,6 +101,36 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
       sg: {
         name: "Bull’s Eye Competition",
         website: "https://victoria.moe.edu.sg/bulls-eye-competition/"
+      }
+    }
+  },
+  roborave: {
+    categories: {
+
+    },
+    regions: {
+      kaga: {
+        name: "RoboRave Kaga Japan",
+        website: "https://www.roborave-kaga.com/"
+      },
+      int: {
+        name: "RoboRave International",
+        website: "http://roborave.itccc.org.cn/"
+      }
+    }
+  },
+  makex: {
+    categories: {
+
+    },
+    regions: {
+      sg: {
+        name: "MakeX Robotics Competition Singapore",
+        website: "https://www.makexsg.com/"
+      },
+      world: {
+        name: "",
+        website: "https://www.makex.cc/en"
       }
     }
   }
