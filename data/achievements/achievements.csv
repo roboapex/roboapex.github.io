@@ -1,4 +1,4 @@
-Year,Event,Region,Event Description,Category,Award,Team,Recipients
+Year,Event,Region,Description,Category,Award,Team,Recipients
 2019,ide,sg,,IDE Mech Wars,Champions,,"Ean Kai Lew, Gan Sim Ru Dayna"
 ,fll,sg,,The Innovative Solution,Champions,,"Tew Jing An, Keison Tan Jing En, Tan Lik Tjun Bryan"
 ,vex,sg,,Overall,Champions,,"Lee Kuan Hwee Ivan, Lo Hoi Seng, Fong Ze Yeung"
@@ -22,9 +22,9 @@ Year,Event,Region,Event Description,Category,Award,Team,Recipients
 ,,,,Innovative Solutions Award,1st Runner-up,,"Favian Loh Dai Yong, Leow Kar Lok, Irman Zafyree Bin Irmanizam, Chin Jian Wen"
 ,robocup,icool,,RCAP CoSpace Rescue Challenge (U19),Finalist,,Koh Yi Lei Elliot
 ,,,,RCAP CoSpace Rescue Challenge (U19),Finalist,,Khor Ivan
-2021,fll,sg,First Lego League Challenge Singapore RePlay,Champions Award (Secondary),3rd Place,,"Vijaya Bhargavi, Soin Wei Dong, Ang Shaal Josh"
+2021,fll,sg,"In First Lego League Challenge Singapore RePlay, our members had to program robots to complete missions and create an innovative product to aid people in being more active while also having fun, promoting healthy living.",Champions Award (Secondary),3rd Place,,"Vijaya Bhargavi, Soin Wei Dong, Ang Shaal Josh"
 ,,,,Robot Performance Award (Secondary),4th Place,,"Irman Zafyree Bin Irmanizam, Chin Jian Wen, Favian Loh Dai Yong, Leow Kar Lok"
-,robocup,sg,,"Technical Challenge, RoboCupJunior Rescue Line (U19)",2nd Place,HexaMatrix,"Koh Yi Lei Elliot, Ryan Theodore The, Koh Jie Ming Xavier, Javier Lim"
+,robocup,sg,"Despite having to overcome work-from-home barriers due to COVID-19, our members persevered and completed a string of missions including line tracing, transporting elements and avoiding obstacles.","Technical Challenge, RoboCupJunior Rescue Line (U19)",2nd Place,HexaMatrix,"Koh Yi Lei Elliot, Ryan Theodore The, Koh Jie Ming Xavier, Javier Lim"
 ,,,,"Presentation, RoboCupJunior Rescue Line (U19)",Merit,HexaMatrix,"Koh Yi Lei Elliot, Ryan Theodore The, Koh Jie Ming Xavier, Javier Lim"
 ,,,,RCAP CoSpace Autonomous Driving (U19),3rd Place,,Aathithya Jegatheesan
 ,,,,"Presentation, RoboCupJunior Rescue Line (U19)",Distinction,,"Shanjiith Pranov Gayathri Vijayaraghavan, Wong Le Yang, Lee Wei Hao Andy, Ang Kai Jie Jovan"
