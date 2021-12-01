@@ -15,12 +15,31 @@
           {
             "category": "WRO Future Engineers Category",
             "recipients": [
+              "Bu Ping Jin",
+              "Phang Qian Ci"
+            ],
+            "team": "Isosmol",
+            "title": "1st Runner-up"
+          },
+          {
+            "category": "WRO Future Engineers Category",
+            "recipients": [
               "Irman Zafyree Bin Irmanizam",
               "Chin Jian Wen",
               "Wong Le Yang"
             ],
             "team": "Polygamy",
             "title": "2nd Runner-up"
+          },
+          {
+            "category": "WRO Open Category",
+            "recipients": [
+              "Lo Fang Quan Zachary",
+              "Caden Anthony Fay Teng Aik",
+              "Clare Ang Shi En"
+            ],
+            "team": "Polytassium",
+            "title": "Judges Award"
           },
           {
             "category": "WRO Regular Category",
@@ -34,6 +53,22 @@
           }
         ],
         "code": "nrc",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "IDE Robotics",
+            "recipients": [
+              "Keston Chan Jing Hoi",
+              "Kyle Ian Lim Ming Sheng"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          }
+        ],
+        "code": "ide",
         "desc": "",
         "region": "sg"
       },
@@ -66,6 +101,17 @@
             "title": "2nd Place"
           },
           {
+            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
+            "recipients": [
+              "Koh Yi Lei Elliot",
+              "Ryan Theodore The",
+              "Koh Jie Ming Xavier",
+              "Javier Lim"
+            ],
+            "team": "HexaMatrix",
+            "title": "Merit"
+          },
+          {
             "category": "RCAP CoSpace Autonomous Driving (U19)",
             "recipients": [
               "Aathithya Jegatheesan"
@@ -76,12 +122,34 @@
           {
             "category": "Presentation, RoboCupJunior Rescue Line (U19)",
             "recipients": [
+              "Shanjiith Pranov Gayathri Vijayaraghavan",
+              "Wong Le Yang",
+              "Lee Wei Hao Andy",
+              "Ang Kai Jie Jovan"
+            ],
+            "team": "",
+            "title": "Distinction"
+          },
+          {
+            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
+            "recipients": [
               "Lim Meng Shin",
               "Seng Kay Kang Jerick",
               "Brayden Ziyang Saga"
             ],
             "team": "",
             "title": "Distinction"
+          },
+          {
+            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
+            "recipients": [
+              "Bu Ping Jin",
+              "Kunwar Khushi Karansingh",
+              "Ysabelle Wong Sze Han",
+              "Phang Qian Ci"
+            ],
+            "team": "",
+            "title": "Merit"
           }
         ],
         "code": "robocup",
@@ -110,78 +178,10 @@
             ],
             "team": "",
             "title": "4th Place"
-          },
-          {
-            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
-            "recipients": [
-              "Koh Yi Lei Elliot",
-              "Ryan Theodore The",
-              "Koh Jie Ming Xavier",
-              "Javier Lim"
-            ],
-            "team": "HexaMatrix",
-            "title": "Merit"
-          },
-          {
-            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
-            "recipients": [
-              "Shanjiith Pranov Gayathri Vijayaraghavan",
-              "Wong Le Yang",
-              "Lee Wei Hao Andy",
-              "Ang Kai Jie Jovan"
-            ],
-            "team": "",
-            "title": "Distinction"
-          },
-          {
-            "category": "Presentation, RoboCupJunior Rescue Line (U19)",
-            "recipients": [
-              "Bu Ping Jin",
-              "Kunwar Khushi Karansingh",
-              "Ysabelle Wong Sze Han",
-              "Phang Qian Ci"
-            ],
-            "team": "",
-            "title": "Merit"
           }
         ],
         "code": "fll",
         "desc": "In First Lego League Challenge Singapore RePlay, our members had to program robots to complete missions and create an innovative product to aid people in being more active while also having fun, promoting healthy living.",
-        "region": "sg"
-      },
-      {
-        "awards": [
-          {
-            "category": "IDE Robotics",
-            "recipients": [
-              "Keston Chan Jing Hoi",
-              "Kyle Ian Lim Ming Sheng"
-            ],
-            "team": "",
-            "title": "2nd Runner-up"
-          },
-          {
-            "category": "WRO Future Engineers Category",
-            "recipients": [
-              "Bu Ping Jin",
-              "Phang Qian Ci"
-            ],
-            "team": "Isosmol",
-            "title": "1st Runner-up"
-          },
-          {
-            "category": "WRO Open Category",
-            "recipients": [
-              "Lo Fang Quan Zachary",
-              "Caden Anthony Fay Teng Aik",
-              "Clare Ang Shi En"
-            ],
-            "team": "Polytassium",
-            "title": "Judges Award"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
         "region": "sg"
       }
     ],
@@ -189,6 +189,29 @@
   },
   {
     "competitions": [
+      {
+        "awards": [
+          {
+            "category": "RCAP CoSpace Rescue Challenge (U19)",
+            "recipients": [
+              "Koh Yi Lei Elliot"
+            ],
+            "team": "",
+            "title": "Finalist"
+          },
+          {
+            "category": "RCAP CoSpace Rescue Challenge (U19)",
+            "recipients": [
+              "Khor Ivan"
+            ],
+            "team": "",
+            "title": "Finalist"
+          }
+        ],
+        "code": "robocup",
+        "desc": "",
+        "region": "icool"
+      },
       {
         "awards": [
           {
@@ -212,34 +235,11 @@
             ],
             "team": "",
             "title": "1st Runner-up"
-          },
-          {
-            "category": "RCAP CoSpace Rescue Challenge (U19)",
-            "recipients": [
-              "Khor Ivan"
-            ],
-            "team": "",
-            "title": "Finalist"
           }
         ],
         "code": "fll",
         "desc": "",
         "region": "sg"
-      },
-      {
-        "awards": [
-          {
-            "category": "RCAP CoSpace Rescue Challenge (U19)",
-            "recipients": [
-              "Koh Yi Lei Elliot"
-            ],
-            "team": "",
-            "title": "Finalist"
-          }
-        ],
-        "code": "robocup",
-        "desc": "",
-        "region": "icool"
       }
     ],
     "year": 2020
@@ -259,6 +259,28 @@
           },
           {
             "category": "Alliance, MakeX Challenge",
+            "recipients": [
+              "Wong Le Yang",
+              "Andy Lee Wei Hao",
+              "Julian Wee Hong Jie",
+              "Ivan Lee Kuan Hwee"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Alliance, MakeX Challenge",
+            "recipients": [
+              "Tram Nguyen Ngoc Bao",
+              "Dayna Gan",
+              "Ivan Khor",
+              "Owen Wiyana"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Overall, MakeX Challenge",
             "recipients": [
               "Tram Nguyen Ngoc Bao",
               "Dayna Gan",
@@ -287,6 +309,23 @@
       {
         "awards": [
           {
+            "category": "Content Award",
+            "recipients": [
+              "Brydon Ti",
+              "Soh Zhi Bing",
+              "Lai Zer Jynn"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          }
+        ],
+        "code": "nrc",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
             "category": "Sumo Category",
             "recipients": [
               "Tew Jing An",
@@ -294,6 +333,15 @@
             ],
             "team": "",
             "title": "1st Runner-up"
+          },
+          {
+            "category": "Mission Programming Category",
+            "recipients": [
+              "Wong Le Yang",
+              "Lee Wei Hao Andy"
+            ],
+            "team": "",
+            "title": "Champions"
           },
           {
             "category": "Mission Programming Category",
@@ -306,107 +354,6 @@
           }
         ],
         "code": "apyrc",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
-          {
-            "category": "Overall",
-            "recipients": [
-              "Lee Kuan Hwee Ivan",
-              "Lo Hoi Seng",
-              "Fong Ze Yeung"
-            ],
-            "team": "",
-            "title": "Champions"
-          },
-          {
-            "category": "Overall",
-            "recipients": [
-              "Leo Phyo Hein",
-              "Richard Kok Zen Xian",
-              "Ng Yao Zhu Isaiah"
-            ],
-            "team": "",
-            "title": "2nd Runner-up"
-          },
-          {
-            "category": "Driver Skills Award",
-            "recipients": [
-              "Lee Kuan Hwee Ivan",
-              "Lo Hoi Seng",
-              "Fong Ze Yeung"
-            ],
-            "team": "",
-            "title": "2nd Runner-up"
-          },
-          {
-            "category": "Line Tracing Challenge",
-            "recipients": [
-              "Gan Sim Ru Dayna",
-              "Khor Ivan",
-              "Nguyen Ngoc Bao Tram",
-              "Owen Gamaliano Wiyana"
-            ],
-            "team": "",
-            "title": "Silver"
-          }
-        ],
-        "code": "vex",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
-          {
-            "category": "IDE Mech Wars",
-            "recipients": [
-              "Ean Kai Lew",
-              "Gan Sim Ru Dayna"
-            ],
-            "team": "",
-            "title": "Champions"
-          }
-        ],
-        "code": "ide",
-        "desc": "",
-        "region": "sg"
-      },
-      {
-        "awards": [
-          {
-            "category": "The Innovative Solution",
-            "recipients": [
-              "Tew Jing An",
-              "Keison Tan Jing En",
-              "Tan Lik Tjun Bryan"
-            ],
-            "team": "",
-            "title": "Champions"
-          },
-          {
-            "category": "Overall",
-            "recipients": [
-              "Tan Jeng Khiang Damien",
-              "Hannah Ng Xiao Han",
-              "Tang Ning Chloe Nicholle"
-            ],
-            "team": "",
-            "title": "1st Runner-up"
-          },
-          {
-            "category": "Design Award",
-            "recipients": [
-              "Lee Kuan Hwee Ivan",
-              "Lo Hoi Seng",
-              "Fong Ze Yeung"
-            ],
-            "team": "",
-            "title": "Champions"
-          }
-        ],
-        "code": "fll",
         "desc": "",
         "region": "sg"
       },
@@ -426,6 +373,17 @@
           {
             "category": "Line Tracing Challenge",
             "recipients": [
+              "Gan Sim Ru Dayna",
+              "Khor Ivan",
+              "Nguyen Ngoc Bao Tram",
+              "Owen Gamaliano Wiyana"
+            ],
+            "team": "",
+            "title": "Silver"
+          },
+          {
+            "category": "Line Tracing Challenge",
+            "recipients": [
               "Shayden Wong",
               "Evangeline Teo",
               "Ho Min Han Delvin",
@@ -433,15 +391,6 @@
             ],
             "team": "",
             "title": "Silver"
-          },
-          {
-            "category": "Mission Programming Category",
-            "recipients": [
-              "Wong Le Yang",
-              "Lee Wei Hao Andy"
-            ],
-            "team": "",
-            "title": "Champions"
           }
         ],
         "code": "roborave",
@@ -451,39 +400,90 @@
       {
         "awards": [
           {
-            "category": "Content Award",
+            "category": "Overall",
             "recipients": [
-              "Brydon Ti",
-              "Soh Zhi Bing",
-              "Lai Zer Jynn"
+              "Lee Kuan Hwee Ivan",
+              "Lo Hoi Seng",
+              "Fong Ze Yeung"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Overall",
+            "recipients": [
+              "Tan Jeng Khiang Damien",
+              "Hannah Ng Xiao Han",
+              "Tang Ning Chloe Nicholle"
             ],
             "team": "",
             "title": "1st Runner-up"
           },
           {
-            "category": "Alliance, MakeX Challenge",
+            "category": "Overall",
             "recipients": [
-              "Wong Le Yang",
-              "Andy Lee Wei Hao",
-              "Julian Wee Hong Jie",
-              "Ivan Lee Kuan Hwee"
+              "Leo Phyo Hein",
+              "Richard Kok Zen Xian",
+              "Ng Yao Zhu Isaiah"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          },
+          {
+            "category": "Design Award",
+            "recipients": [
+              "Lee Kuan Hwee Ivan",
+              "Lo Hoi Seng",
+              "Fong Ze Yeung"
             ],
             "team": "",
             "title": "Champions"
           },
           {
-            "category": "Overall, MakeX Challenge",
+            "category": "Driver Skills Award",
             "recipients": [
-              "Tram Nguyen Ngoc Bao",
-              "Dayna Gan",
-              "Ivan Khor",
-              "Owen Wiyana"
+              "Lee Kuan Hwee Ivan",
+              "Lo Hoi Seng",
+              "Fong Ze Yeung"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          }
+        ],
+        "code": "vex",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "The Innovative Solution",
+            "recipients": [
+              "Tew Jing An",
+              "Keison Tan Jing En",
+              "Tan Lik Tjun Bryan"
             ],
             "team": "",
             "title": "Champions"
           }
         ],
-        "code": "nrc",
+        "code": "fll",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "IDE Mech Wars",
+            "recipients": [
+              "Ean Kai Lew",
+              "Gan Sim Ru Dayna"
+            ],
+            "team": "",
+            "title": "Champions"
+          }
+        ],
+        "code": "ide",
         "desc": "",
         "region": "sg"
       }
