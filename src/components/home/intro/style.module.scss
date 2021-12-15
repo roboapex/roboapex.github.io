@@ -5,14 +5,28 @@
     url(../../../../static/img/home/intro/brick_seamless.jpg);
   background-size: clamp(400px, 50%, 500px);
   color: #fff;
-  display: grid;
-  grid-template: repeat(6, auto) / 1fr;
+}
+
+.main > div {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+div.culture { // .culture not specific enough
+  gap: 0 50px;
+  align-items: flex-start;
+}
+
+.culture > div {
+  flex: 1 1;
 }
 
 .head {
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
 }
 
 .content {
@@ -40,50 +54,31 @@
 .main img {
   max-width: 400px;
 }
-
-.mission {
-  grid-row: 2/2;
-}
-.missionImage {
-  grid-row: 1/1;
-  justify-self: left;
-}
 .values {
-  grid-row: 3/3;
+  text-align: center;
 }
-.vision {
-  grid-row: 5/5;
+.mission {
+  text-align: right;
 }
 .visionImage {
-  grid-row: 4/4;
   justify-self: right;
 }
+// .culture {
+//   background-color: red;
+//   grid-row: 6/6;
+// }
 
 @media (min-width: 996px) {
-  .main {
-    grid-template: repeat(3, auto) / repeat(3, 1fr);
-  }
-
   .content {
     font-size: 30px;
   }
+  
+  .main > div {
+    flex-direction: row;
+  }
 
-  .main img {
-    max-width: auto;
-  }
-  .mission {
-    grid-area: 1/2/1/4;
-  }
-  .missionImage {
-    grid-area: 1/1/1/1;
-  }
-  .values {
-    grid-area: 2/2/2/2;
-  }
-  .vision {
-    grid-area: 3/1/4/3;
-  }
-  .visionImage {
-    grid-area: 3/3/4/3;
+  div.values { // .values not specific enough
+    flex-direction: column;
   }
 }
+

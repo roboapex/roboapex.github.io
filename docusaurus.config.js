@@ -14,24 +14,32 @@ module.exports = {
   projectName: 'roboapex.github.io',
   themeConfig: {
     hideableSidebar: true,
-    announcementBar: {
-      id: "announcement",
-      content:
-        'This website is work-in-progress',
-    },
+    // announcementBar: {
+    //   id: "announcement",
+    //   content:
+    //     'This website is work-in-progress',
+    // },
     navbar: {
-      hideOnScroll: true,
       title: 'Robotics @APEX',
       logo: {
         alt: '🤖',
         src: 'img/logo.svg',
       },
       items: [
-        { to: '/about', label: 'About', position: 'left' },
-        { to: '/projects', label: 'Projects', position: 'left' },
-        { to: '/achievements', label: 'Achievements', position: 'left' },
         {
           position: 'left',
+          label: 'Join Us',
+          to: '/applications/signup',
+          items: [
+            { to: '/applications/signup', label: "Sign Up" },
+            { to: '/applications/faq', label: "FAQ" }
+          ]
+        },
+        { to: '/about', label: 'About', position: 'right' },
+        { to: '/projects', label: 'Projects', position: 'right' },
+        { to: '/achievements', label: 'Achievements', position: 'right' },
+        {
+          position: 'right',
           label: 'Docs',
           to: '/docs',
           items: baseDocPaths.map((e) => ({ to: `/${e.path}`, label: e.name }))

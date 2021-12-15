@@ -110,3 +110,11 @@ html[data-theme='light'] .themedDocusaurus [fill='#FFFF50'] {
 html[data-theme='dark'] .themedDocusaurus [fill='#FFFF50'] {
   fill: seagreen;
 }
+
+::marker {
+  display: none;
+}
+
+summary {
+  list-style: none;
+}

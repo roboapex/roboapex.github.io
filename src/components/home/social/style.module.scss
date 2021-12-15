@@ -1,27 +1,16 @@
 @use "src/styles/theme";
 
 .main {
-  background-color: theme.$color-white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../../../static/img/home/intro/brick_seamless.jpg);
+  background-size: clamp(400px, 50%, 500px);
+  color: #fff;
   height: 400px;
   display: grid;
   place-items: center;
 }
 
-.circle {
-  background-color: #ffffffaa;
-  backdrop-filter: blur(2px);
-
-  width: 200px;
-  height: 200px;
-  border-radius: 1000px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.num {
-  font-size: 50px;
+.icons svg {
 }
 
 @media (min-width: 996px) {

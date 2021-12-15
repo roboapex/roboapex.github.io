@@ -1,0 +1,16 @@
+.roboapex {
+  font-family: 'Ethnocentric';
+  color: var(--ifm-color-primary);
+}
+
+.qna {
+  margin: 30px 0 10px 0;
+  display: inline;
+  border-color: red;
+}
+
+@media (min-width: 996px) {
+  .qna {
+    margin: 40px 0 30px 0;
+  }
+}
