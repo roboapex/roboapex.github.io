@@ -1,6 +1,7 @@
 const baseDocPaths = require('./baseDocPaths');
-const { joinURL } = require('./src/pages/join');
 require('dotenv').config()
+
+const joinURL = "https://docs.google.com/forms/d/e/1FAIpQLScpremOj-MTsoWd-zYJEvQ08l4NjS8mC_Cyps7TESTU313aAQ/viewform?usp=sf_link"
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ThemeLayout from "../../components/theme/layout";
 import Notice from "../../components/notice";
 
