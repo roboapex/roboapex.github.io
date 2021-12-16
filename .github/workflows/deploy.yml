@@ -47,8 +47,8 @@ jobs:
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
-          npm ci
+          npm ci --legacy-peer-deps # --legacy-peer-deps flag for docusaurus-plugin-sass
           else
-          npm i
+          npm i --legacy-peer-deps
           fi
           npm run deploy
