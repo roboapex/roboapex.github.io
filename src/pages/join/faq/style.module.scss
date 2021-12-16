@@ -1,16 +1,56 @@
+@use "src/styles/theme";
+
 .roboapex {
-  font-family: 'Ethnocentric';
+  font-family: "Ethnocentric";
   color: var(--ifm-color-primary);
 }
 
-.qna {
-  margin: 30px 0 10px 0;
-  display: inline;
-  border-color: red;
+.title {
+  margin-bottom: 50px;
+}
+
+.details {
+  & {
+    margin: 5px 0;
+    display: inline;
+    width: 100%;
+  }
+  p {
+    padding-bottom: 30px;
+  }
+  summary {
+    & {
+      display: flex;
+      gap: 40px;
+      cursor: pointer;
+      margin-bottom: 1em;
+    }
+
+    h2 {
+      transition: all 100ms ease-in-out;
+      margin-bottom: 0;
+    }
+
+    svg {
+      font-size: 30px;
+      transition: all 100ms ease-in-out;
+      margin: 0 30px 0 auto;
+    }
+  }
+}
+
+.details[open] summary {
+  h2 {
+    border-bottom: solid theme.$color-primary 5px;
+  }
+
+  svg {
+    transform: rotate(90deg);
+  }
 }
 
 @media (min-width: 996px) {
-  .qna {
-    margin: 40px 0 30px 0;
+  .details {
+    margin: 10px 0;
   }
 }

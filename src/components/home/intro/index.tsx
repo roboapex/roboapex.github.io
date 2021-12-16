@@ -7,8 +7,7 @@ export default function HomeIntro() {
       <div className={style.mission}>
         <img
           src="img/home/intro/mission.png"
-          alt="Our students hard at work building their prototype for a unique student-initiated project to clean beachsides. Learn more at"
-          className={style.missionImage}
+          alt="Our students hard at work building their prototype for a unique student-initiated project to clean beachsides."
         />
         <div>
           <h3 className={style.head}>Our Mission</h3>
@@ -38,7 +37,6 @@ export default function HomeIntro() {
         <img
           src="img/home/intro/vision.png"
           alt="Our students in Guangzhou, China, working on their robot for 2019 MakeX World Championship."
-          className={style.visionImage}
         />
         <div>
           <h3 className={style.head}>Our Vision</h3>
@@ -51,7 +49,7 @@ export default function HomeIntro() {
       <div className={style.culture}>
         {culture.map((e) => (
           <div>
-            <img src={e.src} alt={e.alt} className={style.cultureImage} />
+            <img src={e.src} alt={e.alt} />
             <h3 className={style.head}>{e.title}</h3>
             <p>{e.desc}</p>
           </div>

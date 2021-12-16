@@ -16,12 +16,17 @@
 }
 
 div.culture { // .culture not specific enough
-  gap: 0 50px;
+  gap: 0 5%;
+  max-width: 100vw;
   align-items: flex-start;
 }
 
 .culture > div {
   flex: 1 1;
+}
+
+div.culture > div img {
+  width: 100% !important;
 }
 
 .head {
@@ -61,13 +66,6 @@ div.culture { // .culture not specific enough
 .mission {
   text-align: right;
 }
-.visionImage {
-  justify-self: right;
-}
-// .culture {
-//   background-color: red;
-//   grid-row: 6/6;
-// }
 
 @media (min-width: 996px) {
   .content {
