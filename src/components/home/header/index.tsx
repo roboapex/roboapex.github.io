@@ -38,7 +38,7 @@ export default function HomeHeader() {
       </p>
       <div className={style.buttons}>
         <ThemeButton path={joinURL}>Join Us!</ThemeButton>
-        <ThemeButton path="/about" color="secondary" type="outline">
+        <ThemeButton path="#intro" color="secondary" type="outline">
           Learn More
         </ThemeButton>
         {/* <ThemeButton path="/docs">Docs</ThemeButton>

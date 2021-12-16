@@ -3,7 +3,7 @@ import style from "./style.module.scss";
 
 export default function HomeIntro() {
   return (
-    <section className={style.main}>
+    <section className={style.main} id="intro">
       <div className={style.mission}>
       <img
         src="img/home/intro/mission.png"
