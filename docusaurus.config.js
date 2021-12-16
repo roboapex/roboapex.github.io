@@ -1,4 +1,5 @@
-const baseDocPaths = require('./baseDocPaths')
+const baseDocPaths = require('./baseDocPaths');
+const { joinURL } = require('./src/pages/join');
 require('dotenv').config()
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
@@ -29,10 +30,10 @@ module.exports = {
         {
           position: 'left',
           label: 'Join Us',
-          to: '/applications/signup',
+          to: joinURL,
           items: [
-            { to: '/applications/signup', label: "Sign Up" },
-            { to: '/applications/faq', label: "FAQ" }
+            { to: joinURL, label: "Sign Up" },
+            { to: '/join/faq', label: "FAQ" }
           ]
         },
         { to: '/about', label: 'About', position: 'right' },

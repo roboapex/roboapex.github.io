@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import ThemeButton from "../../theme/button";
-import clsx from "clsx";
+import { joinURL } from "../../../pages/join"
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import style from "./style.module.scss";
@@ -37,7 +37,7 @@ export default function HomeHeader() {
         and Technology, Singapore
       </p>
       <div className={style.buttons}>
-        <ThemeButton path="/applications/signup">Join Us!</ThemeButton>
+        <ThemeButton path={joinURL}>Join Us!</ThemeButton>
         <ThemeButton path="/about" color="secondary" type="outline">
           Learn More
         </ThemeButton>

@@ -6,7 +6,7 @@ export default function HomeSocial() {
     <section className={style.main}>
       <h1>Want to learn more?</h1>
       <div className={style.icons}>
-      <i className="far fa-envelope" />
+        <i className="far fa-envelope" />
       </div>
     </section>
   );
