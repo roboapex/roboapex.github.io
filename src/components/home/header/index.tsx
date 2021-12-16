@@ -51,6 +51,7 @@ export default function HomeHeader() {
       <div className={style.indicator}>
         {[...Array(NUMBER_OF_IMAGES)].map((_, i) => (
           <span
+          key={i}
             style={{
               backgroundColor: imageIndex === i ? "#fff" : "#ffffff44",
             }}

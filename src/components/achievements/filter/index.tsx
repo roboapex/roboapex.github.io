@@ -95,7 +95,7 @@ export default function AchievementsFilter({
                 href="javascript:void(0)"
                 onClick={() => setFilter((f) => ({ ...f, comp: e[0] }))}
               >
-                {e[1].name}
+                {e[0]}
               </a>
             </li>
           ))}

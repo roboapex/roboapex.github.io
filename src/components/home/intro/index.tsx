@@ -48,7 +48,7 @@ export default function HomeIntro() {
       </div>
       <div className={style.culture}>
         {culture.map((e) => (
-          <div>
+          <div key={e.title}>
             <img src={e.src} alt={e.alt} />
             <h3 className={style.head}>{e.title}</h3>
             <p>{e.desc}</p>

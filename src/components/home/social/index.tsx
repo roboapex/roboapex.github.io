@@ -10,7 +10,7 @@ export default function HomeSocial() {
       <h1>Get in touch.</h1>
       <div className={style.icons}>
         {K.socials.map((e) => (
-          <Link href={e.url}>
+          <Link href={e.url} key={`${e.handle}-${e.platform}`}>
             <div className={style.icon} style={{ background: e.color }}>
               <i className={e.icon}></i>
             </div>

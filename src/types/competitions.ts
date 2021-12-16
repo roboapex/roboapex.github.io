@@ -1,5 +1,4 @@
 export interface CompetitionEvent {
-  categories: { [k: string]: string };
   regions: { [k: string]: CompetitionRegion }
 }
 
@@ -12,11 +11,6 @@ export type CompetitionRegionCode = string
 export type CompetitionEventCode = "nrc" | "robocup" | "fll" | "ide" | "apyrc" | "vex" | "bullseye" | "roborave" | "makex"
 export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent } = {
   nrc: {
-    categories: {
-      reg: "Regular",
-      open: "Open",
-      fe: "Future Engineer",
-    },
     regions: {
       sg: {
         name: "National Robotics Competition (Singapore)",
@@ -25,9 +19,6 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   robocup: {
-    categories: {
-      rescue: "RCJ Rescue Line",
-    },
     regions: {
       sg: {
         name: "Robocup Singapore Open",
@@ -43,9 +34,6 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   fll: {
-    categories: {
-      challenge: "Challenge",
-    },
     regions: {
       sg: {
         name: "First LEGO League",
@@ -54,11 +42,6 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   ide: {
-    categories: {
-      robotics: "IDE Robotics",
-      mechwars: "IDE Mech Wars",
-      sprint: "IDE Sprint"
-    },
     regions: {
       sg: {
         name: "IDE (Innovation, Design and Engineering) Series",
@@ -67,9 +50,6 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   apyrc: {
-    categories: {
-      
-    },
     regions: {
       sg: {
         name: "Asia Pacific Youth Robotics Competition",
@@ -78,9 +58,6 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   vex: {
-    categories: {
-      
-    },
     regions: {
       sg: {
         name: "Singapore VEX Robotics Competition"
@@ -94,9 +71,6 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   bullseye: {
-    categories: {
-      
-    },
     regions: {
       sg: {
         name: "Bull’s Eye Competition",
@@ -105,9 +79,6 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   roborave: {
-    categories: {
-
-    },
     regions: {
       kaga: {
         name: "RoboRave Kaga Japan",
@@ -120,9 +91,6 @@ export const CompetitionCodes: { [k in CompetitionEventCode]: CompetitionEvent }
     }
   },
   makex: {
-    categories: {
-
-    },
     regions: {
       sg: {
         name: "MakeX Robotics Competition Singapore",
