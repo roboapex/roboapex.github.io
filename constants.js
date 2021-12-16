@@ -4,19 +4,22 @@ class K {
       platform: "Instagram",
       url: "https://www.instagram.com/roboticsapex/",
       handle: "@roboticsapex",
-      src: "img/home/social/instagram.png"
+      color: "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
+      icon: "fab fa-instagram"
     },
     {
       platform: "GitHub",
       url: "https://github.com/roboapex/",
       handle: "roboapex",
-      src: "img/home/social/github.png"
+      color: "#333333",
+      icon: "fab fa-github"
     },
     {
       platform: "Mail",
       url: "mailto:sstroboapex@gmail.com",
       handle: "sstroboapex@gmail.com",
-      src: "img/home/social/mail.png"
+      color: "var(--ifm-color-primary)",
+      icon: "fas fa-envelope"
     },
     // {
     //   platform: "Discord",

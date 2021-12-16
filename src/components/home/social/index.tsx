@@ -2,6 +2,7 @@ import React from "react";
 import Link from "@docusaurus/Link";
 import K from "../../../../constants";
 import style from "./style.module.scss";
+import clsx from "clsx";
 
 export default function HomeSocial() {
   return (
@@ -10,7 +11,9 @@ export default function HomeSocial() {
       <div className={style.icons}>
         {K.socials.map((e) => (
           <Link href={e.url}>
-            <img className={style.image} src={e.src} alt={`${e.handle} on ${e.platform}`} />
+            <div className={style.icon} style={{ background: e.color }}>
+              <i className={e.icon}></i>
+            </div>
           </Link>
         ))}
       </div>

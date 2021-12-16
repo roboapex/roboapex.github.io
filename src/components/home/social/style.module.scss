@@ -9,13 +9,29 @@
   place-items: center;
 }
 
-.image {
-  max-width: 100px;
+.icons {
+  display: flex;
+  gap: 20px;
 }
 
-.image:hover {
-  filter: brightness(0.8);
-  transition: all 250ms ease-in-out;
+.icon {
+  & {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    display: grid;
+    place-items: center;
+  }
+
+  &:hover {
+    filter: brightness(0.9);
+    transition: all 150ms ease-in-out;
+  }
+  
+  svg {
+    color: theme.$color-white;
+    font-size: 45px;
+  }
 }
 
 @media (min-width: 996px) {
