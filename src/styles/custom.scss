@@ -122,3 +122,24 @@ summary {
 html {
   scroll-behavior: smooth;
  }
+
+ // temp styles for applications
+a[href="https://docs.google.com/forms/d/e/1FAIpQLScpremOj-MTsoWd-zYJEvQ08l4NjS8mC_Cyps7TESTU313aAQ/viewform?usp=sf_link#"] {
+  & {
+    background-color: theme.$color-red;
+  color: theme.$color-white;
+  transition: all 250ms ease-in-out;
+  }
+
+  @media (min-width: 996px) {
+   & {
+    border-radius: 5px;
+    padding: 10px;
+   }
+  }
+
+  &:hover {
+    color: theme.$color-white;
+    background-color: darken(theme.$color-red, 5%);
+  }
+}

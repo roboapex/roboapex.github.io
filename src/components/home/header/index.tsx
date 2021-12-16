@@ -37,10 +37,10 @@ export default function HomeHeader() {
         and Technology, Singapore
       </p>
       <div className={style.buttons}>
-        <ThemeButton path={joinURL}>Join Us!</ThemeButton>
-        <ThemeButton path="#intro" color="secondary" type="outline">
+        <ThemeButton path={joinURL}>Sign Up for Trials!</ThemeButton>
+        {/* <ThemeButton path="#intro" color="secondary" type="outline">
           Learn More
-        </ThemeButton>
+        </ThemeButton> */}
         {/* <ThemeButton path="/docs">Docs</ThemeButton>
           <ThemeButton path="/blog">Blog</ThemeButton>
           <ThemeButton path="/projects">Projects</ThemeButton> */}

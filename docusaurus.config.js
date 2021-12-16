@@ -1,4 +1,5 @@
 const baseDocPaths = require('./baseDocPaths');
+const K = require('./constants');
 require('dotenv').config()
 
 const joinURL = "https://docs.google.com/forms/d/e/1FAIpQLScpremOj-MTsoWd-zYJEvQ08l4NjS8mC_Cyps7TESTU313aAQ/viewform?usp=sf_link"
@@ -31,17 +32,16 @@ module.exports = {
         {
           position: 'left',
           label: 'Join Us',
-          to: joinURL,
+          to: `${joinURL}#`,
           items: [
-            { to: joinURL, label: "Sign Up" },
+            { to: joinURL, label: "Sign Up for Trials" },
             { to: '/join/faq', label: "FAQ" }
           ]
         },
-        { to: '/about', label: 'About', position: 'right' },
-        { to: '/projects', label: 'Projects', position: 'right' },
-        { to: '/achievements', label: 'Achievements', position: 'right' },
+        { to: '/achievements', label: 'Achievements', position: 'left' },
+        { to: '/projects', label: 'Projects', position: 'left' },
         {
-          position: 'right',
+          position: 'left',
           label: 'Docs',
           to: '/docs',
           items: baseDocPaths.map((e) => ({ to: `/${e.path}`, label: e.name }))
@@ -50,6 +50,20 @@ module.exports = {
     },
     footer: {
       links: [
+        {
+          title: 'Applications',
+          items: [
+            { label: 'Sign Up for Trials', to: joinURL },
+            { label: 'FAQ', to: '/join/faq' },
+          ]
+        },
+        {
+          title: 'Work',
+          items: [
+            { label: 'Achievements', to: '/achievements' },
+            { label: 'Projects', to: '/projects' },
+          ]
+        },
         {
           title: 'Docs',
           items: [
@@ -60,22 +74,7 @@ module.exports = {
         {
           title: 'Robotics @APEX',
           items: [
-            {
-              label: 'Instagram',
-              href: 'https://instagram.com/roboticsapex',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/roboapex',
-            },
-            {
-              label: 'Email',
-              href: 'mailto:sstroboapex@gmail.com',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/zDB7KDrgbw',
-            },
+            ...K.socials.map((e) => ({ label: e.platform, href: e.url }))
           ],
         },
         {

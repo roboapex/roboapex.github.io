@@ -5,6 +5,7 @@
     url(../../../../static/img/home/intro/brick_seamless.jpg);
   background-size: clamp(400px, 50%, 500px);
   color: #fff;
+  margin-top: -130px !important;
 }
 
 .main > div {
@@ -79,6 +80,10 @@ div.culture { // .culture not specific enough
 
   div.values { // .values not specific enough
     flex-direction: column;
+  }
+
+  div.vision {
+    flex-direction: row-reverse;
   }
 }
 

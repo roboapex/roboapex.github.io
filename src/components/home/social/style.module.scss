@@ -1,17 +1,21 @@
 @use "src/styles/theme";
 
 .main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../../../../static/img/home/intro/brick_seamless.jpg);
+  background-image: url(../../../../static/img/home/intro/whitewall_seamless.jpg);
   background-size: clamp(400px, 50%, 500px);
-  color: #fff;
+  color: theme.$color-black;
   height: 400px;
   display: grid;
   place-items: center;
 }
 
-.icons svg {
-  
+.image {
+  max-width: 100px;
+}
+
+.image:hover {
+  filter: brightness(0.8);
+  transition: all 250ms ease-in-out;
 }
 
 @media (min-width: 996px) {

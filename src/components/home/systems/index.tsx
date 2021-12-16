@@ -1,15 +1,17 @@
 import React from "react";
+import Link from "@docusaurus/Link";
 
-import style from "./style.module.css";
+import style from "./style.module.scss";
 
-export default function HomeSystems({ title, desc, imgRight }: { title: string, desc: string, imgRight: boolean }) {
+export default function HomeSystems() {
   return (
-    <div className={style.main} style={{ flexDirection: imgRight ? "row" : "row-reverse" }}>
-      <div className={style.text} style={ imgRight ? { marginLeft: "auto" } : { marginRight: "auto" }}>
-        <h1 className={style.title}>{title}</h1>
-        <p className={style.desc}>{desc}</p>
+    <section className={style.main}>
+      <h1>Systems</h1>
+      <div className={style.icons}>
+        <Link href="youtube.com">
+          <i className="far fa-envelope" />
+        </Link>
       </div>
-      <img src="img/test.png" className={style.img} />
-    </div>
+    </section>
   );
-};
+}
