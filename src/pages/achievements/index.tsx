@@ -1,5 +1,5 @@
 import { Endpoints } from "@octokit/types";
-import clsx from "clsx";
+import Notice from "../../components/notice";
 import React, { useEffect, useState } from "react";
 import useSWR from "swr";
 import AchievementsRow from "../../components/achievements/row";
@@ -36,6 +36,7 @@ export default function AchievementsPage() {
 
   return (
     <ThemeLayout title="Achievements">
+      <Notice>Only achievements from 2019 and onwards are displayed currently.</Notice>
       <AchievementsFilter
         achievements={achievements}
         onUpdate={(filter) => setFilter(filter)}
