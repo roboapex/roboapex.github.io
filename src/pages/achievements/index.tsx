@@ -36,7 +36,7 @@ export default function AchievementsPage() {
 
   return (
     <ThemeLayout title="Achievements">
-      <Notice>Only achievements from 2019 and onwards are displayed currently.</Notice>
+      <Notice>Currently, only achievements from 2019 and onwards are displayed.</Notice>
       <AchievementsFilter
         achievements={achievements}
         onUpdate={(filter) => setFilter(filter)}
