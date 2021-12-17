@@ -7,7 +7,7 @@ export default function FAQPage() {
   return (
     <ThemeLayout title="FAQ">
       <h1 className={style.title}>
-        FAQs regarding application to <br />
+        FAQs regarding <br />
         <span className={style.roboapex}>Robotics @APEX</span>
       </h1>
       {faq.map((e) => (
@@ -38,7 +38,7 @@ const faq = [
   },
   {
     question:
-      "Do I need prior experience in robotics to join the Robotics @APEX family? Will I be able to meet the club's requirements?",
+      "Is prior experience required? Will I be able to meet the club's requirements?",
     answer: (
       <>
         Prior experience is not required, as long as you are{" "}
