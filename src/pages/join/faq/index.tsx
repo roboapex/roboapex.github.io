@@ -31,7 +31,7 @@ const faq = [
     question: "Is it hard to enter Robotics @APEX?",
     answer: (
       <>
-        Just give it a shot, give it all that you got!! You never know if you
+        Just give it a shot, give it all that you got (even without prior experience, we do not only look out for skills)!! You never know if you
         may just be able to make the cut! 🔥🔥🔥
       </>
     ),
