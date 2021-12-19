@@ -3,7 +3,7 @@ import clsx from "clsx";
 import React from "react";
 import { AchievementsCompetition } from "../../../types/achievements";
 import { CompetitionCodes } from "../../../types/competitions";
-import style from "./style.module.css";
+import style from "./style.module.scss";
 
 export default function AchievementsRow({
   achievementCompetition,
@@ -28,11 +28,12 @@ export default function AchievementsRow({
     e: React.SyntheticEvent<HTMLImageElement, Event>,
     key?: string
   ) => {
-    e.target[
-      "src"
-    ] = `https://cataas.com/cat/cute?_=${year}${achievementCompetition.code}${key ?? "logo"}`;
+    e.target["src"] = `https://cataas.com/cat/cute?_=${year}${
+      achievementCompetition.code
+    }${key ?? "logo"}`;
     e.target["alt"] = "cute cat because we got no image :>";
     e.target["title"] = "cute cat because we got no image :>";
+    e.target["remove"](); // TEMP: remove cats image for applications
   };
 
   return (
@@ -61,12 +62,14 @@ export default function AchievementsRow({
       </div>
       <div className={style.cards}>
         {achievementCompetition.awards.map((comp, i) => (
-          <div key={i} className={clsx("card", style.card)}>
+          <div key={i} className={clsx("card", "shadow--md", style.card)}>
             <div className="card__image">
               <img
                 className={style.image}
                 src={resolveURL(`${comp.team.toLowerCase()}.png`)}
-                onError={(e) => { onImageUnavailable(e, `${i}`) }}
+                onError={(e) => {
+                  onImageUnavailable(e, `${i}`);
+                }}
                 alt={comp.team}
                 title={comp.team}
               />

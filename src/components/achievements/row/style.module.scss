@@ -11,8 +11,13 @@
   display: flex;
   overflow: scroll;
   gap: 40px;
-  padding: 5px;
+  padding: 55px 0;
+  margin: -50px 0;
   max-width: initial; /* Infima CSS reset sets this to max-width: 100%; */
+}
+
+.cards > div:first-child {
+  margin-left: 40px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -28,7 +33,7 @@
 
 .card {
   flex-shrink: 0;
-  width: 350px;
+  width: 330px;
 }
 
 .image {
@@ -41,7 +46,7 @@
   .row {
     margin-right: -200px;
     flex-direction: row;
-    gap: 40px;
+    gap: 20px;
   }
 
   .details {
