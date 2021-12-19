@@ -5,19 +5,16 @@
 .row {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .cards {
   display: flex;
   overflow: scroll;
   gap: 40px;
-  padding: 55px 0;
-  margin: -50px 0;
+  padding: 55px 10vw;
+  margin: -50px -10vw;
   max-width: initial; /* Infima CSS reset sets this to max-width: 100%; */
-}
-
-.cards > div:first-child {
-  margin-left: 40px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -46,7 +43,6 @@
   .row {
     margin-right: -200px;
     flex-direction: row;
-    gap: 20px;
   }
 
   .details {
@@ -57,6 +53,12 @@
 
   .cards {
     height: 100%;
+    padding: 55px 0;
+    margin: -50px 0;
     padding-right: 200px;
+  }
+
+  .cards > div:first-child {
+    margin-left: 40px;
   }
 }
