@@ -53,7 +53,7 @@
           }
         ],
         "code": "nrc",
-        "desc": "",
+        "desc": "NRC provided our students with a novel experience to learn new concepts such as integrating their prowess in AI and Robotics",
         "region": "sg"
       },
       {
@@ -489,5 +489,401 @@
       }
     ],
     "year": 2019
+  },
+  {
+    "competitions": [
+      {
+        "awards": [
+          {
+            "category": "Judges Awards",
+            "recipients": [
+              "Hafiy Adam Johannes B Jasno J",
+              "Chua Qi Jun",
+              "Leo En Qi Valerie",
+              "Kho Hannah Gabrielle Chao"
+            ],
+            "team": "",
+            "title": "Rising Star"
+          },
+          {
+            "category": "Project Awards (Innovation)",
+            "recipients": [
+              "Berniss Chow Zi Min",
+              "Low Jun Yi",
+              "Muhammad Amirul Juma'at",
+              "Megan Seto",
+              "Lee Xin Le"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          }
+        ],
+        "code": "fll",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "IDE Robotics",
+            "recipients": [
+              "Yeo Hong Jie Shaun",
+              "Ho Min Han Delvin",
+              "Ng Yao Zhu Isaiah"
+            ],
+            "team": "",
+            "title": "5th Place"
+          },
+          {
+            "category": "IDE Robotics",
+            "recipients": [
+              "Chiu Yee Hur",
+              "Tan Yi Kai",
+              "Leo Phyo Hein"
+            ],
+            "team": "",
+            "title": "8th Place"
+          },
+          {
+            "category": "IDE Robotics",
+            "recipients": [
+              "Ho Yi Quan Isaac",
+              "Hannah Ng Xiao Han",
+              "Lee Kuan Hwee Ivan"
+            ],
+            "team": "",
+            "title": "10th Place"
+          },
+          {
+            "category": "IDE Robotics",
+            "recipients": [
+              "Joshua Foo Yong Yi",
+              "Shannen Samuel Rajoo",
+              "David Tan Der Ern"
+            ],
+            "team": "",
+            "title": "Special Mention Award"
+          }
+        ],
+        "code": "ide",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "Team Fortress Lego Challenge",
+            "recipients": [
+              "Sivakumar Rishikarthik",
+              "Lim Yan Tao",
+              "Keison Tan Jin En",
+              "Hu Kangsheng Elrond"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Team Fortress Lego Challenge",
+            "recipients": [
+              "Akash Rajesh",
+              "Joshua Foo Yong Yi",
+              "Shannen Samuel Rajoo",
+              "David Tan Der Ern"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          },
+          {
+            "category": "Creative Challenge",
+            "recipients": [
+              "Joshua Wee",
+              "Melodee Chia"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Mission Programming Challenge",
+            "recipients": [
+              "Low Jun Yi",
+              "Megan Seto"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          },
+          {
+            "category": "Mission Programming Challenge",
+            "recipients": [
+              "Soon Rui Jie Nicholas",
+              "Cheryl Tan Cai Hui"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          },
+          {
+            "category": "Arduino Robotics Challenge",
+            "recipients": [
+              "Tan Zheng Jie",
+              "Loh Shao Cong"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          }
+        ],
+        "code": "apyrc",
+        "desc": "",
+        "region": "sg"
+      }
+    ],
+    "year": 2017
+  },
+  {
+    "competitions": [
+      {
+        "awards": [
+          {
+            "category": "Line Tracing Challenge",
+            "recipients": [
+              "Tan Zheng Jie"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          }
+        ],
+        "code": "roborave",
+        "desc": "",
+        "region": "kaga"
+      },
+      {
+        "awards": [
+          {
+            "category": "Overall",
+            "recipients": [
+              "Tan Zheng Jie",
+              "Elliot Virk",
+              "Soon Rui Jie Nicholas",
+              "Kaliraj Santoshraj",
+              "Keith Tang Yi Heng",
+              "Kaung Sitt Thway"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Overall",
+            "recipients": [
+              "Hu Kangsheng Elrond",
+              "Jonathan Justin Fonda",
+              "Goh Ray Wehn",
+              "Goh Cheng Yang",
+              "Tew Jing An",
+              "Tan Lik Tjun Bryan"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          }
+        ],
+        "code": "bullseye",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "Match Alliance",
+            "recipients": [
+              "Vikhe Aryan Pramod",
+              "Kwan Jun Jie",
+              "Yong E-shean",
+              "Joshua Wee Yu Shuen"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          },
+          {
+            "category": "Match Alliance",
+            "recipients": [
+              "Anapana Dinesh Kumar",
+              "Kwa Jun Liang Desmond",
+              "Ng Han Yit Ryan",
+              "Wong Cheng En Darren"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          },
+          {
+            "category": "Match Alliance",
+            "recipients": [
+              "Toh Wen Xuan",
+              "Kady Teo Han Ning"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          },
+          {
+            "category": "Qualifications",
+            "recipients": [
+              "Vikhe Aryan Pramod",
+              "Kwan Jun Jie",
+              "Yong E-shean",
+              "Joshua Wee Yu Shuen"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          },
+          {
+            "category": "Design Award",
+            "recipients": [
+              "Vikhe Aryan Pramod",
+              "Kwan Jun Jie",
+              "Yong E-shean",
+              "Joshua Wee Yu Shuen"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Think Award",
+            "recipients": [
+              "Vikhe Aryan Pramod",
+              "Kwan Jun Jie",
+              "Yong E-shean",
+              "Joshua Wee Yu Shuen"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Innovate Award",
+            "recipients": [
+              "Toh Wen Xuan",
+              "Kady Teo Han Ning"
+            ],
+            "team": "",
+            "title": "Champions"
+          }
+        ],
+        "code": "vex",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "Creative Challenge",
+            "recipients": [
+              "Ng Wen Jie Dalton Prescott",
+              "Joshua Wee"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Creative Challenge",
+            "recipients": [
+              "Lim Yi Zhen",
+              "Kwan Jun Jie"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          },
+          {
+            "category": "Mission Programming Challenge",
+            "recipients": [
+              "Low Jun Yi",
+              "Megan Seto"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "Mission Programming Challenge",
+            "recipients": [
+              "Soon Rui Jie Nicholas",
+              "Keith Tang Yi Heng"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          },
+          {
+            "category": "Mission Programming Challenge",
+            "recipients": [
+              "Cheryl Tan Cai Hui",
+              "Kaung Sitt Thway"
+            ],
+            "team": "",
+            "title": "2nd Runner-up"
+          },
+          {
+            "category": "Mission Programming Challenge",
+            "recipients": [
+              "Kady Teo Han Ning",
+              "Lee Xin Le"
+            ],
+            "team": "",
+            "title": "4th Place"
+          },
+          {
+            "category": "Sumo Category",
+            "recipients": [
+              "Wong Tze Yang",
+              "Keison Tan Jing En"
+            ],
+            "team": "",
+            "title": "4th Place"
+          }
+        ],
+        "code": "apyrc",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "IDE Robotics",
+            "recipients": [
+              "Walmond Reineli",
+              "Fong Ze Yeung",
+              "Eshitha Jithendra Kumar"
+            ],
+            "team": "",
+            "title": "Champions"
+          },
+          {
+            "category": "IDE Robotics",
+            "recipients": [
+              "Tan Ray Shyuan",
+              "Ling Si Qi Kendra",
+              "Khushi Anshuman Bhagwat"
+            ],
+            "team": "",
+            "title": "5th Place"
+          }
+        ],
+        "code": "ide",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
+            "category": "Project Awards (Research)",
+            "recipients": [
+              "Muhd Amirul Juma'At",
+              "Koh Tong Chun",
+              "Tan Zheng Jie",
+              "Jasper Lye Yuan Xun",
+              "Kaung Sitt Thway"
+            ],
+            "team": "",
+            "title": "1st Runner-up"
+          }
+        ],
+        "code": "fll",
+        "desc": "",
+        "region": "sg"
+      }
+    ],
+    "year": 2016
   }
 ]

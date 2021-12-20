@@ -1,4 +1,7 @@
 # CSV to JSON
+# 1. run the following from the root of project directory: `cd data/achievements; python3 achievements-gen.py`
+# 2. commit and push changes
+# 3. website will automatically update
 
 import csv, json
 
