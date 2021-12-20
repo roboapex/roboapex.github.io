@@ -69,7 +69,7 @@ const faq = [
           In Robotics @APEX, you will be given ample opportunities to
           participate in a myriad of competitions and{" "}
           <b>guaranteed (and mandated) at least one per year</b>. Hence, it is
-          highly unlikely you would be unable to meet the requirements of{" "}
+          highly likely you would be able to meet the requirements of{" "}
           <Link href="https://www.moe.gov.sg/programmes/cca/leaps2-0">
             LEAPS 2.0
           </Link>{" "}

@@ -61,13 +61,13 @@ export default function HomeIntro() {
 
 const culture = [
   {
-    title: "Senior-Junior Teaching",
-    desc: "We freely approach seniors and mentors to discuss how we can improve our robots and creations. Through their encouragement and constructive criticism, we improve and grow together as a club, building trust and forming positive relationships amongst ourselves.",
+    title: "Senior-Junior Sharing",
+    desc: "We freely approach our seniors and mentors to discuss how we can improve our robots and creations. Through their feedback, we improve and grow together as a club, building trust and forming positive relationships.",
     src: "img/home/intro/culture-seniorJunior.png",
     alt: "",
   },
   {
-    title: "Passion for Robotics",
+    title: "Passionate Individuals",
     desc: "Our passion for Robotics is what fuels us to strive for greater heights! When competitions draw near (before COVID-19), we return to our room during the holidays or after school in preparation for upcoming competitions or projects!",
     src: "img/home/intro/culture-passion.png",
     alt: "",
