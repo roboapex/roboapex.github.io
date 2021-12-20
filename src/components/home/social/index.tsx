@@ -7,7 +7,7 @@ import clsx from "clsx";
 export default function HomeSocial() {
   return (
     <section className={style.main}>
-      <h1>Get in touch.</h1>
+      <h1>Get in touch with us.</h1>
       <div className={style.icons}>
         {K.socials.map((e) => (
           <Link href={e.url} key={`${e.handle}-${e.platform}`}>

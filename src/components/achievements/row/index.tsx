@@ -62,7 +62,7 @@ export default function AchievementsRow({
       </div>
       <div className={style.cards}>
         {achievementCompetition.awards.map((comp, i) => (
-          <div key={i} className={clsx("card", "shadow--md", style.card)}>
+          <div key={i} className={clsx("card", "shadow--3", style.card)}>
             <div className="card__image">
               <img
                 className={style.image}

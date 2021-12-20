@@ -47,10 +47,11 @@ export default function HomeIntro() {
         </div>
       </div>
       <div className={style.culture}>
-        {culture.map((e) => (
+        {culture.map((e,i) => (
           <div key={e.title}>
             <img src={e.src} alt={e.alt} />
-            <h3 className={style.head}>{e.title}</h3>
+            <h3 className={style.head}>Our Culture ({i+1}/3)</h3>
+            <p className={style.content}>{e.title}</p>
             <p>{e.desc}</p>
           </div>
         ))}
@@ -58,6 +59,8 @@ export default function HomeIntro() {
     </section>
   );
 }
+
+
 
 const culture = [
   {

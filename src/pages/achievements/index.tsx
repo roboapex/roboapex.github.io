@@ -9,8 +9,9 @@ import {
   Achievements,
   AchievementsFilterProperties,
 } from "../../types/achievements";
+import Link from "@docusaurus/Link";
 
-import style from "./style.module.css";
+import style from "./style.module.scss";
 
 export default function AchievementsPage() {
   const achievements = useAchievements();
@@ -36,7 +37,7 @@ export default function AchievementsPage() {
 
   return (
     <ThemeLayout title="Achievements">
-      <Notice>Currently, only achievements from 2019 and onwards are displayed.</Notice>
+      <Notice>Currently, only achievements from 2016 and onwards are displayed. Earlier achievements may be found <Link href="https://www.sst.edu.sg/cca/robotics-apex/">here</Link>.</Notice>
       <AchievementsFilter
         achievements={achievements}
         onUpdate={(filter) => setFilter(filter)}

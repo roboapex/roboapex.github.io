@@ -9,7 +9,7 @@ export default function HomeStats() {
         <h1 className={style.num}>&gt;100</h1>
         <h2>awards</h2>
       </div>
-      <ThemeButton path='/achievements'>Learn More</ThemeButton>
+      <ThemeButton path='/achievements' color="secondary">Learn More</ThemeButton>
 
     </section>
   );
