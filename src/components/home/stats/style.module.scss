@@ -4,29 +4,64 @@
   background-image: url(../../../../static/img/home/stats/trophies1.jpg);
   background-attachment: fixed;
   background-position: center;
-  height: 800px;
   display: grid;
   place-items: center;
 }
 
-.circle {
-  background-color: rgba(theme.$color-white, 0.667);
-  color: rgba(theme.$color-black, 1);
-  backdrop-filter: blur(2px);
-
-  width: 200px;
-  height: 200px;
-  border-radius: 1000px;
-  text-align: center;
+.circles {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 300px;
+  margin-bottom: 130px; // compensate for -50px * 3 but a little less
+
+  div {
+    color: rgba(theme.$color-white, 1);
+    backdrop-filter: blur(2px);
+    border-radius: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin-bottom: -50px;
+
+    h1 {
+      font-family: "Ethnocentric";
+      font-size: 40px;
+    }
+  }
 }
 
-.num {
-  font-size: 50px;
+.yellow {
+  background-color: rgba(theme.$color-yellow, 0.667);
+}
+.red {
+  background-color: rgba(theme.$color-red, 0.667);
+  align-self: flex-end;
+}
+.blue {
+  background-color: rgba(theme.$color-blue, 0.667);
 }
 
 @media (min-width: 996px) {
+  .circles {
+    width: 420px;
+    margin-bottom: 180px; // compensate for -100px * 3 but a little less
 
+    div {
+      width: 230px;
+      height: 230px;
+      margin-bottom: -100px;
+
+      h1 {
+        font-size: 50px;
+      }
+    }
+
+    .red {
+      width: 300px;
+      height: 300px;
+    }
+  }
 }
