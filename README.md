@@ -1,7 +1,13 @@
 # roboapex.github.io
 
-Robotics @APEX documentation system
+Robotics @APEX website.
 
-### Notes on database
+## Contributing
 
-As much as I would love to store all the data in a relational database system since a lot of the content is related to each other in some way, so that future generations can continue to operate this website, I have decided to store content in directly in GitHub where others can commit and contribute.
+### Contribution to Content
+
+For instructions on contribution to content, such as updating the documentation, achievements, projects or the member list, please read the [Contribution section](https://roboapex.github.io/docs/contributing/) of the Robotics @APEX documentation.
+
+### Contribution to Website Development
+
+This website was written in React and built with Docusaurus. Hence, a prerequisite to helping with the development of this website is knowledge of programming React-based websites. This section serves as a guide on beginning development on this website.

@@ -88,7 +88,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Robotics @APEX from the School of Science and Technology, Singapore.<br> Made by Ryan The with Docusaurus and React :>`,
+      copyright: `Copyright © ${new Date().getFullYear()} Robotics @APEX from the School of Science and Technology, Singapore.<br> Made by Ryan of batch 2022 with Docusaurus and React :>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
