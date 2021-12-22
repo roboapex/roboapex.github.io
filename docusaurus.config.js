@@ -15,6 +15,7 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'roboapex',
   projectName: 'roboapex.github.io',
+  trailingSlash: true,
   themeConfig: {
     hideableSidebar: true,
     // announcementBar: {
