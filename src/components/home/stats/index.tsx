@@ -12,6 +12,7 @@ export default function HomeStats() {
           <h2>projects</h2>
         </div>
         <div className={style.red}>
+          <h2>and</h2>
           <h1>&gt;100</h1>
           <h2>awards</h2>
         </div>
