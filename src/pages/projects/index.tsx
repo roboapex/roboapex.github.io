@@ -2,8 +2,9 @@ import React from "react";
 import Layout from "@theme/Layout";
 import useSWR from "swr";
 import { Endpoints } from "@octokit/types";
-import style from "./style.module.css";
 import ProjectTile from "../../components/projects/tile";
+
+import style from "./style.module.scss";
 
 export default function ProjectsPage() {
   const { data } = useSWR<Endpoints["GET /orgs/{org}/repos"]["response"]["data"]>("https://api.github.com/orgs/roboapex/repos");

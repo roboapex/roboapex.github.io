@@ -1,5 +1,4 @@
 import React from "react";
-import style from "./style.module.css";
 import { Endpoints } from "@octokit/types";
 import Link from "@docusaurus/Link";
 import { useEffect } from "react";
@@ -8,8 +7,10 @@ import { Project } from "../../../types/projects";
 import clsx from "clsx";
 import { CompetitionCodes } from "../../../types/competitions";
 
+import style from "./style.module.scss";
+
 /**
- * nameData in the format {0: full_name, 1: eventCode, 2: year, 3: categoryCode, 4: groupName [, 5: projectName]}
+ * nameData in the format {0: full_name, 1: eventCode, 2: eventRegion, 3: year, 4: groupName [, 5: projectName]}
  */
 export default function ProjectTile({
   nameData,
@@ -22,20 +23,16 @@ export default function ProjectTile({
 
   useEffect(() => {
     setProject({
-      groupName: nameData[4],
+      groupName: nameData[5],
       projectName: nameData?.[5]?.replace("_", " ") ?? nameData[0],
       event: {
         code: nameData[1],
-        name: CompetitionCodes[nameData[1]].name,
-        website: CompetitionCodes[nameData[1]].name,
+        name: CompetitionCodes[nameData[1]].regions[nameData[2]].name,
+        website: CompetitionCodes[nameData[1]].regions[nameData[2]].website,
       },
-      year: parseInt(nameData[2]),
-      category: {
-        code: nameData[3],
-        name: CompetitionCodes[nameData[1]].categories[nameData[3]],
-      },
+      year: parseInt(nameData[4]),
     });
-    console.log(repo)
+    console.log(nameData, repo)
   }, [repo]);
 
   return (
