@@ -1,3 +1,5 @@
+<img src="static/img/robo_png.png" alt="Robotics @APEX's Xiao Hong" width="120.5" height="110.25">
+
 # roboapex.github.io
 
 Robotics @APEX website.
