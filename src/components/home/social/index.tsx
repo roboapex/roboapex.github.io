@@ -2,7 +2,8 @@ import React from "react";
 import Link from "@docusaurus/Link";
 import K from "../../../../constants";
 import style from "./style.module.scss";
-import clsx from "clsx";
+import { joinURL } from "../../../pages/join";
+import ThemeButton from "../../theme/button";
 
 export default function HomeSocial() {
   return (

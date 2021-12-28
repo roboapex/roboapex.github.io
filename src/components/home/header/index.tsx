@@ -9,7 +9,6 @@ import style from "./style.module.scss";
 const NUMBER_OF_IMAGES = 4;
 
 export default function HomeHeader() {
-  const { siteConfig } = useDocusaurusContext();
   const [imageIndex, setImageIndex] = useState(0);
 
   useEffect(() => {
