@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import ThemeButton from "../../theme/button";
 import { joinURL } from "../../../pages/join"
 import useBaseUrl from "@docusaurus/useBaseUrl";

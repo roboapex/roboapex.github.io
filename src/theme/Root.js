@@ -1,25 +1,28 @@
 import React from 'react';
 import { SWRConfig } from 'swr';
 import Head from '@docusaurus/Head';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 export default function Root({ children }) {
+  const docusaurusContext = useDocusaurusContext()
+
   return (
     <>
       <Head>
-        <meta property="og:title" content="Robotics @APEX" />
+        <meta property="og:title" content={docusaurusContext.siteConfig.title} />
         <meta
           property="og:description"
-          content="Robotics @APEX website."
+          content={docusaurusContext.siteConfig.tagline}
         />
         <meta property="og:image" content="./img/og:image.jpg" />
-        <meta property="og:url" content="https://roboapex.github.io" />
+        <meta property="og:url" content={docusaurusContext.siteConfig.url} />
 
         <meta name="version" content="v1.0" />
         <meta
           name="description"
-          content="Robotics @APEX website."
+          content={docusaurusContext.siteConfig.tagline}
         />
-        <meta name="subject" content="Robotics @APEX" />
+        <meta name="subject" content={docusaurusContext.siteConfig.title} />
         <meta
           name="keywords"
           content="SST, robotics, SST Robotics, CCA, coding, programming, robots"

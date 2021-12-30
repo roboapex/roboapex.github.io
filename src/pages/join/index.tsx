@@ -1,3 +1,4 @@
+import Head from "@docusaurus/Head";
 import React from "react";
 
 // TEMP: url for applications
@@ -6,10 +7,12 @@ export const joinURL =
 
 export default function JoinPage() {
   return (
-    <meta http-equiv="refresh" content={`0; URL=${joinURL}`} />
+    <Head>
+      <title>Join Robotics @APEX!</title>
+      <meta http-equiv="refresh" content={`0; URL=${joinURL}`} />
+    </Head>
   );
 }
-
 
 //<Redirect to={joinURL}></Redirect>
 //<ThemeLayout title="Join">

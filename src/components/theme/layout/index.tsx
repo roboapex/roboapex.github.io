@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import Layout from "@theme/Layout";
-import style from "./style.module.css";
+import style from "./style.module.scss";
 
 export default function ThemeLayout({
   children,
