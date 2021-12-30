@@ -7,10 +7,7 @@ export const joinURL =
 
 export default function JoinPage() {
   return (
-    <Head>
-      <title>Join Robotics @APEX!</title>
-      <meta http-equiv="refresh" content={`0; URL=${joinURL}`} />
-    </Head>
+    <meta http-equiv="refresh" content={`0; URL=${joinURL}`} />
   );
 }
 
