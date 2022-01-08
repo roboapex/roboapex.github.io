@@ -23,7 +23,6 @@ export default function HomePage() {
         <div className={style.tape}>
           <img src="/img/home/intro/tape.png" alt="" />
         </div>
-        <HomeApplications />
         <HomeSocial />
       </div>
     </ThemeLayout>

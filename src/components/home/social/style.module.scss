@@ -4,9 +4,13 @@
   background-image: url(../../../../static/img/home/intro/whitewall_seamless.jpg);
   background-size: clamp(400px, 50%, 500px);
   color: theme.$color-black;
-  height: 400px;
-  display: grid;
-  place-items: center;
+  height: 700px;
+
+  .content {
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+  }
 }
 
 .icons {
@@ -27,7 +31,7 @@
     filter: brightness(0.9);
     transition: all 150ms ease-in-out;
   }
-  
+
   svg {
     color: theme.$color-white;
     font-size: 45px;
@@ -35,5 +39,4 @@
 }
 
 @media (min-width: 996px) {
-
 }

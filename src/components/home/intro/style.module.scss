@@ -13,9 +13,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  div {
+    position: relative;
+    z-index: 1;
+  }
 }
 
-div.culture { // .culture not specific enough
+div.culture {
+  // .culture not specific enough
   gap: 0 5%;
   max-width: 100vw;
   align-items: flex-start;
@@ -45,38 +51,92 @@ div.culture > div img {
   font-style: italic;
 }
 
-.mission .content > span {
-  background-color: rgba(theme.$color-red, 0.4);
-}
-
-.vision .content > span {
-  background-color: rgba(theme.$color-blue, 0.4);
-}
-
-.values .content > span {
-  background-color: rgba(theme.$color-yellow, 0.4);
-}
-
 .main img {
   max-width: 400px;
 }
-.values {
-  text-align: center;
+
+@mixin radial-shadow($color) {
+  content: "";
+  background-image: radial-gradient(
+    circle,
+    rgba($color, 0.2),
+    #00000000 70%,
+    #00000000
+  );
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  z-index: -1;
+
+  @media (min-width: 700px) {
+    width: 500px;
+    height: 500px;
+  }
+  @media (min-width: 996px) {
+    width: 700px;
+    height: 700px;
+  }
 }
+
 .mission {
   text-align: right;
+
+  .content > span {
+    background-color: rgba(theme.$color-red, 0.4);
+  }
+  div::before {
+    @include radial-shadow(theme.$color-red);
+    top: -150px;
+    right: -150px;
+  }
+  // div::after {
+  //   @include radial-shadow(theme.$color-red);
+  //   top: -300px;
+  //   left: -150px;
+  // }
+}
+
+.values {
+  text-align: center;
+
+  .content > span {
+    background-color: rgba(theme.$color-yellow, 0.4);
+  }
+  div::before {
+    @include radial-shadow(theme.$color-yellow);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.vision {
+  .content > span {
+    background-color: rgba(theme.$color-blue, 0.4);
+  }
+  // div::before {
+  //   @include radial-shadow(theme.$color-blue);
+  //   bottom: -200px;
+  //   right: -300px;
+  // }
+  div::after {
+    @include radial-shadow(theme.$color-blue);
+    bottom: -200px;
+    left: -150px;
+  }
 }
 
 @media (min-width: 996px) {
   .content {
     font-size: 30px;
   }
-  
+
   .main > div {
     flex-direction: row;
   }
 
-  div.values { // .values not specific enough
+  div.values {
+    // .values not specific enough
     flex-direction: column;
   }
 
@@ -84,4 +144,3 @@ div.culture > div img {
     flex-direction: row-reverse;
   }
 }
-

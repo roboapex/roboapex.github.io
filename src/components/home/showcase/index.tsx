@@ -1,4 +1,5 @@
 import React from "react";
+import HomeApplications from "../applications";
 import style from "./style.module.scss";
 
 export default function HomeShowcase() {
@@ -11,6 +12,7 @@ export default function HomeShowcase() {
           src="https://www.youtube.com/embed/nOeSbfdWEn4"
         />
       </div>
+      <HomeApplications />
     </section>
   );
 }

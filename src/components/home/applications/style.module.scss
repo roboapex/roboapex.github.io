@@ -1,8 +1,8 @@
 @use "src/styles/theme";
 
 .main {
-  background-image: url(../../../../static/img/home/intro/whitewall_seamless.jpg);
-  background-size: clamp(400px, 50%, 500px);
+  // background-image: url(../../../../static/img/home/intro/whitewall_seamless.jpg);
+  // background-size: clamp(400px, 50%, 500px);
   color: theme.$color-black;
   height: 300px;
   display: grid;
@@ -11,16 +11,15 @@
 
 .box {
   width: 90%;
-  background-color: theme.$color-red;
+  background: linear-gradient(lighten(theme.$color-red, 15), theme.$color-red);
   color: theme.$color-white;
   text-align: center;
-  padding: 20px 10px;
-  border-radius: 10px;
+  padding: 30px 10px;
+  border-radius: 1em;
 }
-
 
 @media (min-width: 996px) {
   .box {
-    padding: 30px 20px;
+    padding: 40px 20px;
   }
 }

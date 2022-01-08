@@ -1,0 +1,9 @@
+@use "src/styles/theme";
+
+.button-secondary-outline {
+  color: theme.$color-white !important;
+}
+
+.button-secondary-outline:hover {
+  color: theme.$color-black !important;
+}

@@ -36,7 +36,7 @@ export default function HomeHeader() {
       </p>
       <div className={style.buttons}>
         <ThemeButton path={joinURL}>Sign Up for Trials!</ThemeButton>
-        <ThemeButton path="/join/faq" color="secondary" type="outline">
+        <ThemeButton path="/join/faq" color="primary" type="outline" style={{ color: "white", borderColor: "white" }}>
           FAQ
         </ThemeButton>
         {/* <ThemeButton path="#intro" color="secondary" type="outline">

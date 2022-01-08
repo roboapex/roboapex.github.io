@@ -8,11 +8,11 @@ export default function HomeStats() {
     <section className={style.main}>
       <div className={style.circles}>
       <div className={style.yellow}>
-          <h1>&gt;200</h1>
-          <h2>projects</h2>
+          <h2>in</h2>
+          <h1>10</h1>
+          <h2>years</h2>
         </div>
         <div className={style.red}>
-          <h2>and</h2>
           <h1>&gt;100</h1>
           <h2>awards</h2>
         </div>
@@ -23,7 +23,7 @@ export default function HomeStats() {
         </div>
       </div>
       <ThemeButton path="/achievements" color="secondary">
-        Learn More
+        View Achievements
       </ThemeButton>
     </section>
   );
