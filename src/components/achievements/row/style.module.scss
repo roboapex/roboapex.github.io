@@ -39,6 +39,10 @@
   object-fit: cover;
 }
 
+.details {
+  z-index: 1;
+}
+
 @media (min-width: 996px) {
   .row {
     margin-right: -200px;
