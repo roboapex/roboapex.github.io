@@ -8,7 +8,6 @@ export default function HomeStats() {
     <section className={style.main}>
       <div className={style.circles}>
       <div className={style.yellow}>
-          <h2>in</h2>
           <h1>10</h1>
           <h2>years</h2>
         </div>
@@ -17,7 +16,6 @@ export default function HomeStats() {
           <h2>awards</h2>
         </div>
         <div className={style.blue}>
-          <h2>over</h2>
           <h1>&gt;10</h1>
           <h2>competitions</h2>
         </div>
