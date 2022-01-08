@@ -83,10 +83,26 @@ const faq = [
     question: "Apart from competitions, what else does Robotics @APEX do?",
     answer: (
       <>
-        We also organise values-in-action (VIA) projects to benefit the
-        community and Research and Development (RnD) projects (previously known
-        as student-initiated projects (SIP)) to venture into how modern and
-        upcoming technology may be used in real world problems.
+        <p>
+          We also organise values-in-action (VIA) projects to benefit the
+          community and Research and Development (RnD) projects (previously
+          known as student-initiated projects (SIP)) to venture into how modern
+          and upcoming technology may be used in real world problems.
+        </p>
+        <p>
+          As part of the Research and Development projects, our students are
+          able to freely explore their interests and build projects that they
+          are passionate about. In the process, they will learn to utilise the
+          Engineering Design Process as a guideline in designing and prototyping
+          their products.
+        </p>
+        <p>
+          Our students also participate in VIA service projects. These VIA
+          projects are done once every year where the club would go and help a
+          group of people in our community, be it students, elderly or the
+          needy. VIA projects aims use Science, Technology, Engineering, Arts
+          and Mathematics (STEAM) to help and educate others.
+        </p>
       </>
     ),
   },
