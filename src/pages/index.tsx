@@ -4,7 +4,6 @@ import HomeShowcase from "../components/home/showcase";
 import HomeIntro from "../components/home/intro";
 import HomeStats from "../components/home/stats";
 import HomeSocial from "../components/home/social";
-import HomeApplications from "../components/home/applications";
 
 import style from "./style.module.scss";
 import ThemeLayout from "../components/theme/layout";
