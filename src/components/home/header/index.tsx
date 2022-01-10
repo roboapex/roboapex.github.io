@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import ThemeButton from "../../theme/button";
-import { joinURL } from "../../../pages/join"
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import style from "./style.module.scss";
@@ -35,7 +34,7 @@ export default function HomeHeader() {
         and Technology, Singapore
       </p>
       <div className={style.buttons}>
-        <ThemeButton path={joinURL}>Sign Up for Trials!</ThemeButton>
+        <ThemeButton path="/join">Sign Up for Trials!</ThemeButton>
         <ThemeButton path="/join/faq" color="primary" type="outline" style={{ color: "white", borderColor: "white" }}>
           FAQ
         </ThemeButton>

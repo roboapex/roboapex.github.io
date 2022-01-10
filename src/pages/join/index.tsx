@@ -1,13 +1,13 @@
-import Head from "@docusaurus/Head";
 import React from "react";
+import Notice from "../../components/notice";
+import ThemeLayout from "../../components/theme/layout";
 
 // TEMP: url for applications
-export const joinURL =
-  "https://docs.google.com/forms/d/e/1FAIpQLScpremOj-MTsoWd-zYJEvQ08l4NjS8mC_Cyps7TESTU313aAQ/viewform?usp=sf_link";
-
 export default function JoinPage() {
   return (
-    <meta http-equiv="refresh" content={`0; URL=${joinURL}`} />
+    <ThemeLayout title="Join">
+      <Notice>Please apply to Robotics @APEX through the centralised CCA Application form by Mr Lam</Notice>
+    </ThemeLayout>
   );
 }
 

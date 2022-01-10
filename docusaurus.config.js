@@ -2,8 +2,6 @@ const baseDocPaths = require('./baseDocPaths');
 const K = require('./constants');
 require('dotenv').config()
 
-const joinURL = "https://docs.google.com/forms/d/e/1FAIpQLScpremOj-MTsoWd-zYJEvQ08l4NjS8mC_Cyps7TESTU313aAQ/viewform?usp=sf_link"
-
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Robotics @APEX',
@@ -33,9 +31,9 @@ module.exports = {
         {
           position: 'left',
           label: 'Join Us',
-          to: `${joinURL}#`,
+          to: `/join`,
           items: [
-            { to: joinURL, label: "Sign Up for Trials" },
+            { to: '/join', label: "Sign Up for Trials" },
             { to: '/join/faq', label: "FAQ" }
           ]
         },
@@ -54,7 +52,7 @@ module.exports = {
         {
           title: 'Applications',
           items: [
-            { label: 'Sign Up for Trials', to: joinURL },
+            { label: 'Sign Up for Trials', to: '/join' },
             { label: 'FAQ', to: '/join/faq' },
           ]
         },

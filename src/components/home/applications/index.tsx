@@ -1,8 +1,5 @@
 import React from "react";
-import Link from "@docusaurus/Link";
-import K from "../../../../constants";
 import style from "./style.module.scss";
-import { joinURL } from "../../../pages/join";
 import ThemeButton from "../../theme/button";
 
 export default function HomeApplications() {
@@ -39,7 +36,7 @@ export default function HomeApplications() {
             </ul>
           </div>
         </div>
-        <ThemeButton path={joinURL} color="primary">
+        <ThemeButton path="/join" color="primary">
           Sign Up for Trials!
         </ThemeButton>
         <ThemeButton path="/join/faq" color="secondary">
