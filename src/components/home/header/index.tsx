@@ -34,9 +34,9 @@ export default function HomeHeader() {
         and Technology, Singapore
       </p>
       <div className={style.buttons}>
-        <ThemeButton path="/join">Sign Up for Trials!</ThemeButton>
+        <ThemeButton path="https://www.instagram.com/roboapex/">Follow Us!</ThemeButton>
         <ThemeButton path="/join/faq" color="primary" type="outline" style={{ color: "white", borderColor: "white" }}>
-          FAQ
+          FAQs
         </ThemeButton>
         {/* <ThemeButton path="#intro" color="secondary" type="outline">
           Learn More

@@ -10,7 +10,7 @@ export default function HomeApplications() {
         <p>
           SST's Robotics @APEX CCA is opening for applications for the
           Secondary 1s! Join us in our trials and see if you got what it takes
-          to be a member of Robotics @APEX!
+          to be a member of Robotics @APEX! Sign up for trials in the centralised CCA applications form that Mr Lam will be sending out soon!
         </p>
         <div className={style.details}>
           <div>
@@ -36,8 +36,8 @@ export default function HomeApplications() {
             </ul>
           </div>
         </div>
-        <ThemeButton path="/join" color="primary">
-          Sign Up for Trials!
+        <ThemeButton path="https://www.instagram.com/roboapex/" color="primary">
+          Follow Us!
         </ThemeButton>
         <ThemeButton path="/join/faq" color="secondary">
           FAQs
