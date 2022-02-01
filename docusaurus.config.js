@@ -28,15 +28,15 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          position: 'left',
-          label: 'Join Us',
-          to: `/join`,
-          items: [
-            { to: '/join', label: "Sign Up for Trials" },
-            { to: '/join/faq', label: "FAQ" }
-          ]
-        },
+        // {
+        //   position: 'left',
+        //   label: 'Join Us',
+        //   to: `/join`,
+        //   items: [
+        //     { to: '/join', label: "Sign Up for Trials" },
+        //     { to: '/join/faq', label: "FAQ" }
+        //   ]
+        // },
         { to: '/achievements', label: 'Achievements', position: 'left' },
         { to: '/projects', label: 'Projects', position: 'left' },
         {

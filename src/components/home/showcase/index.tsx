@@ -12,7 +12,7 @@ export default function HomeShowcase() {
           src="https://www.youtube.com/embed/nOeSbfdWEn4"
         />
       </div>
-      <HomeApplications />
+      {/* <HomeApplications /> */}
     </section>
   );
 }

@@ -1,12 +1,14 @@
 import React from "react";
+import HomeSocial from "../../components/home/social";
 import Notice from "../../components/notice";
 import ThemeLayout from "../../components/theme/layout";
 
-// TEMP: url for applications
 export default function JoinPage() {
   return (
     <ThemeLayout title="Join">
-      <Notice>Please apply to Robotics @APEX through the centralised CCA Application form by Mr Lam</Notice>
+      <Notice>The 2022 applications to Robotics @APEX has closed. Feel free to contact us on any of our social platforms below should you have any enquires.</Notice>
+      <HomeSocial />
+      {/* <Notice>Please apply to Robotics @APEX through the centralised CCA Application form by Mr Lam</Notice> */}
     </ThemeLayout>
   );
 }

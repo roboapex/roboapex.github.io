@@ -7,7 +7,7 @@ import HomeApplications from "../applications";
 export default function HomeSocial() {
   return (
     <section className={style.main}>
-      <HomeApplications />
+      {/* <HomeApplications /> */}
       <div className={style.content}>
         <h1>Get in touch with us.</h1>
         <div className={style.icons}>
