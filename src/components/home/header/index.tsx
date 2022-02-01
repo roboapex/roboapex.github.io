@@ -35,9 +35,9 @@ export default function HomeHeader() {
       </p>
       <div className={style.buttons}>
         <ThemeButton path="https://www.instagram.com/roboapex/">Follow Us!</ThemeButton>
-        <ThemeButton path="/join/faq" color="primary" type="outline" style={{ color: "white", borderColor: "white" }}>
+        {/* <ThemeButton path="/join/faq" color="primary" type="outline" style={{ color: "white", borderColor: "white" }}>
           FAQs
-        </ThemeButton>
+        </ThemeButton> */}
         {/* <ThemeButton path="#intro" color="secondary" type="outline">
           Learn More
         </ThemeButton> */}
