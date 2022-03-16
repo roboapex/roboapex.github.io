@@ -66,7 +66,7 @@ export default function AchievementsRow({
             <div className="card__image">
               <img
                 className={style.image}
-                src={resolveURL(`${comp.team.toLowerCase()}.png`)}
+                src={resolveURL(`${comp.team}.png`)}
                 onError={(e) => {
                   onImageUnavailable(e, `${i}`);
                 }}
