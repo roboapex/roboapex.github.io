@@ -19,4 +19,8 @@ module.exports = [
     path: 'fusion',
     name: 'Fusion 360'
   },
+  {
+    path: 'vex',
+    name: 'VEX V5'
+  }
 ]
