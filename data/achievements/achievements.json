@@ -1,4 +1,27 @@
 [
+    {
+    "competitions": [
+      {
+        "awards": [
+          {
+            "category": "Singapore VEX Robotics Ntionals",
+            "recipients": [
+              "Damien Chong Yu Zhe",
+              "Jadrien Tng Zhe Ming",
+              "Kyle Henric Buguina Chua"
+            ],
+            "team": "Isodynamic",
+            "title": "Sportsmanship Award"
+          }
+        ],
+        "code": "vex",
+        "desc": "The VEX V5 National Competition was a fun and competitive tournament where the best schools in Singapore play against one another.",
+        "region": "sg"
+      }
+    ],
+    "year": 2026
+  },
+  
   {
     "competitions": [
       {
