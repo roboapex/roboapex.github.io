@@ -22,5 +22,5 @@ module.exports = [
   {
     path: 'vex',
     name: 'VEX V5'
-  }
+  },
 ]
