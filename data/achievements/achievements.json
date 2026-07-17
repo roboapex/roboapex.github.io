@@ -4,6 +4,47 @@
       {
         "awards": [
           {
+            "category": "IDE VEX V5 Robotics Challenge",
+            "recipients": [
+              "Kyle Henric Buguina Chua",
+              "Travis Yeo",
+              "Jayden Ho Yuan Cheng"
+            ],
+            "team": "8068E Isodynamic",
+            "title": "Inspire Award"
+          },
+          {
+            "category": "IDE VEX V5 Robotics Challenge",
+            "recipients": [
+              "Ng Kiang Eng Aidan",
+              "Aldo Dojohorado",
+              "Potluri Medhansh Veer",
+              "How Yang Jun Kingsley",
+              "Cyril Lim Jun Kai"
+            ],
+            "team": "8068Y Isomagnetic",
+            "title": "Amaze Award"
+          },
+          {
+            "category": "IDE VEX V5 Robotics Challenge",
+            "recipients": [
+              "Aden Soh Tian Tsao",
+              "Dao Vu Ha Lien",
+              "Poh Jun Zhe Mathew",
+              "Vishaakan Kumar",
+              "Yan Beng Jit Bryan"
+            ],
+            "team": "8068V Isochromatic",
+            "title": "Design Award"
+          }
+        ],
+        "code": "vex",
+        "desc": "",
+        "region": "sg"
+      },
+      {
+        "awards": [
+          {
             "category": "RCJ U19",
             "recipients": [
               "Lai Hong Yu",
