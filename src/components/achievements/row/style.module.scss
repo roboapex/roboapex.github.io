@@ -10,10 +10,13 @@
 
 .details {
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .logoWrap {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .logo {
@@ -24,22 +27,23 @@
 }
 
 .code {
-  display: inline-block;
-  font-size: 0.68rem;
-  letter-spacing: 0.16em;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
   font-weight: 700;
   color: theme.$color-red;
   background-color: rgba(theme.$color-red, 0.1);
-  padding: 2px 8px;
-  border-radius: 3px;
-  margin-bottom: 8px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  width: fit-content;
 }
 
 .compName {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  line-height: 1.3;
-  margin: 4px 0 10px;
+  line-height: 1.35;
+  margin: 8px 0 4px;
 }
 
 .compYear {
@@ -50,7 +54,7 @@
 .desc {
   font-size: 0.875rem;
   opacity: 0.6;
-  margin-bottom: 12px;
+  margin: 4px 0 8px;
   line-height: 1.5;
 }
 
@@ -62,6 +66,7 @@
   text-decoration: none;
   opacity: 0.65;
   transition: opacity 150ms ease;
+  margin-top: 4px;
 
   &:hover {
     opacity: 1;
@@ -82,7 +87,6 @@
   margin: -16px -10vw;
   max-width: initial;
 
-  /* Hide scrollbar */
   -ms-overflow-style: none;
   scrollbar-width: none;
 
@@ -96,7 +100,7 @@
 .card {
   flex-shrink: 0;
   width: 300px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid var(--ifm-color-emphasis-200);
   overflow: hidden;
   background-color: var(--ifm-background-surface-color);
@@ -104,8 +108,8 @@
   transition: box-shadow 200ms ease, transform 200ms ease;
 
   &:hover {
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
   }
 }
 
@@ -159,22 +163,22 @@
   text-transform: uppercase;
   color: var(--ifm-color-emphasis-600);
   background-color: var(--ifm-color-emphasis-100);
-  padding: 2px 8px;
-  border-radius: 3px;
+  padding: 3px 10px;
+  border-radius: 4px;
   align-self: flex-start;
 }
 
 .recipients {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 6px;
   margin-top: 4px;
 }
 
 .recipient {
   font-size: 0.78rem;
-  padding: 2px 8px;
-  border-radius: 3px;
+  padding: 3px 10px;
+  border-radius: 4px;
   background-color: rgba(theme.$color-blue, 0.08);
   color: theme.$color-blue;
   white-space: nowrap;
@@ -183,7 +187,7 @@
 .mediaImg {
   flex-shrink: 0;
   max-height: 280px;
-  border-radius: 8px;
+  border-radius: 10px;
   object-fit: cover;
   border: 1px solid var(--ifm-color-emphasis-200);
 }
@@ -197,13 +201,13 @@
   }
 
   .details {
-    min-width: 240px;
-    max-width: 240px;
+    min-width: 300px;
+    max-width: 300px;
     text-align: right;
+    align-items: flex-end;
 
     .code {
-      float: right;
-      clear: right;
+      align-self: flex-end;
     }
 
     .logoWrap {
@@ -212,7 +216,7 @@
     }
 
     .visitLink {
-      float: right;
+      align-self: flex-end;
     }
   }
 

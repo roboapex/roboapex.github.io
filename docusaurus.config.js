@@ -39,12 +39,14 @@ module.exports = {
         { to: '/achievements', label: 'Achievements', position: 'left' },
         { to: '/projects', label: 'Projects', position: 'left' },
         {to: 'https://attend.roboapex.site/', label: 'Attendance', position: 'left'},
+           { to: '/roborave', label: 'RoboRAVE', position: 'left' },
         {
           position: 'left',
           label: 'Docs',
           to: '/docs',
           items: baseDocPaths.map((e) => ({ to: `/${e.path}`, label: e.name }))
         },
+
       ],
     },
     footer: {
@@ -93,7 +95,14 @@ module.exports = {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
   },
-  plugins: [require.resolve('docusaurus-plugin-sass')],
+  plugins: [require.resolve('docusaurus-plugin-sass'),
+     [ '@docusaurus/plugin-content-docs',
+      {
+        id: 'roborave', // Unique ID for this instance
+        path: 'roborave', // The folder in your project containing the markdown files
+        routeBasePath: 'roborave', // The URL path (egyoursitecom/roborave)
+        sidebarPath: require.resolve('./sidebars.js'),},],
+    ],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -113,4 +122,5 @@ module.exports = {
       },
     ],
   ],
+
 };

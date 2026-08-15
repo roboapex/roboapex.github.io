@@ -49,7 +49,7 @@ export default function AchievementsPage() {
 
       <Notice>
         Only achievements from 2016 onwards are displayed. Earlier results may be found{" "}
-        <Link href="https://www.sst.edu.sg/cca/robotics-apex/">here</Link>.
+        <Link href="https://www.sst.edu.sg/cca/robotics/">here</Link>.
       </Notice>
 
       <AchievementsFilter

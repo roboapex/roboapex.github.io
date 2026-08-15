@@ -4,6 +4,30 @@
       {
         "awards": [
           {
+            "category": "FastBot HS",
+            "recipients": [
+
+            ],
+            "team": "SSTacked",
+            "title": "3rd Runner Up"
+          },
+            {
+                "category": "FastBot HS",
+                "recipients": [
+
+                ],
+                "team": "SSTNicheDiggers",
+                "title": "2nd Runner Up"
+            }
+        ],
+        "code": "roborave",
+        "desc": "",
+        "region": "int"
+      },
+      {
+
+        "awards": [
+          {
             "category": "IDE VEX V5 Robotics Challenge",
             "recipients": [
               "Kyle Henric Buguina Chua",
