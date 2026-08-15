@@ -1,0 +1,83 @@
+@use "../../styles/theme";
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 40px 20px;
+}
+
+.card {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  padding: 48px 36px;
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background-color: var(--ifm-background-surface-color);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.lockIcon {
+  font-size: 2rem;
+  color: var(--ifm-color-emphasis-400);
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.subtitle {
+  font-size: 0.875rem;
+  opacity: 0.6;
+  line-height: 1.5;
+  margin: 0 0 28px;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 150ms ease;
+
+  &:focus {
+    border-color: var(--ifm-color-primary);
+  }
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 150ms ease;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: var(--ifm-color-primary-dark);
+  }
+}
+
+.error {
+  color: theme.$color-red;
+  font-size: 0.82rem;
+  margin: 12px 0 0;
+}
