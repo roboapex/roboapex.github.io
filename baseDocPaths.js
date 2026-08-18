@@ -4,10 +4,6 @@ module.exports = [
     name: 'Lego'
   },
   {
-    path: 'makex',
-    name: 'MakeX'
-  },
-  {
     path: 'arduino',
     name: 'Arduino'
   },

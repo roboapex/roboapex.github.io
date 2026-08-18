@@ -9,7 +9,6 @@ import style from "./style.module.scss";
 import ThemeLayout from "../components/theme/layout";
 
 export default function HomePage() {
-
   return (
     <ThemeLayout title="Home" noPadding>
       <div className={style.sections}>
@@ -26,6 +25,5 @@ export default function HomePage() {
         <HomeSocial />
       </div>
     </ThemeLayout>
-    // Runs, History, Accomplishments
   );
 }

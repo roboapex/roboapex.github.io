@@ -4,7 +4,7 @@
   position: relative;
   background-color: #0d0d0d;
   background-image: url(../../../../static/img/home/intro/brick_seamless.jpg);
-  background-size: clamp(400px, 50%, 500px);
+  background-size: clamp(300px, 50%, 500px);
   color: #fff;
 
   &::before {
@@ -19,7 +19,7 @@
 .vid {
   position: relative;
   z-index: 1;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
 
   iframe {
     position: absolute;
@@ -28,5 +28,21 @@
     width: 100%;
     height: 100%;
     border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    perspective: 1200px;
+  }
+  
+  .vid {
+    transform-style: preserve-3d;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .vid {
+    transform: none !important;
   }
 }

@@ -3,8 +3,7 @@
 .header {
   position: relative;
   min-height: 100vh;
-  background-position: center;
-  background-size: cover;
+  min-height: 100dvh;
   color: white;
   display: flex;
   flex-direction: column;
@@ -12,32 +11,45 @@
   overflow: hidden;
 }
 
+.bgImage {
+  position: absolute;
+  inset: -10%;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
 .overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0.7) 60%,
+    rgba(0, 0, 0, 0.85) 100%
+  );
+  z-index: 1;
 }
 
 .content {
   position: relative;
-  z-index: 1;
-  padding: 0 5vw;
-  animation: fadeInUp 0.8s ease both;
+  z-index: 2;
+  padding: 0 4vw;
 }
 
 .accentLine {
-  width: 56px;
-  height: 4px;
+  width: 40px;
+  height: 3px;
   background-color: theme.$color-red;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
+  transform-origin: left;
 }
 
 .title {
   font-family: "Ethnocentric";
   font-style: italic;
   font-weight: 700;
-  font-size: clamp(3.5rem, 9vw, 7.5rem);
+  font-size: clamp(2.5rem, 12vw, 4rem);
   line-height: 0.92;
   margin: 0 0 0.5em;
   letter-spacing: -0.02em;
@@ -53,32 +65,31 @@
 }
 
 .tagline {
-  font-size: clamp(0.95rem, 1.6vw, 1.2rem);
+  font-size: clamp(0.875rem, 3.5vw, 1rem);
   max-width: 52ch;
-  opacity: 0.72;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   letter-spacing: 0.04em;
   font-weight: 400;
 }
 
 .buttons {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   flex-wrap: wrap;
 }
 
 .indicators {
   position: absolute;
-  bottom: 40px;
-  left: 5vw;
+  bottom: 24px;
+  left: 4vw;
   display: flex;
-  gap: 8px;
-  z-index: 1;
+  gap: 6px;
+  z-index: 2;
   align-items: center;
 }
 
 .dot {
-  width: 32px;
+  width: 24px;
   height: 3px;
   border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.28);
@@ -89,33 +100,22 @@
 }
 
 .dotActive {
-  width: 60px;
+  width: 48px;
   background-color: theme.$color-red;
 }
 
 .scrollHint {
   position: absolute;
-  bottom: 40px;
-  right: 5vw;
-  z-index: 1;
+  bottom: 24px;
+  right: 4vw;
+  z-index: 2;
 
   span {
     display: block;
     width: 1px;
-    height: 64px;
+    height: 48px;
     background-color: rgba(255, 255, 255, 0.35);
     animation: scrollPulse 2.4s ease infinite;
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(28px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
   }
 }
 
@@ -132,10 +132,73 @@
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .bgImage {
+    transition: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: 0 6vw;
+  }
+  
+  .accentLine {
+    width: 48px;
+    height: 4px;
+    margin-bottom: 24px;
+  }
+  
+  .title {
+    font-size: clamp(3.5rem, 9vw, 5.5rem);
+  }
+  
+  .tagline {
+    font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+    margin-bottom: 2.5rem;
+  }
+  
+  .buttons {
+    gap: 16px;
+  }
+  
+  .indicators {
+    bottom: 32px;
+    left: 6vw;
+    gap: 8px;
+  }
+  
+  .dot {
+    width: 28px;
+  }
+  
+  .dotActive {
+    width: 54px;
+  }
+  
+  .scrollHint {
+    bottom: 32px;
+    right: 6vw;
+    
+    span {
+      height: 56px;
+    }
+  }
+}
+
 @media (min-width: 996px) {
   .content {
     padding: 0 100px;
   }
+  
+  .title {
+    font-size: clamp(4rem, 9vw, 7.5rem);
+  }
+  
+  .tagline {
+    font-size: clamp(0.95rem, 1.6vw, 1.2rem);
+  }
+  
   .indicators {
     left: 100px;
   }

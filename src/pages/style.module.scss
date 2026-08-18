@@ -1,26 +1,44 @@
 @use "../styles/theme";
 
 .sections {
-  overflow: hidden; // for tape
+  overflow: hidden;
 }
 
 .sections section {
-  padding: 100px 5vw;
+  padding: 60px 4vw;
 }
 
 .tape {
   position: relative;
   height: 0;
+  overflow: hidden;
 }
 
 .tape img {
   position: absolute;
-  top: -60px;
-  min-width: 1500px;
+  top: -40px;
+  min-width: 100vw;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .sections section {
+    padding: 80px 5vw;
+  }
+  
+  .tape img {
+    top: -50px;
+    min-width: 1200px;
+  }
 }
 
 @media (min-width: 996px) {
   .sections section {
     padding: 120px 100px;
+  }
+  
+  .tape img {
+    top: -60px;
+    min-width: 1500px;
   }
 }

@@ -3,13 +3,12 @@
 .main {
   position: relative;
   background-image: url(../../../../static/img/home/stats/trophies1.jpg);
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
+  gap: 40px;
 }
 
 .overlay {
@@ -23,7 +22,7 @@
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   width: 100%;
   max-width: 900px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -34,10 +33,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 56px 24px;
+  padding: 40px 20px;
   text-align: center;
   color: white;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   border-top-width: 3px;
   border-top-style: solid;
   backdrop-filter: blur(6px);
@@ -45,7 +45,7 @@
   transition: background-color 200ms ease;
 
   &:last-child {
-    border-right: none;
+    border-bottom: none;
   }
 
   &:hover {
@@ -67,10 +67,10 @@
 
 .number {
   font-family: "Ethnocentric";
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-size: clamp(2rem, 8vw, 3rem);
   font-weight: 700;
   line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   display: block;
 
   .yellow & { color: theme.$color-yellow; }
@@ -79,30 +79,60 @@
 }
 
 .label {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   opacity: 0.6;
   display: block;
 }
 
-/* z-index for the ThemeButton rendered after .grid */
-.main > :last-child {
-  position: relative;
-  z-index: 1;
+@media (prefers-reduced-motion: reduce) {
+  .stat {
+    transform: none !important;
+  }
 }
 
-@media (max-width: 600px) {
-  .grid {
-    grid-template-columns: 1fr;
+@media (min-width: 600px) {
+  .main {
+    gap: 50px;
+    background-attachment: fixed;
   }
-
+  
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
   .stat {
-    border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 48px 24px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: none;
+    transform-style: preserve-3d;
 
     &:last-child {
-      border-bottom: none;
+      border-right: none;
     }
+  }
+  
+  .number {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 996px) {
+  .main {
+    gap: 60px;
+  }
+  
+  .stat {
+    padding: 56px 24px;
+  }
+  
+  .number {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
   }
 }
