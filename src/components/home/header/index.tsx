@@ -86,8 +86,7 @@ export default function HomeHeader() {
           animate={{ opacity: 0.72, y: 0 }}
           transition={{ duration: 0.7, delay: 1.1, ease: [0.25, 1, 0.5, 1] }}
         >
-          Founded in 2010, Robotics @APEX is a niche CCA in the School of Science
-        and Technology, Singapore
+          run from murphy before it comes to you
         </motion.p>
 
         <motion.div
